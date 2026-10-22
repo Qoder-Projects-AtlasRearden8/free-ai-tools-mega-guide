@@ -313,6 +313,6 @@ AI coding assistants, browser builders, and local development tools. Some includ
 
 ---
 
-← [Audio, music & voice](audio.md) · [Research & knowledge](research.md) →
+← [Audio, music & voice](audio.md) · [Local AI & privacy](local.md) →
 
 Free tiers change. Always confirm current terms on the official site. This page is educational information, not an endorsement or a guarantee.

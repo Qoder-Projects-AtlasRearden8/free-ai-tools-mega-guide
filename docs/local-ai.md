@@ -76,15 +76,19 @@ Before downloading, check the model card for memory guidance, licence, and inten
 
 ### Text chat, the easiest doors
 
-- [LM Studio](tools/chat.md#tool-lm-studio) — a GUI for downloading and chatting with local models. Friendly if you prefer buttons to commands.
-- [Jan](tools/chat.md#tool-jan) — an open-source desktop chat app designed for local or connected models.
-- [GPT4All](tools/chat.md#tool-gpt4all) — a desktop app aimed at approachable local chat and document questions.
-- [Ollama](tools/chat.md#tool-ollama) — a command-line-first way to run models locally, popular with developers and tinkerers.
-- [Open WebUI](tools/chat.md#tool-open-webui) — a browser-based interface you run yourself, often used with Ollama.
-- [LibreChat](tools/chat.md#tool-librechat) — a self-hosted chat interface with more setup and configuration.
-- [KoboldCpp](tools/writing.md#tool-koboldcpp) and [Text Generation WebUI](tools/writing.md#tool-text-generation-webui) — more knobs, more control, more patience.
+- [LM Studio](tools/local.md#tool-lm-studio) — a GUI for downloading and chatting with local models. Friendly if you prefer buttons to commands.
+- [Jan](tools/local.md#tool-jan) — an open-source desktop chat app designed for local or connected models.
+- [GPT4All](tools/local.md#tool-gpt4all) — a desktop app aimed at approachable local chat and document questions.
+- [Ollama](tools/local.md#tool-ollama) — a command-line-first way to run models locally, popular with developers and tinkerers.
+- [Open WebUI](tools/local.md#tool-open-webui) — a browser-based interface you run yourself, often used with Ollama.
+- [LibreChat](tools/local.md#tool-librechat) — a self-hosted chat interface with more setup and configuration.
+- [KoboldCpp](tools/local.md#tool-koboldcpp) and [Text Generation WebUI](tools/local.md#tool-text-generation-webui) — more knobs, more control, more patience.
 
 **First choice for a non-technical beginner:** LM Studio, Jan, or GPT4All. Pick one. Resist the urge to install all four.
+
+**If you want documents and a workspace:** [AnythingLLM](tools/local.md#tool-anythingllm) adds private document chat and project folders around a local or connected model.
+
+**If you like the engine room:** [llama.cpp](tools/local.md#tool-llama-cpp) and [Llamafile](tools/local.md#tool-llamafile) are lightweight ways to run GGUF models, while [LocalAI](tools/local.md#tool-localai) provides local API endpoints for apps you build. These are more technical than a desktop chat app.
 
 ### Images on your own machine
 
@@ -163,12 +167,11 @@ The guide labels local-capable software as **open source** or **self-hosted** wh
 
 Relevant category pages:
 
-- [Chat and general assistants](tools/chat.md)
-- [Writing and editing](tools/writing.md)
-- [Images and design](tools/images.md)
-- [Audio, music and voice](tools/audio.md)
-- [Coding and development](tools/coding.md)
-- [Productivity and automation](tools/productivity.md)
+- [Local AI & privacy](tools/local.md) — model runners, desktop apps, and self-hosted interfaces
+- [Images and design](tools/images.md) — includes local image-generation and cleanup tools
+- [Audio, music and voice](tools/audio.md) — includes local transcription and speech projects
+- [Coding and development](tools/coding.md) — includes assistants that can use local models
+- [Productivity and automation](tools/productivity.md) — includes self-hostable workflow tools
 
 New to the vocabulary? The [glossary](glossary.md) explains GGUF, quantization, tokens, inference, and other terms you will meet while setting up.
 

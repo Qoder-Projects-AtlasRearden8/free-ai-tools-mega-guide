@@ -143,7 +143,7 @@ Use this mini-protocol for any tool you want to try:
 6. **Export your work.** Keep a local copy.
 7. **Decide: keep, park, or delete.** If you keep the account, set a review date and note the billing terms.
 
-That is the whole method. It is less exciting than a list of 165 tools, and it is what keeps the tools useful.
+That is the whole method. It is less exciting than a list of 169 tools, and it is what keeps the tools useful.
 
 ## 10. When a free tier changes
 

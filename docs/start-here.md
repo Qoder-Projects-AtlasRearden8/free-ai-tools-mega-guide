@@ -1,6 +1,6 @@
 # Start here
 
-You do not need 165 AI tools. You need the right two for the job in front of you.
+You do not need 169 AI tools. You need the right two for the job in front of you.
 
 This page turns the directory into short paths for real situations. Each path recommends a small starting set, explains the first useful step, and names the catch so you can avoid it. Every link goes to the full listing with limits and an official link.
 
@@ -76,7 +76,7 @@ The useful small-business wins are unglamorous: a faster first draft, a repeatab
 3. **Process notes.** Use Scribe to document a task once, then improve the written steps. This is often more valuable than a complicated workflow.
 4. **Meeting follow-up.** With everyone's consent, try [Fathom](tools/productivity.md#tool-fathom), [Granola](tools/productivity.md#tool-granola), or [Otter.ai](tools/audio.md#tool-otter-ai). Never record a client, patient, or employee conversation without the required permission. Summaries need review before they become a record.
 
-**Automation caution:** Zapier, Make, n8n, and [Activepieces](tools/productivity.md#tool-activepieces) can move business data across services. Map the process first, use test data, grant the narrowest permissions, and keep a way to stop the workflow. An automation between the wrong two fields can send private information to the wrong place very quickly.
+**Automation caution:** Zapier, Make, n8n, and [Activepieces](tools/productivity.md#tool-activepieces) can move business data across services. Map the process first, use test data, grant the narrowest permissions, and keep a way to stop the workflow. An automation between the wrong two fields can send private information to the wrong place very quickly. For tool permissions and safer agent experiments, read [Agents and MCP](agents-and-mcp.md).
 
 **Bookkeeping note:** this guide does not recommend a free AI bookkeeping tool. Keep financial records in a system you understand, back up your data, and use a qualified professional for tax or accounting decisions.
 
@@ -107,7 +107,7 @@ This path is short on purpose. The guide deliberately does not include clinical 
 - Upload a classmate's, patient's, or colleague's information to test a tool.
 - Use personal free accounts for work involving your employer's data.
 
-**The catch:** even a "private" chat can be logged, reviewed, or used to improve a model. De-identification is harder than deleting a name. If you cannot explain where the data goes and who can see it, do not upload it.
+**The catch:** even a "private" chat can be logged, reviewed, or used to improve a model. De-identification is harder than deleting a name. If you cannot explain where the data goes and who can see it, do not upload it. The [healthcare learners manual](healthcare-learners.md) expands this path with study workflows, PHI boundaries, and workplace rules.
 
 ---
 
@@ -194,11 +194,11 @@ AI will not fix executive function, and it should not become another dashboard t
 
 **Start with the guide:** [Local-first AI](local-ai.md)
 
-If your main concern is keeping conversations and files on hardware you control, look at [Ollama](tools/chat.md#tool-ollama), [LM Studio](tools/chat.md#tool-lm-studio), [Jan](tools/chat.md#tool-jan), [GPT4All](tools/chat.md#tool-gpt4all), [Open WebUI](tools/chat.md#tool-open-webui), and [LibreChat](tools/chat.md#tool-librechat). For images, [Upscayl](tools/images.md#tool-upscayl), [IOPaint](tools/images.md#tool-iopaint), [ComfyUI](tools/images.md#tool-comfyui), [Fooocus](tools/images.md#tool-fooocus), and [InvokeAI](tools/images.md#tool-invokeai) are good doors in. Local coding tools include [Continue](tools/coding.md#tool-continue-dev), [Aider](tools/coding.md#tool-aider), [Cline](tools/coding.md#tool-cline), and [Tabby](tools/coding.md#tool-tabby).
+If your main concern is keeping conversations and files on hardware you control, start with the [Local AI & privacy category](tools/local.md). [LM Studio](tools/local.md#tool-lm-studio) is the gentlest first door, [Ollama](tools/local.md#tool-ollama) suits command-line tinkerers, and [Jan](tools/local.md#tool-jan), [GPT4All](tools/local.md#tool-gpt4all), [Open WebUI](tools/local.md#tool-open-webui), and [LibreChat](tools/local.md#tool-librechat) cover more desktop and self-hosted setups. For images, [Upscayl](tools/images.md#tool-upscayl), [IOPaint](tools/images.md#tool-iopaint), [ComfyUI](tools/images.md#tool-comfyui), [Fooocus](tools/images.md#tool-fooocus), and [InvokeAI](tools/images.md#tool-invokeai) are good doors in. Local coding tools include [Continue](tools/coding.md#tool-continue-dev), [Aider](tools/coding.md#tool-aider), [Cline](tools/coding.md#tool-cline), and [Tabby](tools/coding.md#tool-tabby).
 
 **The honest version:** local AI can reduce cloud exposure, work offline, and avoid per-message limits. It also asks for RAM, storage, electricity, updates, and patience. It does not guarantee privacy by itself, and a small local model may be less capable than a frontier cloud model.
 
-Read [Local-first AI](local-ai.md) before downloading a 20 GB model on a laptop with 8 GB of RAM.
+Read [Local-first AI](local-ai.md) before downloading a 20 GB model on a laptop with 8 GB of RAM. If you plan to give a model tools or file access, add [Agents and MCP](agents-and-mcp.md) to your reading list.
 
 ---
 

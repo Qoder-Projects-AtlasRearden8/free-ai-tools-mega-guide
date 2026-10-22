@@ -3,7 +3,7 @@
 
 Helpers for grammar, clarity, rewriting, short-form copy, and long-form draft support. Good writing tools make your voice easier to read; they should not replace your judgment, your citations, or your final read-through.
 
-**Last verified:** October 22, 2026 · **15 tools**
+**Last verified:** October 22, 2026 · **13 tools**
 
 [Back to the guide](../README.md) · [All categories](README.md) · [Safety checklist](../free-tier-safety.md)
 
@@ -11,7 +11,7 @@ Helpers for grammar, clarity, rewriting, short-form copy, and long-form draft su
 
 **Start here:** [Grammarly](#tool-grammarly) · [LanguageTool](#tool-languagetool) · [QuillBot](#tool-quillbot)
 
-## All 15 tools
+## All 13 tools
 
 <a id="tool-grammarly"></a>
 
@@ -190,36 +190,6 @@ Helpers for grammar, clarity, rewriting, short-form copy, and long-form draft su
 - **Best for:** Proofreading academic and professional English with a writing-services background.
 - **Official link:** <https://wordvice.ai>
 - **Tags:** `academic` `grammar` `translation` `editing`
-
----
-
-<a id="tool-koboldcpp"></a>
-
-### KoboldCpp
-
-`Open source` · Last verified: 2026-10-22
-
-- **What is free:** A free, open-source local text-generation app for creative writing, role-play, and experimentation with downloaded models.
-- **Sign-up notes:** Download the official release; no account or card. You supply the local model files.
-- **Limits:** You need a capable computer, patience with model downloads, and willingness to configure settings. Model quality, licensing, and content policies vary by model.
-- **Best for:** Fiction, brainstorming, and private local experimentation on hardware you control.
-- **Official link:** <https://github.com/LostRuins/koboldcpp>
-- **Tags:** `local` `fiction` `privacy` `offline`
-
----
-
-<a id="tool-text-generation-webui"></a>
-
-### Text Generation WebUI
-
-`Open source` · Last verified: 2026-10-22
-
-- **What is free:** Open-source, local notebook-style interface for running many language models with adjustable prompting and writing tools.
-- **Sign-up notes:** Install from the official repository; no account or card. The setup is technical.
-- **Limits:** Installing models and dependencies is technical. GPU memory determines usable model size. No hosted service is included, and outputs still need human editing.
-- **Best for:** Writers and tinkerers who want direct control over local models and prompting.
-- **Official link:** <https://github.com/oobabooga/text-generation-webui>
-- **Tags:** `local` `advanced` `fiction` `models`
 
 ---
 

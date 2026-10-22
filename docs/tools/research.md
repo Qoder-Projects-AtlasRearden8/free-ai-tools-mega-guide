@@ -223,6 +223,6 @@ Literature search, citation mapping, document chat, source-grounded notebooks, a
 
 ---
 
-← [Coding & development](coding.md) · [Productivity & automation](productivity.md) →
+← [Local AI & privacy](local.md) · [Productivity & automation](productivity.md) →
 
 Free tiers change. Always confirm current terms on the official site. This page is educational information, not an endorsement or a guarantee.

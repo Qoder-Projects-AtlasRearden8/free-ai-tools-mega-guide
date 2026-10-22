@@ -8,6 +8,7 @@ export const CATEGORY_IDS = [
   'video',
   'audio',
   'coding',
+  'local',
   'research',
   'productivity',
   'education',

@@ -619,7 +619,7 @@ svg {
 /* Category cards */
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: .85rem;
 }
 
@@ -725,6 +725,7 @@ svg {
 .category-card[data-category="video"], .tool-card[data-category="video"] { --cat: #7f4a62; --cat-soft: #f1e4ea; }
 .category-card[data-category="audio"], .tool-card[data-category="audio"] { --cat: #7d5b14; --cat-soft: #f4ecd5; }
 .category-card[data-category="coding"], .tool-card[data-category="coding"] { --cat: #465b76; --cat-soft: #e5eaf1; }
+.category-card[data-category="local"], .tool-card[data-category="local"] { --cat: #2f5d63; --cat-soft: #e2eced; }
 .category-card[data-category="research"], .tool-card[data-category="research"] { --cat: #52683e; --cat-soft: #e9eee1; }
 .category-card[data-category="productivity"], .tool-card[data-category="productivity"] { --cat: #81552d; --cat-soft: #f1e8dc; }
 .category-card[data-category="education"], .tool-card[data-category="education"] { --cat: #3c6080; --cat-soft: #e4edf3; }

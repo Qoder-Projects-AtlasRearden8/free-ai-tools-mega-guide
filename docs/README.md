@@ -1,8 +1,8 @@
 # Free AI Tools Mega Guide — the Markdown edition
 
-Welcome. This is the reading version of the guide: **165 free and free-tier AI tools**, each with a plain-English note about what is free, what sign-up asks for, where the limits are, what the tool is best for, and where to find the official site.
+Welcome. This is the reading version of the guide: **169 free and free-tier AI tools**, each with a plain-English note about what is free, what sign-up asks for, where the limits are, what the tool is best for, and where to find the official site.
 
-**Last verified:** October 22, 2026 · **First edition** · **165 tools · 10 categories**
+**Last verified:** October 22, 2026 · **First edition** · **169 tools · 11 categories**
 
 > **Free tiers change.** Every allowance here was checked in October 2026. Providers can reduce credits, add watermarks, remove features, or retire a plan without notice. Confirm the current offer on the official site before you sign up, upload anything private, or build a workflow around a tool.
 
@@ -13,28 +13,34 @@ This directory is for learning and practical work. It is not medical, legal, fin
 | If you want to… | Go here |
 | --- | --- |
 | Choose a tool based on your life or work | [Start here by situation](start-here.md) |
-| Understand free plans without getting burned | [Free-tier safety checklist](free-tier-safety.md) |
+| Understand a free plan before creating an account | [Free-tier safety checklist](free-tier-safety.md) |
 | Keep AI on your own computer | [Local-first AI](local-ai.md) |
+| Understand agents, tool permissions, and MCP | [Agents and MCP](agents-and-mcp.md) |
+| Learn to code with free AI tools and GitHub | [Free AI coding](free-ai-coding.md) |
+| Study in healthcare without crossing a clinical line | [AI for healthcare learners](healthcare-learners.md) |
 | Decode a term you keep seeing | [Plain-English glossary](glossary.md) |
 | Browse every tool in one table | [Full directory](tools/README.md) |
 | Run or update the website | [Project README](../README.md) |
 
-## The ten categories
+## The eleven categories
 
 | Category | What it covers | Tools | Start here |
 | --- | --- | ---: | --- |
-| [Chat and general assistants](tools/chat.md) | Thinking out loud, explaining, searching, drafting, and local chat apps | 22 | ChatGPT · Google Gemini · Claude |
-| [Writing and editing](tools/writing.md) | Grammar, clarity, rewriting, short copy, and long-form support | 15 | Grammarly · LanguageTool · QuillBot |
+| [Chat and general assistants](tools/chat.md) | Thinking out loud, explaining, searching, drafting, and everyday questions | 16 | ChatGPT · Google Gemini · Claude |
+| [Writing and editing](tools/writing.md) | Grammar, clarity, rewriting, short copy, and long-form support | 13 | Grammarly · LanguageTool · QuillBot |
 | [Images and design](tools/images.md) | Image generation, design, photo cleanup, upscaling, and local editors | 20 | Canva · Microsoft Designer · Upscayl |
 | [Video and animation](tools/video.md) | Social clips, full editing, captions, avatars, and generative video | 15 | CapCut · DaVinci Resolve · Descript |
 | [Audio, music and voice](tools/audio.md) | Transcription, text-to-speech, music, cleanup, and source separation | 17 | Whisper · Otter.ai · ElevenLabs |
 | [Coding and development](tools/coding.md) | Code completion, browser builders, code review, notebooks, and local assistants | 20 | GitHub Copilot · Gemini CLI · Continue |
+| [Local AI and privacy](tools/local.md) | Model runners, desktop chat, and self-hosted interfaces | 12 | LM Studio · Jan · Ollama |
 | [Research and knowledge](tools/research.md) | Literature search, citation maps, document chat, and source-grounded notebooks | 14 | NotebookLM · Elicit · Semantic Scholar |
 | [Productivity and automation](tools/productivity.md) | Workflows, meeting notes, capture, presentations, and diagrams | 16 | Zapier · Scribe · Gamma |
 | [Education and learning](tools/education.md) | Tutoring, classroom prep, practice, math help, and no-code ML | 14 | Khanmigo · MagicSchool · Wolfram Alpha |
 | [Accessibility](tools/accessibility.md) | Seeing, hearing, speech, translation, and hands-free access | 12 | Seeing AI · Be My Eyes · Live Transcribe |
 
 Each category page includes a practical category tip and every entry in full.
+
+Local-capable image, audio, and coding tools stay in their job categories so they are easy to find by task. The Local AI category is the home for model runners, local chat apps, and self-hosted interfaces.
 
 ## How to read a listing
 
@@ -70,7 +76,7 @@ For a gentler week-by-week route, use [Start here](start-here.md). If decision f
 - Keep a backup method for accessibility and other essential tasks.
 - Do not treat a confident AI answer as evidence. Open the source.
 
-Read the full [free-tier safety checklist](free-tier-safety.md).
+Read the full [free-tier safety checklist](free-tier-safety.md). If you are exploring agents, read the permission ladder in [Agents and MCP](agents-and-mcp.md) before connecting tools or files.
 
 ## Keep the guide honest
 

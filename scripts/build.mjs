@@ -81,6 +81,9 @@ ${rows.join('\n')}
 - [Start here: paths by situation](../start-here.md)
 - [Free-tier safety checklist](../free-tier-safety.md)
 - [Local-first AI](../local-ai.md)
+- [Agents and MCP, carefully](../agents-and-mcp.md)
+- [Free AI coding and GitHub](../free-ai-coding.md)
+- [AI for healthcare learners](../healthcare-learners.md)
 - [Plain-English glossary](../glossary.md)
 
 **Reality check:** free tiers are moving targets. A plan can change the day after this guide is verified. The provider's current terms always win.

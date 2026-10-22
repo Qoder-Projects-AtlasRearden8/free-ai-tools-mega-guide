@@ -1,0 +1,218 @@
+{
+  "id": "local",
+  "name": "Local AI & privacy",
+  "short": "Run models on your own computer",
+  "description": "Model runners, desktop chat apps, and self-hosted interfaces for people who want prompts and files to stay on hardware they control. Local image, audio, and coding tools remain in their job categories, labeled open source or self-hosted.",
+  "tip": "Local is not automatically private or easy. Start with one small model on hardware you already own, read the model licence, keep local servers bound to your own machine, and test offline before trusting the setup with private work.",
+  "start_here": [
+    "lm-studio",
+    "jan",
+    "ollama"
+  ],
+  "tools": [
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "access": "free",
+      "signup": "Desktop install; no vendor account or card. Accept the app terms, then download models yourself.",
+      "free": "A free desktop app for downloading and chatting with local language models through a polished graphical interface.",
+      "limits": "No cloud chat allowance; performance and available model sizes depend on RAM, VRAM, and your CPU. Large models may not fit. Review its current license for commercial use.",
+      "best_for": "A gentler entry into local models if you prefer buttons to command-line tools.",
+      "url": "https://lmstudio.ai",
+      "tags": [
+        "local",
+        "desktop",
+        "beginner",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "access": "open-source",
+      "signup": "Desktop install with no vendor account or card. You choose and download models separately.",
+      "free": "An open-source desktop chat app that runs local models offline after download, can connect to remote APIs, and keeps a familiar chat interface.",
+      "limits": "Local response quality depends on your computer and model size. You pay for hardware and electricity, not a chat subscription. Setup is more technical than a website.",
+      "best_for": "Private, offline experimentation with local AI on a capable laptop or desktop.",
+      "url": "https://jan.ai",
+      "tags": [
+        "local",
+        "privacy",
+        "desktop",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "access": "open-source",
+      "signup": "Install locally with no vendor account or card. Commands and local models require terminal comfort.",
+      "free": "Open-source runtime for downloading and running local language models with one command, plus an API local apps can use.",
+      "limits": "You supply the hardware and disk space. Model quality varies, and command-line comfort helps. Large models can be slow or impossible on modest machines.",
+      "best_for": "Building a private local AI setup you can reuse in other apps and scripts.",
+      "url": "https://ollama.com",
+      "tags": [
+        "local",
+        "developer",
+        "api",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "gpt4all",
+      "name": "GPT4All",
+      "access": "open-source",
+      "signup": "Desktop install with no cloud account or card. The app and model downloads are separate steps.",
+      "free": "Free, open-source desktop chat with local models, document chat, and no cloud account required.",
+      "limits": "Runs within your machine's memory, so larger models may be slow. Model selection, hardware support, and feature quality vary. You are responsible for model licenses.",
+      "best_for": "Offline, private desktop chat on Windows, macOS, or Linux without a cloud subscription.",
+      "url": "https://www.nomic.ai/gpt4all",
+      "tags": [
+        "local",
+        "offline",
+        "documents",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local admin account; no vendor card. You supply the model backend and server.",
+      "free": "An open-source, self-hosted web interface for local or remote model backends, with chat folders, retrieval, and multi-user features.",
+      "limits": "You run and maintain the server, storage, and models. Some features need extra configuration or an external model/API. It is not a hosted assistant by itself.",
+      "best_for": "A family or small team that wants one private chat interface over local models.",
+      "url": "https://openwebui.com",
+      "tags": [
+        "local",
+        "self-hosted",
+        "interface",
+        "teams"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "librechat",
+      "name": "LibreChat",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local account; no vendor card. You supply model access and server maintenance.",
+      "free": "Open-source chat interface you can self-host, with support for multiple providers, conversations, files, and agent-style tools depending on configuration.",
+      "limits": "You bring model access and run the server. Remote models cost API money; local models cost hardware. Setup and updates are your responsibility.",
+      "best_for": "Tinkerers who want one private interface with several model providers and more control than a consumer app.",
+      "url": "https://www.librechat.ai",
+      "tags": [
+        "self-hosted",
+        "providers",
+        "developer",
+        "interface"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "koboldcpp",
+      "name": "KoboldCpp",
+      "access": "open-source",
+      "signup": "Download the official release; no account or card. You supply the local model files.",
+      "free": "A free, open-source local text-generation app for creative writing, role-play, and experimentation with downloaded models.",
+      "limits": "You need a capable computer, patience with model downloads, and willingness to configure settings. Model quality, licensing, and content policies vary by model.",
+      "best_for": "Fiction, brainstorming, and private local experimentation on hardware you control.",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "tags": [
+        "local",
+        "fiction",
+        "privacy",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "text-generation-webui",
+      "name": "Text Generation WebUI",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. The setup is technical.",
+      "free": "Open-source, local notebook-style interface for running many language models with adjustable prompting and writing tools.",
+      "limits": "Installing models and dependencies is technical. GPU memory determines usable model size. No hosted service is included, and outputs still need human editing.",
+      "best_for": "Writers and tinkerers who want direct control over local models and prompting.",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "tags": [
+        "local",
+        "advanced",
+        "fiction",
+        "models"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "access": "open-source",
+      "signup": "Install from the official releases or build it yourself; no account or card. Compatible GGUF model files are a separate download.",
+      "free": "An open-source C/C++ inference engine for running GGUF language models locally on CPUs and many GPUs, with command-line tools and a local server.",
+      "limits": "Setup is terminal-oriented and hardware is your responsibility. Large models need substantial RAM or VRAM, performance varies by machine, and model licences still apply.",
+      "best_for": "Tinkerers who want a lightweight, widely supported local inference engine they can script against.",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "tags": [
+        "local",
+        "gguf",
+        "developer",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "llamafile",
+      "name": "Llamafile",
+      "access": "open-source",
+      "signup": "Download a single executable from the official project; no account or card. The model is bundled, and some downloads are several gigabytes.",
+      "free": "Mozilla's open-source single-file format that packages a local model and inference engine so you can run a chatbot without installing a full stack.",
+      "limits": "Platform support and model fit vary. Windows files are limited by the project’s size rules, speed depends on your machine, and each bundled model has its own licence.",
+      "best_for": "Trying a local model with one download and no package manager.",
+      "url": "https://github.com/Mozilla-Ocho/llamafile",
+      "tags": [
+        "local",
+        "single-file",
+        "offline",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "anythingllm",
+      "name": "AnythingLLM",
+      "access": "open-source",
+      "signup": "Download the desktop app for local use; no account or card. A separate paid cloud option exists for hosted use.",
+      "free": "An open-source desktop and self-hosted assistant for chatting with local or cloud models and turning your own documents into a private knowledge base.",
+      "limits": "Local use depends on your own model backend and hardware. Cloud model connections can require API keys and usage fees. Setup, backups, and document permissions are your responsibility.",
+      "best_for": "Beginners who want a private desktop workspace for chatting with their own notes and documents.",
+      "url": "https://anythingllm.com",
+      "tags": [
+        "local",
+        "documents",
+        "rag",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "localai",
+      "name": "LocalAI",
+      "access": "open-source",
+      "signup": "Self-host with Docker or the official install script; no vendor account or card. You supply model files and server maintenance.",
+      "free": "An open-source, self-hosted runtime that provides local text, image, and audio model endpoints compatible with common AI APIs.",
+      "limits": "Considerably more technical than a desktop app. You manage containers, ports, models, updates, and security. Exposed endpoints need authentication and network care.",
+      "best_for": "Developers and homelab users who want a local, API-compatible model server for several kinds of AI work.",
+      "url": "https://localai.io",
+      "tags": [
+        "local",
+        "self-hosted",
+        "api",
+        "developer"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

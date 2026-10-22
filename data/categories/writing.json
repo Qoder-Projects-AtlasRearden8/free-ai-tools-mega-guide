@@ -215,40 +215,6 @@
       "last_verified": "2026-10-22"
     },
     {
-      "id": "koboldcpp",
-      "name": "KoboldCpp",
-      "access": "open-source",
-      "signup": "Download the official release; no account or card. You supply the local model files.",
-      "free": "A free, open-source local text-generation app for creative writing, role-play, and experimentation with downloaded models.",
-      "limits": "You need a capable computer, patience with model downloads, and willingness to configure settings. Model quality, licensing, and content policies vary by model.",
-      "best_for": "Fiction, brainstorming, and private local experimentation on hardware you control.",
-      "url": "https://github.com/LostRuins/koboldcpp",
-      "tags": [
-        "local",
-        "fiction",
-        "privacy",
-        "offline"
-      ],
-      "last_verified": "2026-10-22"
-    },
-    {
-      "id": "text-generation-webui",
-      "name": "Text Generation WebUI",
-      "access": "open-source",
-      "signup": "Install from the official repository; no account or card. The setup is technical.",
-      "free": "Open-source, local notebook-style interface for running many language models with adjustable prompting and writing tools.",
-      "limits": "Installing models and dependencies is technical. GPU memory determines usable model size. No hosted service is included, and outputs still need human editing.",
-      "best_for": "Writers and tinkerers who want direct control over local models and prompting.",
-      "url": "https://github.com/oobabooga/text-generation-webui",
-      "tags": [
-        "local",
-        "advanced",
-        "fiction",
-        "models"
-      ],
-      "last_verified": "2026-10-22"
-    },
-    {
       "id": "microsoft-editor",
       "name": "Microsoft Editor",
       "access": "free-tier",

@@ -17,11 +17,11 @@ test('the guide passes its own validation', () => {
   assert.doesNotThrow(() => validateGuideData(guide));
   assert.ok(guide instanceof Object);
   assert.ok(Array.isArray(guide.errors) === false);
-  assert.equal(guide.categories.length, 10);
+  assert.equal(guide.categories.length, CATEGORY_IDS.length);
   assert.ok(guide.tools.length >= 150, `Expected at least 150 tools, found ${guide.tools.length}`);
 });
 
-test('the guide contains all ten required categories in the published order', () => {
+test('the guide contains all required categories in the published order', () => {
   assert.deepEqual(
     guide.categories.map((category) => category.id),
     CATEGORY_IDS,
@@ -125,6 +125,7 @@ test('the expected flagship tools are present', () => {
     ['capcut', 'video'],
     ['whisper', 'audio'],
     ['github-copilot', 'coding'],
+    ['ollama', 'local'],
     ['notebooklm', 'research'],
     ['zapier', 'productivity'],
     ['khanmigo', 'education'],
