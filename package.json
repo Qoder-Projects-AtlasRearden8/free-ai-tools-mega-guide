@@ -1,0 +1,21 @@
+{
+  "name": "free-ai-tools-mega-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A beginner-friendly, data-driven guide to 150+ free and free-tier AI tools.",
+  "license": "MIT",
+  "author": "Asdale Dynamics, LLC",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "npm run build && node --test",
+    "test:browser": "npm run build && node scripts/browser-check.mjs",
+    "verify": "npm test && npm run test:browser",
+    "verify:links": "node scripts/check-links.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

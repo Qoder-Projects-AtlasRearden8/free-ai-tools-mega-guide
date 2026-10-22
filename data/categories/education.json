@@ -1,0 +1,252 @@
+{
+  "id": "education",
+  "name": "Education & learning",
+  "short": "Study companions, teaching helpers, and practice tools",
+  "description": "AI tutors, classroom assistants, study aids, and no-code machine-learning projects. The free landscape is unusually generous for verified teachers, while student access can be more limited. These tools support learning; they do not replace a teacher, a graded rubric, or your own work.",
+  "tip": "Use AI to ask better questions, generate practice, and explain a sticking point, not to hand in work you did not do. Check your school's rules, verify facts and calculations, and treat tutor answers as hints to investigate. For classroom tools, protect student privacy and follow district policy.",
+  "start_here": [
+    "khanmigo",
+    "magicschool",
+    "wolfram-alpha"
+  ],
+  "tools": [
+    {
+      "id": "khanmigo",
+      "name": "Khanmigo",
+      "access": "free-tier",
+      "signup": "Khan Academy account plus teacher verification for free educator access. Students generally need a paid plan; no card for eligible teachers.",
+      "free": "Khan Academy's AI tutor and teaching assistant is free for verified teachers in supported regions, with tutoring and lesson-planning support.",
+      "limits": "Student and parent accounts generally require a paid subscription. Free teacher access depends on verification, geography, and current program availability. Tutors can make mistakes.",
+      "best_for": "Teachers who want Socratic-style question prompts and planning help tied to Khan Academy material.",
+      "url": "https://www.khanmigo.ai",
+      "tags": [
+        "tutoring",
+        "teachers",
+        "khan-academy",
+        "lesson-planning"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "access": "free-tier",
+      "signup": "Free account; no card. Ads and heart or feature limits apply.",
+      "free": "Free language lessons in many languages, with streaks, practice exercises, stories, and some AI-powered feedback on the free plan.",
+      "limits": "Ads, hearts, and feature limits apply; advanced personalization, unlimited mistakes, and some AI features require Super or Max. AI feedback is not a human conversation partner.",
+      "best_for": "Building a daily language habit and practicing vocabulary at no cost.",
+      "url": "https://www.duolingo.com",
+      "tags": [
+        "language-learning",
+        "practice",
+        "habit",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "quizlet",
+      "name": "Quizlet",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI and offline features are limited.",
+      "free": "Free flashcard sets, practice tests, study modes, and a limited amount of AI-assisted study help.",
+      "limits": "AI features, offline access, and ad removal are restricted or paid. User-created sets vary in accuracy, and AI-generated explanations need checking.",
+      "best_for": "Turning vocabulary or definitions into flashcards and self-testing before an exam.",
+      "url": "https://quizlet.com",
+      "tags": [
+        "flashcards",
+        "study",
+        "exam-prep",
+        "students"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "kahoot",
+      "name": "Kahoot!",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI question generation and reports are capped.",
+      "free": "Free live quizzes and classroom games, with basic question creation and a limited amount of AI-assisted question generation for teachers.",
+      "limits": "AI question generation, advanced reports, and larger/team features are capped or paid. Teachers should review AI-generated questions for errors and bias before class.",
+      "best_for": "Quick review games and active recall in a classroom or study group.",
+      "url": "https://kahoot.com",
+      "tags": [
+        "quizzes",
+        "classroom",
+        "teachers",
+        "review"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "quizizz",
+      "name": "Quizizz",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. AI runs and advanced reports are limited.",
+      "free": "A free teacher plan for creating quizzes and lessons, with AI tools for question generation and some student-paced practice.",
+      "limits": "Free AI runs, reports, and question types are limited. Advanced tools and unlimited AI use are paid. Review every generated question before students see it.",
+      "best_for": "Teachers who want a browser-based quiz and practice workflow with some AI shortcuts.",
+      "url": "https://quizizz.com",
+      "tags": [
+        "quizzes",
+        "teachers",
+        "practice",
+        "classroom"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "magicschool",
+      "name": "MagicSchool",
+      "access": "free-tier",
+      "signup": "Free educator account; no card. Monthly AI generations are limited; some tools require verification.",
+      "free": "A free educator plan with a collection of AI tools for lesson plans, rubrics, emails, differentiation, and classroom feedback.",
+      "limits": "The free plan has a limited monthly allowance of AI generations and access limits; unlimited use and some student tools are paid. Review all generated teaching material.",
+      "best_for": "Teachers who want a toolbox of time-saving first drafts for common classroom tasks.",
+      "url": "https://www.magicschool.ai",
+      "tags": [
+        "teachers",
+        "lesson-planning",
+        "rubrics",
+        "time-saving"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "diffit",
+      "name": "Diffit",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly resource limits apply.",
+      "free": "Free AI help adapting texts and creating reading supports, vocabulary, and question sets at different levels.",
+      "limits": "Free monthly resources and some formats/features are limited. Generated adaptations need a teacher's review for accuracy, age-appropriateness, and reading level.",
+      "best_for": "Making a lesson reading more accessible without rewriting it from scratch.",
+      "url": "https://diffit.me",
+      "tags": [
+        "differentiation",
+        "reading",
+        "teachers",
+        "accessibility"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "brisk-teaching",
+      "name": "Brisk Teaching",
+      "access": "free-tier",
+      "signup": "Chrome extension with a free teacher account; no card. AI action limits and school policies apply.",
+      "free": "A free Chrome extension that helps teachers give feedback, adapt materials, and generate lesson resources from what is on screen.",
+      "limits": "Free AI actions and advanced features are limited. The extension sees page content, so avoid student records or confidential material. Review feedback before returning it.",
+      "best_for": "Fast feedback and lesson tweaks inside the tools a teacher already uses.",
+      "url": "https://www.briskteaching.com",
+      "tags": [
+        "teachers",
+        "feedback",
+        "chrome",
+        "differentiation"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "socratic",
+      "name": "Socratic by Google",
+      "access": "free",
+      "signup": "Free app download; no account or card required.",
+      "free": "Free mobile homework help: take a photo of a question and get explanations, relevant learning resources, and step-by-step guidance.",
+      "limits": "The app is free, but answers can be incomplete or wrong and coverage varies by subject. It is a study aid, not a guarantee of the correct answer or a substitute for showing your work.",
+      "best_for": "Middle school through college students who want an explanation of a homework question.",
+      "url": "https://socratic.org",
+      "tags": [
+        "homework",
+        "students",
+        "photo",
+        "explanations"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "photomath",
+      "name": "Photomath",
+      "access": "free-tier",
+      "signup": "Free app download; no card. Some solutions and features require an upgrade.",
+      "free": "Free math scanning and step-by-step explanations for many core arithmetic, algebra, and other problems.",
+      "limits": "Some advanced problem types, solutions, and features require Plus or Max. The app may show ads. Always check the reasoning rather than copying the final answer.",
+      "best_for": "Getting unstuck on a math problem and seeing one possible route to the solution.",
+      "url": "https://photomath.com",
+      "tags": [
+        "math",
+        "homework",
+        "scanning",
+        "students"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram|Alpha",
+      "access": "free-tier",
+      "signup": "No account needed for basic queries; no card. Step-by-step and extended features may require Pro.",
+      "free": "Free computational answers, plots, unit conversions, and topic lookups across math, science, and general knowledge.",
+      "limits": "Step-by-step solutions, extended computation time, and some data/features require Pro. The free website still shows results, but the depth and export options are limited.",
+      "best_for": "Checking calculations and exploring math or science with a reliable computational engine.",
+      "url": "https://www.wolframalpha.com",
+      "tags": [
+        "math",
+        "science",
+        "computation",
+        "reference"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "eduaide",
+      "name": "Eduaide.ai",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. Credits and tool counts are limited.",
+      "free": "A free teacher plan with AI tools for lesson plans, questions, activities, and feedback, plus a starter allowance of generations.",
+      "limits": "Free credits and tools are limited; higher volume, collaboration, and advanced generators are paid. Generated educational content must be checked for accuracy and fit.",
+      "best_for": "Teachers who want a broad menu of classroom planning helpers in one place.",
+      "url": "https://www.eduaide.ai",
+      "tags": [
+        "teachers",
+        "lesson-planning",
+        "activities",
+        "credits"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "class-companion",
+      "name": "Class Companion",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. Assignment and feedback allowances are limited.",
+      "free": "A free teacher plan for AI-assisted writing assignments and feedback, with a student-friendly practice workflow.",
+      "limits": "Free assignment and feedback allowances are limited; school and advanced plans are paid. AI feedback can miss context, and students should receive teacher oversight.",
+      "best_for": "Teachers who want students to practice short written responses with immediate formative feedback.",
+      "url": "https://www.classcompanion.com",
+      "tags": [
+        "writing",
+        "feedback",
+        "teachers",
+        "formative-assessment"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "teachable-machine",
+      "name": "Teachable Machine",
+      "access": "free",
+      "signup": "Open the browser tool with no account or card. Uploads are processed by the browser or Google depending on the mode.",
+      "free": "A free Google browser tool for training simple image, sound, and pose classification models with your own examples, no coding required.",
+      "limits": "It is an educational tool, not a production ML platform. Quality depends on data and training choices, models can be small or biased, and uploads may be processed by Google.",
+      "best_for": "Hands-on lessons about how machine learning recognizes images, sounds, or poses.",
+      "url": "https://teachablemachine.withgoogle.com",
+      "tags": [
+        "machine-learning",
+        "no-code",
+        "projects",
+        "teachers"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,3138 @@
+{
+  "meta": {
+    "title": "Free AI Tools Mega Guide",
+    "subtitle": "A plain-English directory of 150+ AI tools you can try without paying",
+    "edition": "First edition",
+    "last_verified": "2026-10-22",
+    "author": "ASDALE DYNAMICS, LLC",
+    "hub_url": "https://dylanasdale.github.io",
+    "description": "A plain-English directory of genuinely free and free-tier AI tools for learning, making, writing, building, and getting things done.",
+    "category_order": [
+      "chat",
+      "writing",
+      "images",
+      "video",
+      "audio",
+      "coding",
+      "research",
+      "productivity",
+      "education",
+      "accessibility"
+    ],
+    "disclaimer": "Free tiers change. Every allowance, quota, model name, and feature in this guide is a snapshot from the last verified date. Providers can change or remove free plans without notice. Confirm the current terms on the official site before you rely on a tool, upload anything private, or build a business process around it.",
+    "verification_note": "Each entry records the date our editor last reviewed the public offer and official link. Verification is a point-in-time check, not a warranty or an endorsement. Limits use plain-language summaries; a provider's current pricing page and terms always win.",
+    "privacy_note": "No account is worth your patient data, client records, unpublished manuscripts, passwords, financial details, or identity documents. Review each provider's privacy policy and your workplace rules before uploading anything sensitive.",
+    "access_legend": {
+      "free-tier": "A no-cost plan with caps, feature gates, queues, or usage credits. No card should be required for the free tier unless noted.",
+      "free": "Free to use at the core, though optional paid upgrades or platform purchases may exist.",
+      "open-source": "Source code is available and you can run it yourself. Free software is not the same as free hardware, electricity, storage, or model downloads.",
+      "self-hosted": "The software can be run on your own machine or server at no license cost, with source available under provider terms. You supply the hardware, maintenance, and model access."
+    },
+    "tool_count": 165,
+    "category_count": 10
+  },
+  "categories": [
+    {
+      "id": "chat",
+      "name": "Chat & general assistants",
+      "short": "Everyday thinking, explaining, and drafting partners",
+      "description": "General-purpose assistants for thinking out loud, explaining a subject, searching the web, and drafting a first pass. This group also includes local and open-source options for people who want more control over where their conversations live.",
+      "tip": "Start with one assistant instead of installing ten. Give it a specific job, check important claims against a primary source, and never paste passwords, patient details, unpublished manuscripts, or other confidential material into a free account.",
+      "start_here": [
+        "chatgpt",
+        "google-gemini",
+        "claude"
+      ],
+      "count": 22
+    },
+    {
+      "id": "writing",
+      "name": "Writing & editing",
+      "short": "Draft, tighten, paraphrase, and proofread",
+      "description": "Helpers for grammar, clarity, rewriting, short-form copy, and long-form draft support. Good writing tools make your voice easier to read; they should not replace your judgment, your citations, or your final read-through.",
+      "tip": "Keep an untouched copy of your draft before a big round of AI edits. Use suggestions as questions, not commands, and check every fact, quote, and citation yourself. Free accounts may process your text on a provider's server, so do not upload unpublished work you cannot afford to expose.",
+      "start_here": [
+        "grammarly",
+        "languagetool",
+        "quillbot"
+      ],
+      "count": 15
+    },
+    {
+      "id": "images",
+      "name": "Images & design",
+      "short": "Generate, edit, clean up, and upscale visuals",
+      "description": "Image generators and practical editors for social posts, book covers, diagrams, thumbnails, photos, and design experiments. Free art tools are strongest at drafts and iteration; always check whether the plan you used permits the kind of use you have in mind.",
+      "tip": "A free image is not automatically free to sell. Commercial rights, model licenses, watermark rules, and public-gallery defaults differ by tool and by plan. For client or book work, read the license before you rely on the output, and keep a record of what you generated.",
+      "start_here": [
+        "canva",
+        "microsoft-designer",
+        "upscayl"
+      ],
+      "count": 20
+    },
+    {
+      "id": "video",
+      "name": "Video & animation",
+      "short": "Edit, caption, animate, and generate moving pictures",
+      "description": "Tools for social clips, talking-head videos, tutorials, captioning, and generative video experiments. Some are full editors with AI helpers; others are generators with limited free credits. The best free choice depends on whether you need control, speed, or a short experimental clip.",
+      "tip": "Get permission before using anyone's face, voice, or private footage. AI video tools may watermark exports, publish projects, or claim broad processing rights. For anything public or commercial, check the license, disclose synthetic media where required, and keep a backup of the original footage.",
+      "start_here": [
+        "capcut",
+        "davinci-resolve",
+        "descript"
+      ],
+      "count": 15
+    },
+    {
+      "id": "audio",
+      "name": "Audio, music & voice",
+      "short": "Transcribe, speak, sing, separate, and clean audio",
+      "description": "Speech-to-text, text-to-speech, music generation, podcast cleanup, and audio repair tools. Free options cover a surprising range, but time limits, licensing, and whether you may use a voice or song commercially vary enormously.",
+      "tip": "Only clone or imitate a voice with clear permission. Record everyone's consent before transcribing a meeting. Free music plans often prohibit commercial use, and open-source music models may carry non-commercial weights. Keep the original recording, and treat automated transcripts as drafts.",
+      "start_here": [
+        "whisper",
+        "otter-ai",
+        "elevenlabs"
+      ],
+      "count": 17
+    },
+    {
+      "id": "coding",
+      "name": "Coding & development",
+      "short": "Write, review, debug, and ship software for less",
+      "description": "AI coding assistants, browser builders, and local development tools. Some include a free quota from a vendor; others are open-source clients that use free local models or bring-your-own API keys. All generated code needs tests, review, and a security check.",
+      "tip": "Never paste API keys, passwords, patient data, or private company code into a free coding assistant without permission. Ask the assistant to explain changes, run the tests yourself, and review dependencies and licenses. A tool that generates code is not an automatic reviewer of that code.",
+      "start_here": [
+        "github-copilot",
+        "gemini-cli",
+        "continue-dev"
+      ],
+      "count": 20
+    },
+    {
+      "id": "research",
+      "name": "Research & knowledge",
+      "short": "Find, read, map, and question sources",
+      "description": "Literature search, citation mapping, document chat, source-grounded notebooks, and answer engines. These tools can shorten the path to a useful source, but they can also summarize confidently and get details wrong. Open the original paper, report, or document before you cite it.",
+      "tip": "Never cite a paper based only on a generated summary. Check the authors, publication venue, date, methods, and whether the quoted passage actually supports your claim. Avoid uploading confidential research data or personal information to free services; use institution-approved tools when a study requires it.",
+      "start_here": [
+        "notebooklm",
+        "elicit",
+        "semantic-scholar"
+      ],
+      "count": 14
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity & automation",
+      "short": "Automate chores, organize notes, and reclaim time",
+      "description": "Low-code automation, meeting notes, capture-and-document tools, and AI helpers for presentations, diagrams, and personal knowledge. Use these to remove repetitive steps, not to spray automation over a process you have not defined yet.",
+      "tip": "Automations can share your data with every app in the chain. Grant the narrowest permissions that work, use test data first, and keep a way to turn a workflow off. Record meetings only with consent, and redact sensitive details before sending transcripts to a free tool.",
+      "start_here": [
+        "zapier",
+        "scribe",
+        "gamma"
+      ],
+      "count": 16
+    },
+    {
+      "id": "education",
+      "name": "Education & learning",
+      "short": "Study companions, teaching helpers, and practice tools",
+      "description": "AI tutors, classroom assistants, study aids, and no-code machine-learning projects. The free landscape is unusually generous for verified teachers, while student access can be more limited. These tools support learning; they do not replace a teacher, a graded rubric, or your own work.",
+      "tip": "Use AI to ask better questions, generate practice, and explain a sticking point, not to hand in work you did not do. Check your school's rules, verify facts and calculations, and treat tutor answers as hints to investigate. For classroom tools, protect student privacy and follow district policy.",
+      "start_here": [
+        "khanmigo",
+        "magicschool",
+        "wolfram-alpha"
+      ],
+      "count": 14
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "short": "See, hear, speak, and understand more easily",
+      "description": "Free and freemium tools that use AI or on-device recognition to support low vision, blindness, deafness, hard of hearing, speech differences, and everyday access. These tools can be genuinely useful, but none is perfect or a replacement for professional accessibility services.",
+      "tip": "Try accessibility tools before you need them, in the light and noise conditions where you actually use them. Keep a backup method for critical tasks such as medication labels, emergency alerts, or workplace communication. Do not let a free app become the only path to essential information.",
+      "start_here": [
+        "seeing-ai",
+        "be-my-eyes",
+        "live-transcribe"
+      ],
+      "count": 12
+    }
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "access": "free-tier",
+      "signup": "Email, Google, Apple, or Microsoft sign-in. No card is expected for the free web plan; phone verification may appear.",
+      "free": "Web, desktop, iOS, and Android chat on the free plan, including file and photo analysis, voice conversation, web search, and limited image creation.",
+      "limits": "Message and tool-use caps vary by model and demand. Newest reasoning or agentic features, higher usage, and some tools are paid. Model access can change.",
+      "best_for": "A first all-rounder for explaining a topic, brainstorming, drafting, and learning by conversation.",
+      "url": "https://chatgpt.com",
+      "tags": [
+        "general",
+        "voice",
+        "files",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "access": "free-tier",
+      "signup": "Free Microsoft account. No card for the basic web app; some Microsoft 365 integrations need a paid plan.",
+      "free": "Free conversational AI with web grounding, image understanding, voice chat, and image generation through a Microsoft account.",
+      "limits": "Image creation relies on a limited boost allowance; premium reasoning, some Office integrations, and larger usage quotas require paid plans.",
+      "best_for": "Everyday research and drafting, especially if you already use Windows, Edge, or Microsoft 365.",
+      "url": "https://copilot.microsoft.com",
+      "tags": [
+        "general",
+        "web-search",
+        "images",
+        "microsoft"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "access": "free-tier",
+      "signup": "Free Google account. No card for the web app; age, region, and feature-availability rules apply.",
+      "free": "Free access to Gemini models, chat, web grounding, photo and file uploads, voice, and some image and research features with a Google account.",
+      "limits": "Daily and per-feature caps apply. Deep Research, video/image generation, the most capable models, and very large uploads have stricter limits or paid access.",
+      "best_for": "A mainstream assistant with strong Google-ecosystem integration and multimodal questions.",
+      "url": "https://gemini.google.com",
+      "tags": [
+        "general",
+        "research",
+        "files",
+        "google"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "access": "free-tier",
+      "signup": "Email or Google sign-in. No card for the free plan; phone verification may be requested.",
+      "free": "Web, desktop, and mobile chat with file uploads, long-document reading, writing help, and limited AI-powered artifacts/tools.",
+      "limits": "A daily usage allowance resets periodically. Hit the cap and you must wait or upgrade. Some advanced models, longer usage, and higher file/tool limits are paid.",
+      "best_for": "Careful writing, document questions, editing, and thoughtful explanations in a calm interface.",
+      "url": "https://claude.ai",
+      "tags": [
+        "writing",
+        "documents",
+        "analysis",
+        "general"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "access": "free-tier",
+      "signup": "Email, Google, or Apple sign-in. No card expected for the Free plan; advanced-search limits apply.",
+      "free": "AI answers with cited web sources, follow-up questions, file analysis, and a limited number of advanced research searches.",
+      "limits": "Advanced model/search allowances are capped and reset over time. File uploads, deeper research, image creation, and higher usage are limited or paid.",
+      "best_for": "Quick source-backed questions when you want clickable citations rather than a plain chat answer.",
+      "url": "https://www.perplexity.ai",
+      "tags": [
+        "research",
+        "web-search",
+        "citations",
+        "general"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "mistral-le-chat",
+      "name": "Mistral Le Chat",
+      "access": "free-tier",
+      "signup": "Email or Google sign-in. No card expected for the Free plan; availability varies by country.",
+      "free": "Free chat with Mistral models, web search, document analysis, image understanding, and some image generation in supported regions.",
+      "limits": "Daily usage caps and slower responses at busy times. Some reasoning, agent, image, and enterprise features are paid or region-dependent.",
+      "best_for": "A clean, fast assistant from a European AI provider, with optional paid upgrades.",
+      "url": "https://chat.mistral.ai",
+      "tags": [
+        "general",
+        "european",
+        "web-search",
+        "files"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "access": "free-tier",
+      "signup": "Email or phone sign-up. No card expected for web chat; verify regional availability and the privacy terms.",
+      "free": "Free web and mobile chat access to DeepSeek reasoning and general models, including file reading and web search in supported versions.",
+      "limits": "Usage is capacity-limited and can slow or pause during peak demand. File sizes and advanced tools are capped. Review the privacy policy before entering sensitive text.",
+      "best_for": "Free access to a capable reasoning-style assistant for math, logic, and coding conversations.",
+      "url": "https://chat.deepseek.com",
+      "tags": [
+        "reasoning",
+        "coding",
+        "general",
+        "files"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "qwen-chat",
+      "name": "Qwen Chat",
+      "access": "free-tier",
+      "signup": "Qwen/Alibaba account sign-in. No card expected for free chat; regional availability varies.",
+      "free": "Free web chat with Alibaba's Qwen models, file and image inputs, search, and some generation tools.",
+      "limits": "Free quotas, model availability, and tool access vary by region and demand. High-volume or premium capabilities can be restricted.",
+      "best_for": "Testing capable open-model style assistance, especially for multilingual and document tasks.",
+      "url": "https://qwen.ai",
+      "tags": [
+        "general",
+        "multilingual",
+        "files",
+        "open-models"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "access": "free-tier",
+      "signup": "Email or phone sign-up. No card expected for free chat; verify regional availability.",
+      "free": "Free assistant from Moonshot AI with long-document reading, web search, file analysis, and everyday writing help.",
+      "limits": "Daily usage and file limits apply, and some tools, models, or regions may differ. Paid plans add capacity; check data-handling terms before uploading private files.",
+      "best_for": "Reading long reports or books and asking questions across a large amount of text.",
+      "url": "https://www.kimi.com",
+      "tags": [
+        "long-context",
+        "documents",
+        "general",
+        "research"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "access": "free-tier",
+      "signup": "Meta account or sign-in through Facebook, Instagram, or WhatsApp. No card for basic chat; country rules apply.",
+      "free": "Free chat through the web and Meta apps, with web answers, image generation, and image-editing features in supported countries.",
+      "limits": "Availability varies by country and account. Image generations and some tools have usage caps; advanced features are tied to Meta accounts.",
+      "best_for": "Fast, casual questions and image ideas if you already use Facebook, Instagram, or WhatsApp.",
+      "url": "https://www.meta.ai",
+      "tags": [
+        "general",
+        "images",
+        "social",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "access": "free-tier",
+      "signup": "X account or a supported sign-in. No card expected for limited free chat; quotas and regions vary.",
+      "free": "Limited free use of Grok through its web and apps, including real-time web answers and image generation.",
+      "limits": "Free query and generation quotas are low and can change. Heavy use, advanced models, and some image/video features need a paid plan.",
+      "best_for": "Checking current events and trying a more informal assistant with real-time web access.",
+      "url": "https://grok.com",
+      "tags": [
+        "real-time",
+        "web-search",
+        "images",
+        "general"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "access": "free-tier",
+      "signup": "Email, Google, or Apple sign-in. No card for the Free plan; premium bots consume points quickly.",
+      "free": "One account for many chat models and community-built bots, with a daily allocation of compute points.",
+      "limits": "Most models consume points per message; premium bots cost more. The free allowance is small, and higher limits or newer models require a subscription.",
+      "best_for": "Comparing several assistants side by side before choosing one to use regularly.",
+      "url": "https://poe.com",
+      "tags": [
+        "model-comparison",
+        "chatbots",
+        "general",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "duckduckgo-ai-chat",
+      "name": "DuckDuckGo AI Chat",
+      "access": "free-tier",
+      "signup": "No account required for basic access. No card; daily limits apply and AI chat is not available everywhere.",
+      "free": "Anonymous-style AI chat inside DuckDuckGo, with a small menu of well-known models and no need to build a chatbot profile.",
+      "limits": "Daily usage limits apply, model choices are limited, and chats are not a full document workspace. AI features may be unavailable in some regions.",
+      "best_for": "A lower-friction way to ask general questions without creating another AI account.",
+      "url": "https://duck.ai",
+      "tags": [
+        "privacy",
+        "no-account",
+        "general",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "brave-leo",
+      "name": "Brave Leo",
+      "access": "free-tier",
+      "signup": "Install Brave; no separate AI account or card for the base assistant. Premium models are optional.",
+      "free": "AI assistant built into the Brave desktop and mobile browsers, with page summaries, web answers, and chat.",
+      "limits": "The free tier uses a limited model allowance; advanced models, longer chats, and some features require Brave Leo Premium.",
+      "best_for": "Summarizing or questioning the page you are already viewing without switching apps.",
+      "url": "https://brave.com/leo/",
+      "tags": [
+        "browser",
+        "summaries",
+        "privacy",
+        "research"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "access": "free-tier",
+      "signup": "Email or Google/Apple sign-in. No card for free chat; age rules, queues, and ads apply.",
+      "free": "Free conversations with user-created characters and assistants for role-play, brainstorming, language practice, and entertainment.",
+      "limits": "Free chats can involve queues, ads, message/context limits, and lower priority. Character quality varies widely. Do not share personal or medical details.",
+      "best_for": "Fiction brainstorming, role-play, and playful conversation practice, not factual research.",
+      "url": "https://character.ai",
+      "tags": [
+        "roleplay",
+        "fiction",
+        "fun",
+        "conversation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "access": "open-source",
+      "signup": "Desktop install with no vendor account or card. You choose and download models separately.",
+      "free": "An open-source desktop chat app that runs local models offline after download, can connect to remote APIs, and keeps a familiar chat interface.",
+      "limits": "Local response quality depends on your computer and model size. You pay for hardware and electricity, not a chat subscription. Setup is more technical than a website.",
+      "best_for": "Private, offline experimentation with local AI on a capable laptop or desktop.",
+      "url": "https://jan.ai",
+      "tags": [
+        "local",
+        "privacy",
+        "desktop",
+        "offline"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "access": "free",
+      "signup": "Desktop install; no vendor account or card. Accept the app terms, then download models yourself.",
+      "free": "A free desktop app for downloading and chatting with local language models through a polished graphical interface.",
+      "limits": "No cloud chat allowance; performance and available model sizes depend on RAM, VRAM, and your CPU. Large models may not fit. Review its current license for commercial use.",
+      "best_for": "A gentler entry into local models if you prefer buttons to command-line tools.",
+      "url": "https://lmstudio.ai",
+      "tags": [
+        "local",
+        "desktop",
+        "beginner",
+        "offline"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "access": "open-source",
+      "signup": "Install locally with no vendor account or card. Commands and local models require terminal comfort.",
+      "free": "Open-source runtime for downloading and running local language models with one command, plus an API local apps can use.",
+      "limits": "You supply the hardware and disk space. Model quality varies, and command-line comfort helps. Large models can be slow or impossible on modest machines.",
+      "best_for": "Building a private local AI setup you can reuse in other apps and scripts.",
+      "url": "https://ollama.com",
+      "tags": [
+        "local",
+        "developer",
+        "api",
+        "offline"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local admin account; no vendor card. You supply the model backend and server.",
+      "free": "An open-source, self-hosted web interface for local or remote model backends, with chat folders, retrieval, and multi-user features.",
+      "limits": "You run and maintain the server, storage, and models. Some features need extra configuration or an external model/API. It is not a hosted assistant by itself.",
+      "best_for": "A family or small team that wants one private chat interface over local models.",
+      "url": "https://openwebui.com",
+      "tags": [
+        "local",
+        "self-hosted",
+        "interface",
+        "teams"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "librechat",
+      "name": "LibreChat",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local account; no vendor card. You supply model access and server maintenance.",
+      "free": "Open-source chat interface you can self-host, with support for multiple providers, conversations, files, and agent-style tools depending on configuration.",
+      "limits": "You bring model access and run the server. Remote models cost API money; local models cost hardware. Setup and updates are your responsibility.",
+      "best_for": "Tinkerers who want one private interface with several model providers and more control than a consumer app.",
+      "url": "https://www.librechat.ai",
+      "tags": [
+        "self-hosted",
+        "providers",
+        "developer",
+        "interface"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "gpt4all",
+      "name": "GPT4All",
+      "access": "open-source",
+      "signup": "Desktop install with no cloud account or card. The app and model downloads are separate steps.",
+      "free": "Free, open-source desktop chat with local models, document chat, and no cloud account required.",
+      "limits": "Runs within your machine's memory, so larger models may be slow. Model selection, hardware support, and feature quality vary. You are responsible for model licenses.",
+      "best_for": "Offline, private desktop chat on Windows, macOS, or Linux without a cloud subscription.",
+      "url": "https://www.nomic.ai/gpt4all",
+      "tags": [
+        "local",
+        "offline",
+        "documents",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "access": "free-tier",
+      "signup": "Free Google account. No card for the browser workbench; API use follows project quotas and billing rules.",
+      "free": "A free browser workbench for prompting Gemini models, comparing settings, saving prompts, and generating starter code for apps.",
+      "limits": "Free API and app usage is rate-limited by model and project. Higher limits require billing. Prompts and files may be handled under Google's terms; do not use it for private patient data.",
+      "best_for": "Learning how model settings work and prototyping an AI feature without installing anything.",
+      "url": "https://aistudio.google.com",
+      "tags": [
+        "prototyping",
+        "api",
+        "google",
+        "learning"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "chat"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "access": "free-tier",
+      "signup": "Free Grammarly account; no card. Install the extension or app before using in-place suggestions.",
+      "free": "Free grammar, spelling, punctuation, tone, and clarity suggestions in the browser, desktop apps, and keyboard, plus a limited monthly allowance of generative AI prompts.",
+      "limits": "Advanced rewriting, plagiarism checks, citation tools, and full generative features are paid. Free AI prompt counts are capped. Text is processed in the cloud, so avoid confidential material.",
+      "best_for": "Everyday emails, applications, and professional writing where you want fast proofreading in place.",
+      "url": "https://www.grammarly.com",
+      "tags": [
+        "grammar",
+        "tone",
+        "browser",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Word limits apply to each rewrite.",
+      "free": "Paraphrasing with a limited word count per pass, grammar checking, citation helpers, and a free summarizer with caps.",
+      "limits": "Longer text, more rewriting modes, higher word counts, plagiarism checks, and faster processing are paid. Free output is not automatically plagiarism-safe or correct.",
+      "best_for": "Trying alternate sentence structures and checking grammar on short passages.",
+      "url": "https://quillbot.com",
+      "tags": [
+        "paraphrase",
+        "grammar",
+        "summarize",
+        "students"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "languagetool",
+      "name": "LanguageTool",
+      "access": "free-tier",
+      "signup": "Basic browser checks work without an account; sign-up is optional. Premium plans need payment, but the free checker does not.",
+      "free": "Free browser extension and web editor for grammar, spelling, punctuation, and some style issues in many languages.",
+      "limits": "Free checks have text-length and feature caps. Advanced style, paraphrasing, and larger checks need Premium. The open-source LanguageTool core can also be self-hosted with technical work.",
+      "best_for": "Multilingual proofreading and quick grammar checks while writing in a browser.",
+      "url": "https://languagetool.org",
+      "tags": [
+        "grammar",
+        "multilingual",
+        "browser",
+        "open-source-core"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "access": "free-tier",
+      "signup": "No card for the free web access. Sign-in requirements and free limits vary; confirm on the current DeepL screen.",
+      "free": "A free web editor that suggests clearer wording, tone improvements, and alternate phrasing in supported languages.",
+      "limits": "Free access is limited compared with paid DeepL plans, and some features or higher usage are restricted. DeepL's data policies and language coverage matter before uploading sensitive text.",
+      "best_for": "Polishing English or translated text when you want fewer awkward phrases and a more natural tone.",
+      "url": "https://www.deepl.com/write",
+      "tags": [
+        "clarity",
+        "editing",
+        "translation",
+        "non-native"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "sapling",
+      "name": "Sapling",
+      "access": "free-tier",
+      "signup": "Free account or extension install; no card expected. Confirm which integrations are included on the free tier.",
+      "free": "Free grammar, spelling, and completion assistance for individuals, including an editing web app and integrations.",
+      "limits": "Team features, advanced AI generation, analytics, and higher usage are paid. The free allowance and supported integrations can change.",
+      "best_for": "Quick, low-friction grammar and completion help in everyday work apps.",
+      "url": "https://www.sapling.ai",
+      "tags": [
+        "grammar",
+        "autocomplete",
+        "integrations",
+        "work"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "wordtune",
+      "name": "Wordtune",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily rewrite allowances apply.",
+      "free": "Daily free rewrite suggestions, short-form AI writing help, and a browser extension for improving sentences.",
+      "limits": "Free daily rewrites and document actions are capped; advanced tone, longer text, and unlimited use are paid. Review its cloud data terms.",
+      "best_for": "Finding a different way to phrase a sentence that is close but not quite right.",
+      "url": "https://www.wordtune.com",
+      "tags": [
+        "rewrite",
+        "tone",
+        "browser",
+        "editing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "rytr",
+      "name": "Rytr",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Monthly character limits apply.",
+      "free": "A free monthly character allowance for short AI writing jobs, with a menu of templates and tone options.",
+      "limits": "Monthly characters are limited, and some use cases, tones, languages, and higher-quality modes are paid. Output needs factual and brand review.",
+      "best_for": "First-draft product blurbs, social captions, and other short copy on a tight budget.",
+      "url": "https://rytr.me",
+      "tags": [
+        "copywriting",
+        "short-form",
+        "templates",
+        "marketing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "simplified",
+      "name": "Simplified",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI credits, exports, and projects are metered.",
+      "free": "Free access to an all-in-one writing, design, and short-video workspace with a limited allowance of AI credits and projects.",
+      "limits": "AI generations, exports, premium templates, brands, and collaborators are capped or paid. Check which assets and outputs you can use commercially.",
+      "best_for": "A small business that wants one dashboard for social captions, graphics, and short videos without paying up front.",
+      "url": "https://simplified.com",
+      "tags": [
+        "marketing",
+        "social-media",
+        "all-in-one",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "tinywow",
+      "name": "TinyWow",
+      "access": "free-tier",
+      "signup": "No account required for many tools; no card. Ads, queues, and daily limits apply.",
+      "free": "Free browser tools for AI writing, summarizing, PDF conversion, image cleanup, and other small jobs without installing software.",
+      "limits": "Usage is metered by daily limits and fair-use rules; ads and queues are part of the deal. Uploaded files may be processed or retained under its policy, so avoid sensitive documents.",
+      "best_for": "One-off conversions and short writing chores when installing another app is not worth it.",
+      "url": "https://tinywow.com",
+      "tags": [
+        "utilities",
+        "no-install",
+        "pdf",
+        "quick-tasks"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "hyperwrite",
+      "name": "HyperWrite",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly generation credits are limited.",
+      "free": "Free AI writing assistance with a monthly allowance of generations, rewriting, and suggestions in the web app and browser extension.",
+      "limits": "The free credit allowance is modest, and advanced models, research, agents, and higher volume are paid. Generated claims require independent checking.",
+      "best_for": "Small writing and rewriting jobs where you want a browser-based assistant with optional tools.",
+      "url": "https://www.hyperwriteai.com",
+      "tags": [
+        "drafting",
+        "rewrite",
+        "browser",
+        "credits"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "paragraphai",
+      "name": "ParagraphAI",
+      "access": "free-tier",
+      "signup": "Free account and free-forever plan; no card. Daily limits and a keyboard or app install apply.",
+      "free": "A free-forever personal plan with limited daily AI writing, reply, and rewriting help across the web and keyboard integrations.",
+      "limits": "Free daily generations are capped; unlimited writing and advanced features need Pro. Availability and feature sets vary by platform.",
+      "best_for": "Drafting short replies and emails when you need a straightforward writing helper rather than a full suite.",
+      "url": "https://paragraphai.com",
+      "tags": [
+        "email",
+        "replies",
+        "rewrite",
+        "daily-limit"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "wordvice-ai",
+      "name": "Wordvice AI",
+      "access": "free-tier",
+      "signup": "Free account or web access; no card expected. Upload and usage limits apply to free checks.",
+      "free": "Free grammar and spelling checks plus limited AI rewriting, summarizing, and translation tools for shorter passages.",
+      "limits": "Larger documents, advanced editing, plagiarism checks, and higher usage are paid. Academic rules still apply: use editing help without misrepresenting authorship.",
+      "best_for": "Proofreading academic and professional English with a writing-services background.",
+      "url": "https://wordvice.ai",
+      "tags": [
+        "academic",
+        "grammar",
+        "translation",
+        "editing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "koboldcpp",
+      "name": "KoboldCpp",
+      "access": "open-source",
+      "signup": "Download the official release; no account or card. You supply the local model files.",
+      "free": "A free, open-source local text-generation app for creative writing, role-play, and experimentation with downloaded models.",
+      "limits": "You need a capable computer, patience with model downloads, and willingness to configure settings. Model quality, licensing, and content policies vary by model.",
+      "best_for": "Fiction, brainstorming, and private local experimentation on hardware you control.",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "tags": [
+        "local",
+        "fiction",
+        "privacy",
+        "offline"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "text-generation-webui",
+      "name": "Text Generation WebUI",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. The setup is technical.",
+      "free": "Open-source, local notebook-style interface for running many language models with adjustable prompting and writing tools.",
+      "limits": "Installing models and dependencies is technical. GPU memory determines usable model size. No hosted service is included, and outputs still need human editing.",
+      "best_for": "Writers and tinkerers who want direct control over local models and prompting.",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "tags": [
+        "local",
+        "advanced",
+        "fiction",
+        "models"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "microsoft-editor",
+      "name": "Microsoft Editor",
+      "access": "free-tier",
+      "signup": "Microsoft account for full free features; no card. Basic browser checking may be available in Edge without a paid plan.",
+      "free": "Free basic spelling, grammar, and style suggestions in Edge and Microsoft's web writing surfaces with a Microsoft account.",
+      "limits": "Advanced rewriting, full-document analysis, and some AI features are tied to Microsoft 365. Free suggestions are limited and not a substitute for a final edit.",
+      "best_for": "A no-cost proofreading layer if Microsoft Edge or Word on the web is already part of your day.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-editor",
+      "tags": [
+        "grammar",
+        "microsoft",
+        "browser",
+        "proofreading"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "writing"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "access": "free-tier",
+      "signup": "Free Canva account with email or Google sign-in; no card. AI actions use a limited monthly allowance.",
+      "free": "Free design editor with templates, stock elements, and a limited allowance of Magic AI features such as text generation, image generation, and background tools.",
+      "limits": "AI uses are metered. Premium templates, brand kits, many background removals, higher-resolution exports, and advanced Magic tools are paid. Check content licenses for each asset.",
+      "best_for": "Beginner-friendly social graphics, slides, book promotion images, and quick visual projects.",
+      "url": "https://www.canva.com",
+      "tags": [
+        "design",
+        "templates",
+        "social-media",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "microsoft-designer",
+      "name": "Microsoft Designer",
+      "access": "free-tier",
+      "signup": "Free Microsoft account; no card. Image boosts are capped.",
+      "free": "Free AI image generation, editable designs, stickers, and templates through a Microsoft account, including everyday social and promotional layouts.",
+      "limits": "Image generation uses a capped boost system, after which generations are slower or restricted. Premium templates and some AI editing features need a paid plan.",
+      "best_for": "Fast, free promotional images and simple designs without a steep learning curve.",
+      "url": "https://designer.microsoft.com",
+      "tags": [
+        "design",
+        "images",
+        "templates",
+        "microsoft"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "access": "free-tier",
+      "signup": "Free Adobe account; no card for the starter credit allowance. Paid plans add credits and features.",
+      "free": "A monthly allowance of generative credits for text-to-image, generative fill, and selected editing features in Adobe's web tools.",
+      "limits": "Free credits are small and reset on a schedule. More credits, advanced models, video, and high-volume work are paid. Commercial use is governed by Adobe's terms and the model used.",
+      "best_for": "Light commercial design work where you value Adobe's content-credential approach and editing ecosystem.",
+      "url": "https://firefly.adobe.com",
+      "tags": [
+        "images",
+        "editing",
+        "commercial",
+        "adobe"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "google-imagefx",
+      "name": "Google ImageFX",
+      "access": "free-tier",
+      "signup": "Free Google account with age and region eligibility; no card. Prompt counts are limited.",
+      "free": "A free Google Labs image generator with prompt suggestions and multiple style variations, available in supported countries.",
+      "limits": "Prompt counts and access can vary by region and account. Outputs carry provenance signals, and safety filters restrict some requests. Free use is not a commercial license.",
+      "best_for": "Exploring visual ideas and making quick concept images with a Google account.",
+      "url": "https://labs.google/fx/tools/image-fx",
+      "tags": [
+        "images",
+        "experimental",
+        "google",
+        "concepts"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily credits are limited and free images may be public.",
+      "free": "Free daily image generations with strong text rendering, style options, and a community gallery.",
+      "limits": "Free credits are limited, generations are slower, and some controls or private generation are paid. Free images may be public, and commercial rights depend on the current plan terms.",
+      "best_for": "Posters, thumbnails, book-promo graphics, and images that need readable lettering.",
+      "url": "https://ideogram.ai",
+      "tags": [
+        "images",
+        "text-in-image",
+        "posters",
+        "community"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo AI",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily tokens and public-generation rules apply.",
+      "free": "A daily refresh of free tokens for image generation, with models, styles, upscaling, and an editing canvas.",
+      "limits": "Free tokens are limited and generations may be slower or public. Extra credits, higher resolution, private generations, and commercial rights can require a paid plan.",
+      "best_for": "Game-style character art, concept images, and iterating on a visual direction.",
+      "url": "https://leonardo.ai",
+      "tags": [
+        "images",
+        "game-art",
+        "styles",
+        "concepts"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily credits and export limits apply.",
+      "free": "Free daily credits for AI image generation with an emphasis on vector art, icons, brand-style images, and editable layouts.",
+      "limits": "Daily credits and export options are limited. Higher volume, private work, team features, and some commercial use cases may require a paid plan.",
+      "best_for": "Icons, simple illustrations, and vector-friendly visuals for a small brand or book project.",
+      "url": "https://www.recraft.ai",
+      "tags": [
+        "vector",
+        "icons",
+        "branding",
+        "design"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits and queue limits apply.",
+      "free": "Free daily credits for image generation, real-time creative tools, enhancement, and upscaling.",
+      "limits": "Free credits are limited, some workflows are slower, and advanced models, private outputs, and higher volume are paid. Check plan-specific rights.",
+      "best_for": "Interactive visual exploration and enhancing rough images in a playful interface.",
+      "url": "https://www.krea.ai",
+      "tags": [
+        "images",
+        "realtime",
+        "upscale",
+        "creative"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "nightcafe",
+      "name": "NightCafe",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits are limited and some creations are public.",
+      "free": "Free daily credits for several image models, community challenges, and creative variations.",
+      "limits": "Free generations are limited and often slower. High-resolution downloads, extra credits, and some feature access are paid. Check whether free creations are public or usable commercially.",
+      "best_for": "A friendly community setting for experimenting with image styles without a subscription.",
+      "url": "https://creator.nightcafe.studio",
+      "tags": [
+        "images",
+        "community",
+        "styles",
+        "experiments"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "craiyon",
+      "name": "Craiyon",
+      "access": "free-tier",
+      "signup": "No account required for basic generation; no card. Ads and queues apply.",
+      "free": "Ad-supported, low-friction AI image generation with no paid requirement for basic use.",
+      "limits": "Images are lower quality, queues and ads slow the experience, and fine control is limited. Do not rely on it for commercial-quality or private artwork.",
+      "best_for": "Fast, casual image doodles and testing silly ideas with almost no setup.",
+      "url": "https://www.craiyon.com",
+      "tags": [
+        "images",
+        "no-account",
+        "casual",
+        "free"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "remove-bg",
+      "name": "remove.bg",
+      "access": "free-tier",
+      "signup": "No account needed to try; a free account adds credits. No card expected for the free allowance.",
+      "free": "Free automatic background removal with low-resolution previews and a limited allowance of higher-quality downloads.",
+      "limits": "HD output, larger volumes, and some editing tools require credits or a subscription. Free images are not ideal for print production.",
+      "best_for": "Pulling a quick transparent cutout from a product or portrait photo.",
+      "url": "https://www.remove.bg",
+      "tags": [
+        "background-removal",
+        "photos",
+        "quick-tasks",
+        "ecommerce"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "access": "free-tier",
+      "signup": "No account required for limited free resolution; no card. Sign in for higher limits where offered.",
+      "free": "Free browser-based object removal and photo cleanup at a limited resolution, with no install needed.",
+      "limits": "Free output is lower resolution; full-resolution results and some features are paid. Uploading personal photos means giving the service access to those files.",
+      "best_for": "Removing a stray object, logo, or distraction from a simple photo.",
+      "url": "https://cleanup.pictures",
+      "tags": [
+        "photo-editing",
+        "object-removal",
+        "browser",
+        "quick-tasks"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "access": "open-source",
+      "signup": "Download from the official site; no account or card. It runs locally on your hardware.",
+      "free": "Free, open-source desktop app that upscales images locally with no account, uploaded files, or image count limits.",
+      "limits": "Requires a reasonably capable computer and enough time for larger images. Results vary by source quality, and you must manage model licenses for commercial work.",
+      "best_for": "Enlarging old photos or low-resolution graphics privately on your own computer.",
+      "url": "https://upscayl.org",
+      "tags": [
+        "upscale",
+        "local",
+        "privacy",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "rembg",
+      "name": "Rembg",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and command-line setup.",
+      "free": "Open-source background-removal library and command-line tool that runs locally with no per-image fee.",
+      "limits": "Expect Python installation and command-line use. Quality depends on the input and selected model. If you use it commercially, review the license of the specific model weights you download.",
+      "best_for": "Batch background removal and repeatable automation on your own machine.",
+      "url": "https://github.com/danielgatis/rembg",
+      "tags": [
+        "background-removal",
+        "local",
+        "batch",
+        "developer"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "iopaint",
+      "name": "IOPaint",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. You download the model weights separately.",
+      "free": "Open-source local image inpainting and object-removal tool with a browser interface and support for several models.",
+      "limits": "Installation and model downloads take time. A GPU helps. Model licenses, output quality, and supported features vary.",
+      "best_for": "Removing objects or repairing images privately without sending photos to a cloud service.",
+      "url": "https://github.com/Sanster/IOPaint",
+      "tags": [
+        "inpainting",
+        "local",
+        "privacy",
+        "photo-editing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "stable-diffusion-webui",
+      "name": "Stable Diffusion WebUI",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. You supply the hardware and model downloads.",
+      "free": "Free, open-source browser interface for running Stable Diffusion image models locally with broad control over prompts, models, and extensions.",
+      "limits": "Requires a capable GPU or patient CPU use, lots of disk space, and technical setup. Model licenses differ, and extensions can introduce security or quality risks. Nothing is hosted for you.",
+      "best_for": "Users who want deep control and no per-image service fees once local models are installed.",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "tags": [
+        "local",
+        "stable-diffusion",
+        "advanced",
+        "extensions"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "access": "open-source",
+      "signup": "Download the official desktop or repository build; no vendor account or card. You supply models and hardware.",
+      "free": "Open-source node-based interface for building local image and video generation workflows, with fine-grained control and a large extension ecosystem.",
+      "limits": "Node graphs have a steeper learning curve. You supply the hardware and models, and extensions can be unstable. Model licenses and content policies still apply.",
+      "best_for": "Visual tinkerers who want repeatable, customizable generation pipelines.",
+      "url": "https://www.comfy.org",
+      "tags": [
+        "local",
+        "workflows",
+        "advanced",
+        "generation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "fooocus",
+      "name": "Fooocus",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Models download locally.",
+      "free": "An open-source, simplified offline image generator focused on a low-friction prompt-and-go experience with Stable Diffusion models.",
+      "limits": "Requires a local installation, model downloads, and adequate hardware. Advanced control is limited compared with node-based tools. Model licenses vary.",
+      "best_for": "A simpler route into local image generation than tuning a full Stable Diffusion interface.",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "tags": [
+        "local",
+        "stable-diffusion",
+        "beginner",
+        "offline"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "access": "open-source",
+      "signup": "Install from the official site or repository; no account or card. You supply hardware and models.",
+      "free": "An open-source local creative studio for image generation, inpainting, layering, and repeatable workflows.",
+      "limits": "Local installation and a capable GPU are recommended. Some commercial or team features may have separate terms. Model downloads and licenses are your responsibility.",
+      "best_for": "A more organized local workspace for editing and generating images repeatedly.",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "tags": [
+        "local",
+        "studio",
+        "inpainting",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "draw-things",
+      "name": "Draw Things",
+      "access": "free",
+      "signup": "Install from the Apple App Store; no account or card. Model downloads and device storage are yours.",
+      "free": "A free local image-generation app for Mac, iPad, and iPhone with a visual interface and downloadable models.",
+      "limits": "Model downloads are large, device memory limits model size, and some advanced features may require a newer Apple device. Review each model's license before commercial use.",
+      "best_for": "Private local image making on Apple devices without a cloud subscription.",
+      "url": "https://drawthings.ai",
+      "tags": [
+        "local",
+        "apple",
+        "privacy",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "images"
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "access": "free-tier",
+      "signup": "Free account for cloud and AI features; no card expected. Some effects point to Pro at the moment of use.",
+      "free": "Free desktop and mobile video editing with templates, auto captions, background removal, and a selection of AI-assisted tools.",
+      "limits": "Many AI effects, stock assets, higher-quality exports, and advanced controls are Pro-only. Availability, ownership, and data handling vary by region; review ByteDance's current terms.",
+      "best_for": "Short-form social videos, simple tutorials, and captioned clips with a fast editing workflow.",
+      "url": "https://www.capcut.com",
+      "tags": [
+        "editing",
+        "captions",
+        "social-media",
+        "templates"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "access": "free",
+      "signup": "Download the free version from Blackmagic Design; no card. Registration details may be requested.",
+      "free": "A genuinely free professional desktop editor with video editing, color correction, audio mixing, visual effects, and some AI-assisted features.",
+      "limits": "DaVinci Resolve Studio adds many Neural Engine features, higher resolutions, and collaboration tools. The free version is large, hardware-hungry, and not beginner-simple.",
+      "best_for": "Long-term video work where you want industry-grade editing without a subscription.",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "tags": [
+        "editing",
+        "color",
+        "professional",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "access": "free-tier",
+      "signup": "Free Descript account; no card. Transcription and export limits apply.",
+      "free": "Edit video and audio by editing a transcript, with free transcription minutes, basic recording, and limited AI actions.",
+      "limits": "Transcription hours, resolution, exports, and advanced features are capped. Some exports carry restrictions, and higher usage or studio features need a paid plan.",
+      "best_for": "Podcast clips, talking-head videos, and tutorial edits when you prefer working from words.",
+      "url": "https://www.descript.com",
+      "tags": [
+        "transcription",
+        "podcast",
+        "editing",
+        "captions"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "veed",
+      "name": "VEED",
+      "access": "free-tier",
+      "signup": "Free account; no card. Watermark and length limits apply to free exports.",
+      "free": "Free online video editor with subtitles, basic AI-assisted editing, screen recording, and templates.",
+      "limits": "Free exports are watermarked and limited in resolution/length. AI features and higher-quality exports require paid credits or a subscription.",
+      "best_for": "Quick browser-based clips with captions when you do not need a desktop editor.",
+      "url": "https://www.veed.io",
+      "tags": [
+        "online-editor",
+        "captions",
+        "watermark",
+        "social-media"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "invideo-ai",
+      "name": "InVideo AI",
+      "access": "free-tier",
+      "signup": "Free account; no card. Weekly AI generation credits and watermarked exports apply.",
+      "free": "Generate a narrated video from a text prompt using stock footage, AI voice, captions, and an editable timeline.",
+      "limits": "The free plan has a small weekly or monthly AI generation allowance, watermarked exports, and limited access to voices and stock. Review stock and voice licensing.",
+      "best_for": "A fast draft explainer or promotional clip when you want a script-to-video starting point.",
+      "url": "https://invideo.io/ai/",
+      "tags": [
+        "text-to-video",
+        "stock",
+        "voiceover",
+        "marketing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "access": "free-tier",
+      "signup": "Free account; no card. Short, watermarked videos and a small monthly quota apply.",
+      "free": "Free avatar and AI presenter videos with a small monthly video allowance and a library of avatars and voices.",
+      "limits": "Free videos are short, watermarked, and limited in number. Custom avatars, longer videos, higher resolution, and commercial features are paid. Use only your own likeness or documented permission.",
+      "best_for": "A quick AI-presenter demo, training clip, or multilingual message without filming yourself.",
+      "url": "https://www.heygen.com",
+      "tags": [
+        "avatar",
+        "presenter",
+        "training",
+        "multilingual"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "access": "free-tier",
+      "signup": "Free account; no card. A small one-time or periodic credit allowance applies.",
+      "free": "Limited free credits for AI video generation, image-to-video, editing experiments, and creative tools.",
+      "limits": "Free credits are small, watermarks and generation caps apply, and most serious usage needs a paid plan. Output length and model access change frequently.",
+      "best_for": "Testing generative video ideas and learning how AI video behaves before paying.",
+      "url": "https://runwayml.com",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "experiments",
+        "creative"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "access": "free-tier",
+      "signup": "Free account through supported sign-in; no card. Limited free generations and watermark rules apply.",
+      "free": "A limited free allowance of short AI video generations with creative effects and image-to-video options.",
+      "limits": "Free credits are limited and watermarks or lower priorities may apply. Advanced effects and longer/better-quality generation are paid. Review content and likeness rules.",
+      "best_for": "Short, playful visual effects and social clips that you can generate in a few passes.",
+      "url": "https://pika.art",
+      "tags": [
+        "video-generation",
+        "effects",
+        "short-form",
+        "creative"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "access": "free-tier",
+      "signup": "Free account; no card. A limited monthly generation allowance applies.",
+      "free": "A limited monthly allowance of text-to-video and image-to-video generations through Luma's web app.",
+      "limits": "Free generations are capped, queued, and may be watermarked or lower priority. Longer clips, newer models, and commercial/high-volume use are paid.",
+      "best_for": "Cinematic motion experiments and animating a still image for a short concept clip.",
+      "url": "https://lumalabs.ai/dream-machine",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "cinematic",
+        "concepts"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "kling-ai",
+      "name": "Kling AI",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily login credits buy only a few short clips.",
+      "free": "Free daily login credits for text-to-video and image-to-video generation in a web interface.",
+      "limits": "Daily credits buy only a few short clips, generations can be slow, and free outputs may be watermarked. Higher resolution, longer clips, and priority processing are paid.",
+      "best_for": "Testing motion, camera moves, and image animations when you can work within a small daily credit budget.",
+      "url": "https://klingai.com",
+      "tags": [
+        "video-generation",
+        "daily-credits",
+        "animation",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "hailuo-ai",
+      "name": "Hailuo AI",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits are limited and generations queue.",
+      "free": "A free daily allowance of short AI video generations from MiniMax, with text-to-video and image-to-video tools.",
+      "limits": "Free clips are short, queued, and often watermarked. Daily credits and model access can change, and high-resolution or longer output is paid.",
+      "best_for": "Quick motion tests and character animation ideas without committing to a subscription.",
+      "url": "https://hailuoai.video",
+      "tags": [
+        "video-generation",
+        "daily-credits",
+        "characters",
+        "experiments"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "clipchamp",
+      "name": "Clipchamp",
+      "access": "free-tier",
+      "signup": "Free Microsoft account; no card. Some assets and AI tools are gated.",
+      "free": "Microsoft's browser video editor offers free editing, screen recording, templates, captions, and some AI tools with a Microsoft account.",
+      "limits": "Free exports may be limited in quality or features, stock assets vary, and several AI or premium tools require a paid plan. Check current watermarks and export settings.",
+      "best_for": "Simple tutorials and social videos on Windows or in the browser without learning a pro editor.",
+      "url": "https://clipchamp.com",
+      "tags": [
+        "editing",
+        "microsoft",
+        "templates",
+        "screen-recording"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "kapwing",
+      "name": "Kapwing",
+      "access": "free-tier",
+      "signup": "Free account; no card. Free exports are watermarked and limited.",
+      "free": "Free browser editing with auto subtitles, templates, screen recording, and a limited amount of AI-assisted editing.",
+      "limits": "Free exports can be watermarked and capped in length or resolution. AI credits and brand assets are limited; higher-quality exports and longer AI usage are paid.",
+      "best_for": "Browser-based subtitle work and quick social edits without installing a desktop app.",
+      "url": "https://www.kapwing.com",
+      "tags": [
+        "browser",
+        "subtitles",
+        "templates",
+        "social-media"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "wan-video",
+      "name": "Wan",
+      "access": "open-source",
+      "signup": "Download the official model or code; no account or card. You supply a capable GPU and setup time.",
+      "free": "Open-source video-generation models you can run locally, with text-to-video and image-to-video capabilities.",
+      "limits": "Very demanding on GPUs, storage, and setup time. Model licenses and acceptable-use terms still apply. Quality and speed depend heavily on hardware and settings.",
+      "best_for": "Technical users who want local control over generative video experiments.",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "tags": [
+        "video-generation",
+        "local",
+        "advanced",
+        "open-models"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "ltx-video",
+      "name": "LTX-Video",
+      "access": "open-source",
+      "signup": "Download the official model or code; no account or card. You supply the GPU and environment.",
+      "free": "Open-source, lightweight video-generation model and code intended for local experimentation and fast iteration.",
+      "limits": "Requires technical setup and substantial GPU resources for useful results. Model weights, licenses, and quality vary; local generation is not free cloud compute.",
+      "best_for": "Experimenters who want to test a faster open video model on their own hardware.",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "tags": [
+        "video-generation",
+        "local",
+        "advanced",
+        "experiments"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "video"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "access": "free-tier",
+      "signup": "Free account; no card. A monthly character allowance and attribution or commercial rules apply.",
+      "free": "A free monthly character allowance for realistic text-to-speech, plus access to some voice library voices and audio tools.",
+      "limits": "The free character cap is small, roughly a short audio piece. Voice cloning, commercial terms, higher-quality audio, and more languages/voices require paid plans. Attribution or commercial restrictions can apply.",
+      "best_for": "Narration samples and accessible voiceovers where you want natural-sounding speech.",
+      "url": "https://elevenlabs.io",
+      "tags": [
+        "text-to-speech",
+        "voiceover",
+        "narration",
+        "accessibility"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "murf",
+      "name": "Murf AI",
+      "access": "free-tier",
+      "signup": "Free account; no card. Limited monthly generation time and restricted voices apply.",
+      "free": "A modest free allowance of AI voice generation and access to a selection of voices and editing tools.",
+      "limits": "Free monthly generation time is limited, some voices and export options are restricted, and commercial use depends on the plan. Higher volume and voice cloning are paid.",
+      "best_for": "Corporate-style narration, e-learning samples, and voiceover drafts.",
+      "url": "https://murf.ai",
+      "tags": [
+        "text-to-speech",
+        "voiceover",
+        "elearning",
+        "business"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "speechify",
+      "name": "Speechify",
+      "access": "free-tier",
+      "signup": "Free account; no card. Standard voices and limited listening features apply.",
+      "free": "Free text-to-speech listening in the browser and apps using standard voices, with adjustable speed and basic reading features.",
+      "limits": "Premium voices, offline listening, advanced AI tools, and higher usage are paid. Free features and voice availability change by platform.",
+      "best_for": "Listening to articles or documents at higher speed when you prefer audio to reading.",
+      "url": "https://speechify.com",
+      "tags": [
+        "text-to-speech",
+        "accessibility",
+        "reading",
+        "productivity"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "naturalreader",
+      "name": "NaturalReader",
+      "access": "free-tier",
+      "signup": "Free web or app access; no card. Some uses may require an account; premium voices cost money.",
+      "free": "Free browser and app text-to-speech with standard voices, document upload, and adjustable reading speed.",
+      "limits": "Premium voices, offline use, more file formats, and commercial usage require paid plans. Daily or feature limits apply to free accounts.",
+      "best_for": "Proofreading by ear and accessible reading of PDFs and web pages.",
+      "url": "https://www.naturalreaders.com",
+      "tags": [
+        "text-to-speech",
+        "pdf",
+        "accessibility",
+        "proofreading"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and local compute.",
+      "free": "OpenAI's open-source speech-recognition model that can transcribe and translate audio locally with no per-minute service fee.",
+      "limits": "You need Python, technical setup, and enough compute. Accuracy drops with noise, accents, overlap, and specialist vocabulary. Local use does not automatically make sensitive recordings safe under workplace rules.",
+      "best_for": "Private transcription, subtitles, and repeatable speech-to-text on your own machine.",
+      "url": "https://github.com/openai/whisper",
+      "tags": [
+        "transcription",
+        "local",
+        "privacy",
+        "speech-to-text"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "macwhisper",
+      "name": "MacWhisper",
+      "access": "free-tier",
+      "signup": "Download the free Mac app; no account or card. The free tier excludes advanced features.",
+      "free": "Free local transcription on macOS with downloaded Whisper-style models, drag-and-drop files, and basic exports.",
+      "limits": "The free version covers basic local transcription; batch processing, speaker recognition, advanced export, and cloud AI features are paid. Larger models need more memory.",
+      "best_for": "Mac users who want simple local transcription without a subscription or an upload.",
+      "url": "https://www.macwhisper.com",
+      "tags": [
+        "transcription",
+        "local",
+        "mac",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "access": "free-tier",
+      "signup": "Free Otter account; no card. Monthly minutes and per-meeting limits apply.",
+      "free": "Free meeting transcription with a monthly minute allowance, automated summaries, and searchable notes in the web and mobile apps.",
+      "limits": "Monthly minutes, per-meeting length, advanced search, and team features are capped. Recordings may be processed in the cloud. Get consent before recording other people.",
+      "best_for": "Meeting notes, interviews, and lectures where a cloud transcript is acceptable.",
+      "url": "https://otter.ai",
+      "tags": [
+        "transcription",
+        "meetings",
+        "summaries",
+        "notes"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast Enhance",
+      "access": "free-tier",
+      "signup": "Free Adobe account; no card. Upload and processing limits apply.",
+      "free": "Free web-based AI speech enhancement that can reduce room noise and make voice recordings sound clearer.",
+      "limits": "Requires an Adobe account and is subject to processing time, file, and usage limits. It works best on clean speech; music and badly clipped audio can sound artificial.",
+      "best_for": "Rescuing voice memos or podcast recordings made in an imperfect room.",
+      "url": "https://podcast.adobe.com",
+      "tags": [
+        "audio-cleanup",
+        "podcast",
+        "speech",
+        "editing"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits, queue restrictions, and non-commercial terms apply.",
+      "free": "A daily allowance of credits to generate full songs with vocals or instrumentals from a prompt or lyric idea.",
+      "limits": "Free credits are limited, outputs may carry restrictions, and free-plan songs generally cannot be used commercially. Higher quality, more generations, and ownership/use rights require paid plans.",
+      "best_for": "Song sketches, creative gifts, and experimenting with lyrics and styles, not commercial releases.",
+      "url": "https://suno.com",
+      "tags": [
+        "music",
+        "songs",
+        "creative",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits and download or commercial restrictions apply.",
+      "free": "Free monthly generation credits for AI music with vocals, style controls, extensions, and song sections.",
+      "limits": "Free credits are limited, downloads and commercial rights are restricted, and content availability or model policies can change. Paid plans add generations and broader use rights.",
+      "best_for": "Exploring AI music production and building a rough demo with a specific genre or mood.",
+      "url": "https://www.udio.com",
+      "tags": [
+        "music",
+        "vocals",
+        "creative",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "stable-audio",
+      "name": "Stable Audio",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits are commonly limited to non-commercial use.",
+      "free": "Free monthly credits for generating music and sound effects through Stability AI's web tools.",
+      "limits": "Free generations are capped and typically limited to non-commercial use. Higher volume, commercially usable output, and longer audio require a paid plan or license.",
+      "best_for": "Short background beds, sound effects, and trying text-to-audio ideas.",
+      "url": "https://stableaudio.com",
+      "tags": [
+        "music",
+        "sound-effects",
+        "generation",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "audiocraft",
+      "name": "AudioCraft",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and capable hardware.",
+      "free": "Meta's open-source audio-generation codebase, including MusicGen and AudioGen, for running music and sound models locally.",
+      "limits": "Requires Python, model downloads, and capable hardware. Model weights and licenses may restrict commercial use. Output quality and control are not the same as polished hosted services.",
+      "best_for": "Technical experiments with local music and sound-effect generation.",
+      "url": "https://github.com/facebookresearch/audiocraft",
+      "tags": [
+        "local",
+        "music",
+        "sound-effects",
+        "models"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "kokoro-tts",
+      "name": "Kokoro TTS",
+      "access": "open-source",
+      "signup": "Install from the official project; no account or card. You manage packages, models, and hardware.",
+      "free": "An open-source, compact text-to-speech model and tooling that can run locally with fast, natural-sounding voices.",
+      "limits": "Requires setup and some technical comfort. Voice options, language support, and hardware performance depend on the package you choose. Check the model and code licenses before commercial use.",
+      "best_for": "Local narration, accessibility projects, and experimenting with lightweight TTS.",
+      "url": "https://github.com/hexgrad/kokoro",
+      "tags": [
+        "text-to-speech",
+        "local",
+        "open-models",
+        "narration"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "ttsmaker",
+      "name": "TTSMaker",
+      "access": "free-tier",
+      "signup": "Basic web use needs no account; no card. Per-file and daily character caps apply.",
+      "free": "Free browser text-to-speech with many voices and languages, no account needed for basic use, and downloadable audio.",
+      "limits": "There are per-file and daily character caps, some voices are restricted, and features/ads may change. Check the current license for each voice and intended commercial use.",
+      "best_for": "Quick voiceovers, reading practice clips, and narration samples without software installation.",
+      "url": "https://ttsmaker.com",
+      "tags": [
+        "text-to-speech",
+        "no-account",
+        "multilingual",
+        "voiceover"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "moises",
+      "name": "Moises",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly song and separation limits apply.",
+      "free": "Free stem separation, practice tools, pitch/tempo changes, and AI audio analysis with a limited monthly allowance.",
+      "limits": "Song uploads, separation minutes, downloads, and advanced features are capped. Commercial use and higher-quality stems need a paid plan; use only audio you have rights to process.",
+      "best_for": "Making practice tracks, isolating vocals, and studying a song's parts.",
+      "url": "https://moises.ai",
+      "tags": [
+        "stems",
+        "music",
+        "practice",
+        "separation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "ultimate-vocal-remover",
+      "name": "Ultimate Vocal Remover",
+      "access": "open-source",
+      "signup": "Download the official release; no account or card. Requires local install and ideally a GPU.",
+      "free": "Open-source desktop app for local vocal/instrumental separation, noise reduction, and multi-stem workflows.",
+      "limits": "Requires installation, preferably a capable GPU, and model downloads. Results vary with source quality, and you must respect the rights of any recording you process.",
+      "best_for": "Private, repeatable stem separation without per-minute fees.",
+      "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+      "tags": [
+        "stems",
+        "local",
+        "privacy",
+        "music"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "access": "free-tier",
+      "signup": "Free account; no card. A daily noise-cancellation minute allowance applies.",
+      "free": "Free AI noise cancellation for calls and recordings with a daily usage allowance on the free plan.",
+      "limits": "Daily minutes are limited, and advanced meeting notes, transcription, and team features require paid plans. Audio still passes through Krisp's processing pipeline; check policy before sensitive calls.",
+      "best_for": "Cleaning up fan noise, keyboards, or background chatter during calls and voice recordings.",
+      "url": "https://krisp.ai",
+      "tags": [
+        "noise-cancellation",
+        "meetings",
+        "voice",
+        "audio-cleanup"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "audio"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "access": "free-tier",
+      "signup": "GitHub account; no card for the free individual plan. Eligibility checks and monthly quotas apply.",
+      "free": "A free tier for individual developers with monthly code completions and a smaller quota of chat or premium-model requests, inside supported editors and GitHub.",
+      "limits": "Monthly completion and chat quotas are capped; premium model requests run out sooner. Business controls, organization policy, and higher limits need paid plans. Generated code still needs review.",
+      "best_for": "A first AI pair programmer if you already use VS Code, Visual Studio, or JetBrains.",
+      "url": "https://github.com/features/copilot",
+      "tags": [
+        "autocomplete",
+        "chat",
+        "ide",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "gemini-code-assist",
+      "name": "Gemini Code Assist",
+      "access": "free-tier",
+      "signup": "Google account; no card for the individual free plan. IDE install and request caps apply.",
+      "free": "A free individual plan with code completion, chat, and code explanation in popular IDEs, including a generous monthly completion allowance.",
+      "limits": "Daily and monthly request caps apply, and premium/enterprise features are separate. Model access and data-use terms can change; review what Google may collect from free use.",
+      "best_for": "A generous free IDE assistant, especially for Google Cloud or JavaScript/TypeScript projects.",
+      "url": "https://codeassist.google",
+      "tags": [
+        "autocomplete",
+        "chat",
+        "ide",
+        "google"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "access": "open-source",
+      "signup": "Google account sign-in for the free quota; no card. Install Node.js and review agent permissions.",
+      "free": "An open-source terminal coding agent with a free quota when you sign in with a personal Google account, including repository-aware chat and tool use.",
+      "limits": "Free requests are rate-limited and quota-bound; higher usage needs an API key or paid plan. The agent can edit files and run commands, so use version control and review every action.",
+      "best_for": "Terminal-minded users who want a capable agent and will supervise its changes closely.",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "tags": [
+        "terminal",
+        "agent",
+        "google",
+        "open-source"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "access": "free-tier",
+      "signup": "AWS Builder ID or AWS account. An AWS account can require payment details; confirm before proceeding.",
+      "free": "A free tier with in-IDE code suggestions, chat, and a limited number of agentic requests and code transformations.",
+      "limits": "Free agentic actions, transformations, and higher usage are capped. Some AWS-focused features and larger limits require a paid subscription or AWS account.",
+      "best_for": "AWS-heavy projects and Java/.NET upgrades where cloud-aware help is useful.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "tags": [
+        "aws",
+        "ide",
+        "agent",
+        "cloud"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "access": "free-tier",
+      "signup": "Free account; no card. Prompt credits are limited.",
+      "free": "A free plan for an AI-first code editor with agentic edits, tab completion, and access to selected models.",
+      "limits": "Free prompt credits and model access are limited; larger agent tasks and premium models consume more credits. Paid plans add usage and team features.",
+      "best_for": "Trying an agent-heavy editor workflow for multi-file changes before committing to a subscription.",
+      "url": "https://windsurf.com",
+      "tags": [
+        "editor",
+        "agent",
+        "multi-file",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "access": "free-tier",
+      "signup": "Free Hobby account; no card. Agent and model usage is capped.",
+      "free": "A free Hobby plan for Cursor's AI code editor with a small allocation of agent requests, tab completions, and basic use of selected models.",
+      "limits": "Free usage is deliberately limited and premium model calls are metered. Paid plans add larger quotas, faster access, and team features. Always review the diff.",
+      "best_for": "Developers who want a polished AI editor and are comfortable hitting a small monthly cap.",
+      "url": "https://cursor.com",
+      "tags": [
+        "editor",
+        "agent",
+        "autocomplete",
+        "advanced"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "access": "free-tier",
+      "signup": "Free account; no card. Storage, compute, AI, and deployment limits apply.",
+      "free": "A browser-based development environment with collaborative coding, hosting experiments, and limited AI assistance.",
+      "limits": "Free storage, compute, AI interactions, and deployment capabilities are constrained. Agent use and always-on apps may require credits or a paid plan.",
+      "best_for": "Learning to code in one browser tab and building a small throwaway project quickly.",
+      "url": "https://replit.com",
+      "tags": [
+        "browser-ide",
+        "learning",
+        "hosting",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new",
+      "access": "free-tier",
+      "signup": "Free account; no card. The daily token allowance is small for complex apps.",
+      "free": "Free daily tokens to generate and edit a web app in the browser using natural-language prompts, with code you can inspect and export.",
+      "limits": "Token allowances are small and run out quickly on complex apps. Paid plans add usage; exported apps still need a host. Generated projects require security and dependency review.",
+      "best_for": "Quick prototypes, landing pages, and learning how full-app generation feels.",
+      "url": "https://bolt.new",
+      "tags": [
+        "no-code",
+        "web-apps",
+        "agent",
+        "prototyping"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily messages are limited and free projects may be public.",
+      "free": "A free daily message allowance for building full-stack web apps and interfaces from prompts, with editable code and integrations.",
+      "limits": "Free projects may be public and daily credits are limited. Paid plans add private projects, more credits, and advanced integrations. Review generated code, secrets, and database permissions.",
+      "best_for": "Beginner app builders who want to turn a simple idea into a working interface with guidance.",
+      "url": "https://lovable.dev",
+      "tags": [
+        "no-code",
+        "full-stack",
+        "agent",
+        "prototyping"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "access": "free-tier",
+      "signup": "Free Vercel account; no card. Monthly credits and deployment limits apply.",
+      "free": "Free monthly credits for generating UI components and pages from prompts, with a code preview and export path.",
+      "limits": "Free credits are limited, and complex iterations can consume them fast. Advanced generation, team features, and higher volume are paid. Deployment on Vercel can incur its own limits.",
+      "best_for": "Front-end and UI ideas, especially React/Next.js layouts you can copy into a project.",
+      "url": "https://v0.dev",
+      "tags": [
+        "ui",
+        "frontend",
+        "react",
+        "generation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "continue-dev",
+      "name": "Continue",
+      "access": "open-source",
+      "signup": "Extension install; no vendor account or card. Add a local model or your own API key.",
+      "free": "Open-source assistant for VS Code and JetBrains that lets you bring a local model or your own model provider into a chat-and-autocomplete workflow.",
+      "limits": "The extension is free, but model access may cost money or require capable hardware. You manage API keys, privacy, and configuration. Quality depends on the model you connect.",
+      "best_for": "People who want a private coding assistant or want to avoid a single vendor's subscription.",
+      "url": "https://www.continue.dev",
+      "tags": [
+        "ide",
+        "bring-your-own-model",
+        "local",
+        "open-source"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "access": "open-source",
+      "signup": "Install via the official instructions; no account or card. You supply a model, which may cost money.",
+      "free": "An open-source command-line pair programmer that edits files in a local Git repository and works with local or remote models.",
+      "limits": "You provide a model: local models need hardware, remote APIs cost money. Terminal comfort and Git knowledge help. It can make broad edits, so inspect diffs and run tests.",
+      "best_for": "Careful, Git-aware code changes on an existing project with full visibility into edits.",
+      "url": "https://aider.chat",
+      "tags": [
+        "cli",
+        "git",
+        "pair-programming",
+        "open-source"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "access": "open-source",
+      "signup": "VS Code extension install; no vendor account or card. You supply model access and supervise commands.",
+      "free": "An open-source AI coding agent for VS Code with plan/act modes, terminal use, and support for many model providers and local models.",
+      "limits": "No free model usage is bundled; you pay your provider or run models locally. Agents can execute commands, so supervise permissions and use a disposable branch or sandbox.",
+      "best_for": "Hands-on developers who want an agent in the editor without a vendor plan.",
+      "url": "https://cline.bot",
+      "tags": [
+        "vscode",
+        "agent",
+        "bring-your-own-model",
+        "open-source"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "access": "open-source",
+      "signup": "Self-host from the official repository; no vendor account or card. Requires Docker and a model provider.",
+      "free": "An open-source software-development agent platform you can run yourself for task planning, code edits, commands, and test runs.",
+      "limits": "Requires Docker, technical setup, and a model provider or local model. Hosted options may have costs. Agents need tight sandboxing and review because they can execute actions.",
+      "best_for": "Experimentation with autonomous coding agents in a controlled environment.",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "tags": [
+        "agent",
+        "self-hosted",
+        "docker",
+        "advanced"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "access": "open-source",
+      "signup": "Install the open-source app; no vendor account or card. Connect a local model or your own provider key.",
+      "free": "An open-source, extensible AI agent that runs on your machine, works with local or cloud models, and can edit code, run commands, and use tools.",
+      "limits": "The app is free, but you supply a model: local models need capable hardware, and hosted providers charge for API use. It can take actions on your computer, so supervise permissions and keep changes in version control.",
+      "best_for": "Developers who want a local, provider-flexible coding agent and are willing to review every command.",
+      "url": "https://github.com/aaif-goose/goose",
+      "tags": [
+        "agent",
+        "open-source",
+        "local",
+        "cli"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "access": "free-tier",
+      "signup": "Download the free editor; no card. AI features may require an account, subscription, or your own model key.",
+      "free": "A fast, open-source code editor with collaborative features and an optional AI assistant, including a limited free AI allowance and bring-your-own-model support.",
+      "limits": "AI features and usage allowances can change; advanced usage needs a paid plan or your own model/API. The editor is free, but a subscription may be needed for heavier AI work.",
+      "best_for": "Developers who want a quick native editor with optional AI assistance rather than an AI-first IDE.",
+      "url": "https://zed.dev",
+      "tags": [
+        "editor",
+        "open-source",
+        "collaboration",
+        "fast"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "pieces",
+      "name": "Pieces for Developers",
+      "access": "free-tier",
+      "signup": "Install Pieces and create a free account; no card. Cloud AI and team features are limited.",
+      "free": "A free developer copilot and snippet manager with local context capture, on-device assistance, and integrations across IDEs and browsers.",
+      "limits": "Cloud AI requests, team features, and higher usage are capped or paid. On-device features depend on your hardware. Review what code snippets and context are stored.",
+      "best_for": "Capturing reusable snippets and code context across projects with a privacy-leaning desktop tool.",
+      "url": "https://pieces.app",
+      "tags": [
+        "snippets",
+        "copilot",
+        "desktop",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "google-colab",
+      "name": "Google Colab",
+      "access": "free-tier",
+      "signup": "Google account; no card for free CPU and limited GPU runtime. Usage limits are not guaranteed.",
+      "free": "Free browser notebooks with CPU and limited GPU/TPU access for learning Python, testing AI models, and running data experiments.",
+      "limits": "Free compute is shared and not guaranteed; sessions time out and GPU availability varies. It is a development environment, not a private production host. Do not store secrets in notebooks.",
+      "best_for": "Learning machine learning and running small AI experiments without installing a local environment.",
+      "url": "https://colab.research.google.com",
+      "tags": [
+        "notebooks",
+        "ml",
+        "gpu",
+        "learning"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "tabby",
+      "name": "Tabby",
+      "access": "open-source",
+      "signup": "Self-host from the official repository; no vendor account or card. Requires a server, model, and maintenance.",
+      "free": "An open-source, self-hosted AI coding assistant with completions and chat, designed to keep code and model access on infrastructure you control.",
+      "limits": "Self-hosting requires a server, GPU or strong CPU, model setup, and maintenance. IDE integrations and quality depend on the deployment. You supply and license the model.",
+      "best_for": "Teams or privacy-focused developers who want a local coding assistant without per-seat AI fees.",
+      "url": "https://www.tabbyml.com",
+      "tags": [
+        "self-hosted",
+        "autocomplete",
+        "privacy",
+        "teams"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "blackbox-ai",
+      "name": "Blackbox AI",
+      "access": "free-tier",
+      "signup": "Free account or extension install; no card. Query limits and upgrade prompts apply.",
+      "free": "Free code chat, search, and autocomplete in a web app and editor extension, plus code-generation features for quick tasks.",
+      "limits": "Free queries and model access are capped, and some features push an upgrade. Extension permissions deserve a close look, and generated code needs testing and license review.",
+      "best_for": "Quick code questions and snippets when you are not tied to another IDE assistant.",
+      "url": "https://www.blackbox.ai",
+      "tags": [
+        "chat",
+        "autocomplete",
+        "snippets",
+        "extension"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "coding"
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits limit searches and extractions.",
+      "free": "A free monthly credit allowance for AI-assisted literature search, paper screening, and structured extraction from research papers.",
+      "limits": "Credits limit searches, extractions, and larger reviews. Advanced columns, team features, and high volume are paid. Results need verification against the original papers.",
+      "best_for": "Getting from a research question to a shortlist of relevant papers and a structured comparison.",
+      "url": "https://elicit.com",
+      "tags": [
+        "literature-review",
+        "papers",
+        "extraction",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "access": "free-tier",
+      "signup": "Free account or sign-in; no card expected. Free searches and synthesis features are capped.",
+      "free": "Free AI-powered search across scientific papers with claim summaries, citation context, and links to the underlying studies.",
+      "limits": "Free searches and advanced synthesis are capped. The best-use answer is a starting point, not a systematic review. Study quality varies and must be appraised.",
+      "best_for": "Asking what the research literature says about a focused yes/no or comparison question.",
+      "url": "https://consensus.app",
+      "tags": [
+        "evidence",
+        "papers",
+        "summaries",
+        "citations"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "access": "free",
+      "signup": "No account for basic search; an optional free account adds features. No card.",
+      "free": "Free scholarly search with AI-generated paper summaries, citation context, author pages, and links to related work.",
+      "limits": "Search and the website are free; bulk API use is rate-limited. Summaries can omit important limitations, and full-text access depends on publisher permissions.",
+      "best_for": "Broad academic discovery and quick paper triage with fewer distractions than a general search engine.",
+      "url": "https://www.semanticscholar.org",
+      "tags": [
+        "papers",
+        "citations",
+        "summaries",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "connected-papers",
+      "name": "Connected Papers",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly graph allowances apply.",
+      "free": "Free visual citation graphs that show related papers around one seed paper, with a small monthly graph allowance.",
+      "limits": "Free graphs per month are limited, and the tool maps relationships rather than judging quality. Some features and larger use require a subscription.",
+      "best_for": "Getting oriented in an unfamiliar field by seeing which papers cluster around a key work.",
+      "url": "https://www.connectedpapers.com",
+      "tags": [
+        "citations",
+        "visualization",
+        "discovery",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "researchrabbit",
+      "name": "ResearchRabbit",
+      "access": "free",
+      "signup": "Free account, often via Google sign-in; no card. The free discovery tools may change over time.",
+      "free": "Free literature discovery, citation maps, author tracking, and collections designed to grow as your reading list grows.",
+      "limits": "Its recommendations are only as good as the metadata and are not a quality judgment. Features may change, and very large collections or integrations can be constrained.",
+      "best_for": "Mapping a literature neighborhood and keeping track of papers over time without paying.",
+      "url": "https://www.researchrabbit.ai",
+      "tags": [
+        "discovery",
+        "citation-maps",
+        "collections",
+        "free"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "litmaps",
+      "name": "Litmaps",
+      "access": "free-tier",
+      "signup": "Free account; no card. Saved maps and alerts are limited.",
+      "free": "A free plan for citation maps, literature discovery, and limited saved maps and alerts.",
+      "limits": "Free map, search, alert, and export allowances are small. Paid plans support larger libraries and more collaboration. Always check the cited source.",
+      "best_for": "Visual researchers who want to track new papers in a field and see how work connects.",
+      "url": "https://www.litmaps.com",
+      "tags": [
+        "citation-maps",
+        "alerts",
+        "literature",
+        "discovery"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "access": "free-tier",
+      "signup": "Google account; no card. Daily questions, sources, and audio overviews are capped.",
+      "free": "Google's source-grounded notebook for uploading documents, linking sources, asking questions, generating study guides, and making limited audio overviews.",
+      "limits": "Notebooks, sources, daily questions, and audio/video overviews have caps. The model answers from the sources you add, but its interpretation can still be wrong. Avoid private data.",
+      "best_for": "Studying a focused set of PDFs, notes, or articles and asking questions with citations back to the uploads.",
+      "url": "https://notebooklm.google.com",
+      "tags": [
+        "documents",
+        "study",
+        "citations",
+        "audio-overview"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "chatpdf",
+      "name": "ChatPDF",
+      "access": "free-tier",
+      "signup": "Free account for saved PDFs; no card. Page, upload, and question limits apply.",
+      "free": "Chat with uploaded PDFs and get answers with page references on a free daily allowance.",
+      "limits": "Free uploads, page counts, and daily questions are limited. Files go to a third-party service, so do not upload manuscripts, private records, or patient documents without permission.",
+      "best_for": "Asking quick orientation questions about a paper or report before a careful full read.",
+      "url": "https://www.chatpdf.com",
+      "tags": [
+        "pdf",
+        "chat",
+        "documents",
+        "reading"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly AI credits and upload limits apply.",
+      "free": "A free monthly allowance of AI credits for chatting with papers, explaining math and jargon, and discovering related literature.",
+      "limits": "AI credits, uploads, and premium tools are limited or paid. Summaries can miss nuance, and uploaded papers can be handled by third parties. Verify every citation.",
+      "best_for": "Reading outside your field and getting plain-language help with dense methods or equations.",
+      "url": "https://scispace.com",
+      "tags": [
+        "papers",
+        "explanations",
+        "pdf",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "phind",
+      "name": "Phind",
+      "access": "free-tier",
+      "signup": "Basic search may work without an account; no card. Advanced model searches are capped with sign-in.",
+      "free": "AI answers with web citations aimed at technical and developer questions, with a limited free allowance of advanced model searches.",
+      "limits": "Advanced searches and larger models have daily/per-feature caps. Answers can miss current issues or cite weak sources. It is not a substitute for documentation and tests.",
+      "best_for": "Debugging questions and technical research where you want links to current docs and discussions.",
+      "url": "https://www.phind.com",
+      "tags": [
+        "technical",
+        "coding",
+        "web-search",
+        "citations"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "storm",
+      "name": "STORM",
+      "access": "free",
+      "signup": "No account required for the public prototype; no card. Runs and availability are limited.",
+      "free": "A free Stanford research prototype that interviews you, gathers web sources, and drafts a Wikipedia-style report with citations.",
+      "limits": "Research runs are limited and the tool is experimental. Citations can be incomplete or misapplied, and the report still needs editing. Do not treat it as peer-reviewed work.",
+      "best_for": "Rapidly assembling a broad reading outline on a new topic before deeper research.",
+      "url": "https://storm.genie.stanford.edu",
+      "tags": [
+        "report-generation",
+        "web-research",
+        "citations",
+        "experimental"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "explainpaper",
+      "name": "Explainpaper",
+      "access": "free-tier",
+      "signup": "Free account; no card. Free document and question limits apply.",
+      "free": "Upload a research paper, highlight difficult text, and get an AI explanation of that passage in simpler language.",
+      "limits": "Free document and question allowances are limited; advanced features and higher usage are paid. Explanations can be wrong, especially for statistics and domain-specific methods.",
+      "best_for": "Getting unstuck on a dense paragraph without leaving the paper.",
+      "url": "https://www.explainpaper.com",
+      "tags": [
+        "papers",
+        "explanations",
+        "students",
+        "reading"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "inciteful",
+      "name": "Inciteful",
+      "access": "free",
+      "signup": "No account required for basic use; no card. Rate limits and prototype availability apply.",
+      "free": "Free citation-graph and literature-discovery tools that help you find influential papers connected to a seed paper or topic.",
+      "limits": "The service is donation/education-oriented, with possible rate limits and incomplete metadata. It surfaces candidates, not proof that a source is high quality.",
+      "best_for": "Exploring citation trails and finding older or adjacent papers that keyword search misses.",
+      "url": "https://inciteful.xyz",
+      "tags": [
+        "citations",
+        "discovery",
+        "no-account",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "ai2-paper-finder",
+      "name": "Ai2 Paper Finder",
+      "access": "free",
+      "signup": "Public research prototype; no account or card expected. Availability can vary.",
+      "free": "A free AI-assisted literature-search prototype from the Allen Institute for AI that iteratively searches for niche or hard-to-find papers.",
+      "limits": "It is a research prototype, so availability, speed, and result quality can vary. It finds candidates; it does not read, appraise, or cite them for you.",
+      "best_for": "Finding hard-to-describe papers when ordinary keyword search keeps missing the mark.",
+      "url": "https://paperfinder.allen.ai",
+      "tags": [
+        "literature-search",
+        "ai2",
+        "free",
+        "academic"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "research"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "access": "free-tier",
+      "signup": "Free account; no card for the free plan. Task and premium-step limits apply.",
+      "free": "A free plan for connecting apps and automating simple workflows, with AI-powered steps and a monthly task allowance.",
+      "limits": "Task volume, automation complexity, update frequency, and premium/AI steps are capped or paid. Free plans are best for learning and tiny workflows, not busy operations.",
+      "best_for": "A first automation, such as saving form responses to a spreadsheet or sending yourself a daily digest.",
+      "url": "https://zapier.com",
+      "tags": [
+        "automation",
+        "integrations",
+        "beginner",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly operations and active-scenario limits apply.",
+      "free": "A free plan with a monthly operations allowance, visual multi-step automations, and access to a large integration library.",
+      "limits": "Operations, active scenarios, scheduling interval, and advanced/AI modules are capped or paid. A multi-step scenario can burn through the allowance quickly during testing.",
+      "best_for": "Visual thinkers who want more branching logic than a simple two-step automation.",
+      "url": "https://www.make.com",
+      "tags": [
+        "automation",
+        "visual-builder",
+        "integrations",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "access": "self-hosted",
+      "signup": "Self-host from the official repository; no vendor account or card. You supply infrastructure, credentials, and maintenance.",
+      "free": "A source-available automation platform you can self-host for complex workflows, AI steps, webhooks, and integrations under its current fair-code terms.",
+      "limits": "Self-hosting means running the server, updates, backups, and credentials. A capable host and model access cost money. The free plan does not include unlimited vendor cloud hosting.",
+      "best_for": "Technical users who want private, flexible AI automation without per-task cloud fees.",
+      "url": "https://n8n.io",
+      "tags": [
+        "automation",
+        "self-hosted",
+        "ai-workflows",
+        "developer"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "access": "open-source",
+      "signup": "Self-host or use the free cloud account; no card for the free path. Hosted limits and AI provider costs may apply.",
+      "free": "Open-source automation software with AI-capable pieces and a visual workflow builder, free to self-host.",
+      "limits": "Self-hosting requires maintenance and infrastructure. The hosted cloud has separate limits. AI model usage, integrations, and some features may need external accounts or API costs.",
+      "best_for": "A self-hosted alternative for small teams that want automation and AI steps under their control.",
+      "url": "https://www.activepieces.com",
+      "tags": [
+        "automation",
+        "open-source",
+        "self-hosted",
+        "teams"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "access": "free-tier",
+      "signup": "Free account and browser extension; no card. Monthly credits are limited.",
+      "free": "A free monthly credit allowance for browser automations, data capture, and AI-assisted workflows that cut repetitive web tasks.",
+      "limits": "Credits and scheduled runs are capped, and advanced AI actions, teams, and higher volume are paid. Browser automation can break when a site changes, so verify results.",
+      "best_for": "Small research or prospecting chores that happen in your browser, such as collecting information from pages.",
+      "url": "https://www.bardeen.ai",
+      "tags": [
+        "browser",
+        "scraping",
+        "automation",
+        "credits"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI credits and member limits apply.",
+      "free": "Free projects, notes, task lists, and collaborative workspaces with a limited allocation of AI actions and agents.",
+      "limits": "AI credits, workspace members, file storage, and advanced views are capped or paid. Test important automations before relying on them for deadlines.",
+      "best_for": "A lightweight project hub for a small team or solo business with occasional AI help.",
+      "url": "https://www.taskade.com",
+      "tags": [
+        "tasks",
+        "notes",
+        "collaboration",
+        "ai-agents"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "access": "free-tier",
+      "signup": "Free account; no card. Storage and AI-note limits apply, and participants must consent.",
+      "free": "Free AI meeting notes with automatic transcription, summaries, and search across a limited storage allowance.",
+      "limits": "Storage, advanced analytics, integrations, and some AI features are limited or paid. The bot joins calls and records audio; inform participants and follow workplace policy.",
+      "best_for": "Occasional meeting notes where the team understands how the recorder works and consents to it.",
+      "url": "https://fireflies.ai",
+      "tags": [
+        "meetings",
+        "transcription",
+        "notes",
+        "consent"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "access": "free-tier",
+      "signup": "Free account; no card. Current free recording, retention, and team limits apply.",
+      "free": "Free meeting recording and AI summaries, with a workflow built around reviewing highlights and action items after a call.",
+      "limits": "Advanced team, search, and integration features are paid. Check current free-plan recording and retention conditions. Obtain consent before recording any participant.",
+      "best_for": "Solo founders and small teams who want summaries and follow-ups without paying per meeting.",
+      "url": "https://fathom.video",
+      "tags": [
+        "meetings",
+        "summaries",
+        "recordings",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "tldv",
+      "name": "tl;dv",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI-note and storage limits apply.",
+      "free": "Free screen and meeting recording with AI notes, timestamps, and highlights on the free plan.",
+      "limits": "Free AI-note counts, retention, integrations, and advanced sharing features are limited. Recording rules and participant consent vary by location and organization.",
+      "best_for": "Recording demos, interviews, or occasional meetings and jumping back to the exact moment discussed.",
+      "url": "https://tldv.io",
+      "tags": [
+        "meetings",
+        "recording",
+        "highlights",
+        "notes"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "access": "free-tier",
+      "signup": "Free account; no card. Meeting history and collaboration limits apply.",
+      "free": "A free AI meeting-notes app that combines your typed notes with audio context, without sending a bot into the meeting.",
+      "limits": "The free plan limits meeting history and some collaboration or sharing features. It records system/mic audio locally or in the cloud depending on platform; confirm your privacy posture.",
+      "best_for": "People who take terse notes during calls and want a readable summary afterward.",
+      "url": "https://www.granola.ai",
+      "tags": [
+        "meetings",
+        "notes",
+        "no-bot",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "access": "free-tier",
+      "signup": "Free account; no card. Video count, length, and AI feature limits apply.",
+      "free": "Free screen and camera recordings with shareable links, basic editing, and limited AI features.",
+      "limits": "The free plan caps video count/length and AI transcript/summary features. Longer recordings, custom branding, and team controls are paid.",
+      "best_for": "Quick walkthroughs and asynchronous updates without scheduling a meeting.",
+      "url": "https://www.loom.com",
+      "tags": [
+        "screen-recording",
+        "async",
+        "walkthroughs",
+        "teams"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "access": "free-tier",
+      "signup": "Free account; no card. Guide and AI-feature limits apply.",
+      "free": "Free automatic how-to guides generated from screen recordings, with annotated screenshots and editable steps.",
+      "limits": "Free guide count, AI features, branding, and sharing options are limited; paid plans add team and knowledge-base tools. Redact anything private before sharing a capture.",
+      "best_for": "Turning a process you just performed into a clear SOP or onboarding document.",
+      "url": "https://scribehow.com",
+      "tags": [
+        "documentation",
+        "screenshots",
+        "sop",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "khoj",
+      "name": "Khoj",
+      "access": "open-source",
+      "signup": "Self-host from the official repository; no vendor account or card. A cloud sign-in is optional and separate.",
+      "free": "An open-source personal AI assistant that can search your notes and documents and answer questions using local or remote models.",
+      "limits": "Self-hosting requires setup and a model source; cloud offerings and limits can change. Retrieval quality depends on your files and indexing, and sensitive notes need protection.",
+      "best_for": "Building a private second brain over your own notes and documents.",
+      "url": "https://khoj.dev",
+      "tags": [
+        "local",
+        "notes",
+        "search",
+        "second-brain"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly AI credits and export or branding limits apply.",
+      "free": "Free AI-assisted presentations, documents, and webpages with a starting allowance of AI credits and editable templates.",
+      "limits": "Free AI credits are limited, some designs and export options are paid, and public projects may include branding. Complex decks still need thoughtful human editing.",
+      "best_for": "Turning an outline into a presentable first draft of slides for a workshop, pitch, or training.",
+      "url": "https://gamma.app",
+      "tags": [
+        "presentations",
+        "slides",
+        "documents",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "napkin",
+      "name": "Napkin",
+      "access": "free-tier",
+      "signup": "Free account; no card. Visual and export limits apply.",
+      "free": "Free AI-assisted conversion of text into simple diagrams, flowcharts, and visual explanations for presentations and learning.",
+      "limits": "Free visual counts, style controls, and high-resolution exports are limited. Generated diagrams may not reflect the logic you intended, so check every relationship and label.",
+      "best_for": "Explaining a process or idea visually when you do not want to draw every box yourself.",
+      "url": "https://www.napkin.ai",
+      "tags": [
+        "diagrams",
+        "visuals",
+        "explaining",
+        "presentations"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "mermaid-chart",
+      "name": "Mermaid Chart",
+      "access": "free-tier",
+      "signup": "Free account; no card. Diagram, AI, and privacy limits apply.",
+      "free": "A free editor for Mermaid text-to-diagram code, with AI assistance for turning descriptions into diagrams and live rendering.",
+      "limits": "Free diagram counts, AI credits, private diagrams, and collaboration features are limited. Complex diagrams may need hand-written Mermaid knowledge and careful checking.",
+      "best_for": "Flowcharts and technical diagrams that you want to version as plain text.",
+      "url": "https://www.mermaidchart.com",
+      "tags": [
+        "diagrams",
+        "text-to-diagram",
+        "flowcharts",
+        "technical"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "productivity"
+    },
+    {
+      "id": "khanmigo",
+      "name": "Khanmigo",
+      "access": "free-tier",
+      "signup": "Khan Academy account plus teacher verification for free educator access. Students generally need a paid plan; no card for eligible teachers.",
+      "free": "Khan Academy's AI tutor and teaching assistant is free for verified teachers in supported regions, with tutoring and lesson-planning support.",
+      "limits": "Student and parent accounts generally require a paid subscription. Free teacher access depends on verification, geography, and current program availability. Tutors can make mistakes.",
+      "best_for": "Teachers who want Socratic-style question prompts and planning help tied to Khan Academy material.",
+      "url": "https://www.khanmigo.ai",
+      "tags": [
+        "tutoring",
+        "teachers",
+        "khan-academy",
+        "lesson-planning"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "access": "free-tier",
+      "signup": "Free account; no card. Ads and heart or feature limits apply.",
+      "free": "Free language lessons in many languages, with streaks, practice exercises, stories, and some AI-powered feedback on the free plan.",
+      "limits": "Ads, hearts, and feature limits apply; advanced personalization, unlimited mistakes, and some AI features require Super or Max. AI feedback is not a human conversation partner.",
+      "best_for": "Building a daily language habit and practicing vocabulary at no cost.",
+      "url": "https://www.duolingo.com",
+      "tags": [
+        "language-learning",
+        "practice",
+        "habit",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "quizlet",
+      "name": "Quizlet",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI and offline features are limited.",
+      "free": "Free flashcard sets, practice tests, study modes, and a limited amount of AI-assisted study help.",
+      "limits": "AI features, offline access, and ad removal are restricted or paid. User-created sets vary in accuracy, and AI-generated explanations need checking.",
+      "best_for": "Turning vocabulary or definitions into flashcards and self-testing before an exam.",
+      "url": "https://quizlet.com",
+      "tags": [
+        "flashcards",
+        "study",
+        "exam-prep",
+        "students"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "kahoot",
+      "name": "Kahoot!",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI question generation and reports are capped.",
+      "free": "Free live quizzes and classroom games, with basic question creation and a limited amount of AI-assisted question generation for teachers.",
+      "limits": "AI question generation, advanced reports, and larger/team features are capped or paid. Teachers should review AI-generated questions for errors and bias before class.",
+      "best_for": "Quick review games and active recall in a classroom or study group.",
+      "url": "https://kahoot.com",
+      "tags": [
+        "quizzes",
+        "classroom",
+        "teachers",
+        "review"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "quizizz",
+      "name": "Quizizz",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. AI runs and advanced reports are limited.",
+      "free": "A free teacher plan for creating quizzes and lessons, with AI tools for question generation and some student-paced practice.",
+      "limits": "Free AI runs, reports, and question types are limited. Advanced tools and unlimited AI use are paid. Review every generated question before students see it.",
+      "best_for": "Teachers who want a browser-based quiz and practice workflow with some AI shortcuts.",
+      "url": "https://quizizz.com",
+      "tags": [
+        "quizzes",
+        "teachers",
+        "practice",
+        "classroom"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "magicschool",
+      "name": "MagicSchool",
+      "access": "free-tier",
+      "signup": "Free educator account; no card. Monthly AI generations are limited; some tools require verification.",
+      "free": "A free educator plan with a collection of AI tools for lesson plans, rubrics, emails, differentiation, and classroom feedback.",
+      "limits": "The free plan has a limited monthly allowance of AI generations and access limits; unlimited use and some student tools are paid. Review all generated teaching material.",
+      "best_for": "Teachers who want a toolbox of time-saving first drafts for common classroom tasks.",
+      "url": "https://www.magicschool.ai",
+      "tags": [
+        "teachers",
+        "lesson-planning",
+        "rubrics",
+        "time-saving"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "diffit",
+      "name": "Diffit",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly resource limits apply.",
+      "free": "Free AI help adapting texts and creating reading supports, vocabulary, and question sets at different levels.",
+      "limits": "Free monthly resources and some formats/features are limited. Generated adaptations need a teacher's review for accuracy, age-appropriateness, and reading level.",
+      "best_for": "Making a lesson reading more accessible without rewriting it from scratch.",
+      "url": "https://diffit.me",
+      "tags": [
+        "differentiation",
+        "reading",
+        "teachers",
+        "accessibility"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "brisk-teaching",
+      "name": "Brisk Teaching",
+      "access": "free-tier",
+      "signup": "Chrome extension with a free teacher account; no card. AI action limits and school policies apply.",
+      "free": "A free Chrome extension that helps teachers give feedback, adapt materials, and generate lesson resources from what is on screen.",
+      "limits": "Free AI actions and advanced features are limited. The extension sees page content, so avoid student records or confidential material. Review feedback before returning it.",
+      "best_for": "Fast feedback and lesson tweaks inside the tools a teacher already uses.",
+      "url": "https://www.briskteaching.com",
+      "tags": [
+        "teachers",
+        "feedback",
+        "chrome",
+        "differentiation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "socratic",
+      "name": "Socratic by Google",
+      "access": "free",
+      "signup": "Free app download; no account or card required.",
+      "free": "Free mobile homework help: take a photo of a question and get explanations, relevant learning resources, and step-by-step guidance.",
+      "limits": "The app is free, but answers can be incomplete or wrong and coverage varies by subject. It is a study aid, not a guarantee of the correct answer or a substitute for showing your work.",
+      "best_for": "Middle school through college students who want an explanation of a homework question.",
+      "url": "https://socratic.org",
+      "tags": [
+        "homework",
+        "students",
+        "photo",
+        "explanations"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "photomath",
+      "name": "Photomath",
+      "access": "free-tier",
+      "signup": "Free app download; no card. Some solutions and features require an upgrade.",
+      "free": "Free math scanning and step-by-step explanations for many core arithmetic, algebra, and other problems.",
+      "limits": "Some advanced problem types, solutions, and features require Plus or Max. The app may show ads. Always check the reasoning rather than copying the final answer.",
+      "best_for": "Getting unstuck on a math problem and seeing one possible route to the solution.",
+      "url": "https://photomath.com",
+      "tags": [
+        "math",
+        "homework",
+        "scanning",
+        "students"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram|Alpha",
+      "access": "free-tier",
+      "signup": "No account needed for basic queries; no card. Step-by-step and extended features may require Pro.",
+      "free": "Free computational answers, plots, unit conversions, and topic lookups across math, science, and general knowledge.",
+      "limits": "Step-by-step solutions, extended computation time, and some data/features require Pro. The free website still shows results, but the depth and export options are limited.",
+      "best_for": "Checking calculations and exploring math or science with a reliable computational engine.",
+      "url": "https://www.wolframalpha.com",
+      "tags": [
+        "math",
+        "science",
+        "computation",
+        "reference"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "eduaide",
+      "name": "Eduaide.ai",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. Credits and tool counts are limited.",
+      "free": "A free teacher plan with AI tools for lesson plans, questions, activities, and feedback, plus a starter allowance of generations.",
+      "limits": "Free credits and tools are limited; higher volume, collaboration, and advanced generators are paid. Generated educational content must be checked for accuracy and fit.",
+      "best_for": "Teachers who want a broad menu of classroom planning helpers in one place.",
+      "url": "https://www.eduaide.ai",
+      "tags": [
+        "teachers",
+        "lesson-planning",
+        "activities",
+        "credits"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "class-companion",
+      "name": "Class Companion",
+      "access": "free-tier",
+      "signup": "Free teacher account; no card. Assignment and feedback allowances are limited.",
+      "free": "A free teacher plan for AI-assisted writing assignments and feedback, with a student-friendly practice workflow.",
+      "limits": "Free assignment and feedback allowances are limited; school and advanced plans are paid. AI feedback can miss context, and students should receive teacher oversight.",
+      "best_for": "Teachers who want students to practice short written responses with immediate formative feedback.",
+      "url": "https://www.classcompanion.com",
+      "tags": [
+        "writing",
+        "feedback",
+        "teachers",
+        "formative-assessment"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "teachable-machine",
+      "name": "Teachable Machine",
+      "access": "free",
+      "signup": "Open the browser tool with no account or card. Uploads are processed by the browser or Google depending on the mode.",
+      "free": "A free Google browser tool for training simple image, sound, and pose classification models with your own examples, no coding required.",
+      "limits": "It is an educational tool, not a production ML platform. Quality depends on data and training choices, models can be small or biased, and uploads may be processed by Google.",
+      "best_for": "Hands-on lessons about how machine learning recognizes images, sounds, or poses.",
+      "url": "https://teachablemachine.withgoogle.com",
+      "tags": [
+        "machine-learning",
+        "no-code",
+        "projects",
+        "teachers"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "education"
+    },
+    {
+      "id": "seeing-ai",
+      "name": "Seeing AI",
+      "access": "free",
+      "signup": "Free App Store download; no account or card. Requires a supported iPhone or iPad.",
+      "free": "A free Microsoft app for iOS that narrates short text, documents, people, scenes, products, and currency to support everyday tasks.",
+      "limits": "Features and language support vary by device and region. Recognition can fail in poor light or complex scenes, and it should not be trusted alone for medication, navigation, or safety decisions.",
+      "best_for": "Reading mail, labels, and packaging or getting a quick description of a scene.",
+      "url": "https://www.microsoft.com/en-us/ai/seeing-ai",
+      "tags": [
+        "blind",
+        "low-vision",
+        "scene-description",
+        "ios"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "be-my-eyes",
+      "name": "Be My Eyes",
+      "access": "free",
+      "signup": "Free account and app; no card. AI description fair-use limits apply.",
+      "free": "A free app connecting blind and low-vision users with sighted volunteers and AI descriptions of photos or live scenes.",
+      "limits": "AI descriptions have fair-use limits and can be wrong; volunteer availability varies. Humans may see what you share, so avoid exposing sensitive documents or banking details.",
+      "best_for": "Getting quick human or AI help reading a label, matching clothing, or checking a setting.",
+      "url": "https://www.bemyeyes.com",
+      "tags": [
+        "blind",
+        "low-vision",
+        "volunteers",
+        "ai-description"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "google-lookout",
+      "name": "Google Lookout",
+      "access": "free",
+      "signup": "Free Play Store download; no card. Supported Android devices and regions only.",
+      "free": "A free Android app that uses the camera and AI to identify currency, read text, explore scenes, and find objects in supported regions.",
+      "limits": "Supported modes, devices, and languages vary. Recognition is not perfect and should not be used as the only method for navigation or safety-critical decisions.",
+      "best_for": "Everyday Android assistance with reading, products, and scene descriptions.",
+      "url": "https://www.google.com/accessibility/products-features/",
+      "tags": [
+        "blind",
+        "low-vision",
+        "android",
+        "scene-description"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "live-transcribe",
+      "name": "Live Transcribe & Sound Notifications",
+      "access": "free",
+      "signup": "Free Play Store download or built-in Android tool; no account or card.",
+      "free": "A free Android app and built-in accessibility tool for real-time speech captions and sound alerts such as doorbells, alarms, or a name being called.",
+      "limits": "Accuracy depends on language, microphone, noise, and dialect. Some features need downloads or connectivity. Do not rely on it alone for emergencies or critical instructions.",
+      "best_for": "Following in-person conversations and being alerted to important sounds.",
+      "url": "https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "android"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "envision",
+      "name": "Envision AI",
+      "access": "free-tier",
+      "signup": "Free app and free account; no card. Premium features require a subscription.",
+      "free": "A free app for scanning documents, reading text, recognizing scenes, and getting AI descriptions, with a usable free allowance.",
+      "limits": "Free usage and advanced AI features are limited; higher volume and premium features require a subscription. Accuracy varies with image quality and content.",
+      "best_for": "Reading documents and exploring everyday images with a mix of on-device and AI tools.",
+      "url": "https://www.letsenvision.com",
+      "tags": [
+        "low-vision",
+        "document-reading",
+        "ocr",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "supersense",
+      "name": "SuperSense",
+      "access": "free-tier",
+      "signup": "Free app with an optional account; no card for the free tier. Paid plans add features.",
+      "free": "A free AI app for blind users with modes for reading, finding objects, recognizing currency, and exploring scenes.",
+      "limits": "Free features and usage are limited; some capabilities require a paid plan. Recognition can miss obstacles or make unsafe guesses. Use a mobility aid and training.",
+      "best_for": "Quick object and text recognition on an iPhone or Android device.",
+      "url": "https://supersense.app",
+      "tags": [
+        "blind",
+        "object-recognition",
+        "reading",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "microsoft-translator",
+      "name": "Microsoft Translator",
+      "access": "free",
+      "signup": "Free app or web use; no card for personal use. A Microsoft account may be optional for some features.",
+      "free": "Free text, camera, speech, and conversation translation across many languages, including a conversation mode for two speakers.",
+      "limits": "Personal free usage is subject to fair-use limits; some features, offline language packs, or larger business use may require adjustments. Translation can miss nuance and context.",
+      "best_for": "Cross-language conversations, travel, and understanding short written or photographed text.",
+      "url": "https://translator.microsoft.com",
+      "tags": [
+        "translation",
+        "speech",
+        "camera",
+        "conversation"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "google-voice-access",
+      "name": "Voice Access",
+      "access": "free",
+      "signup": "Free Play Store download; no account or card. Android only.",
+      "free": "A free Android accessibility service that lets you control your phone by speaking commands, with numbered labels for on-screen controls.",
+      "limits": "Language and Android support vary, and setup takes practice. Background noise can cause errors, and some commands or apps may not work as expected.",
+      "best_for": "Hands-free Android phone control when touch is difficult or uncomfortable.",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess",
+      "tags": [
+        "voice-control",
+        "motor",
+        "android",
+        "hands-free"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "apple-voice-control",
+      "name": "Apple Voice Control",
+      "access": "free",
+      "signup": "Built into supported Apple devices; no account or card.",
+      "free": "A free built-in accessibility feature for supported Apple devices that lets you navigate and type using spoken commands.",
+      "limits": "Requires a supported device and setup; command availability varies by OS and app. Speech recognition can struggle with noise, accents, or unusual words.",
+      "best_for": "Hands-free control of an iPhone, iPad, or Mac without buying extra software.",
+      "url": "https://www.apple.com/accessibility/features/",
+      "tags": [
+        "voice-control",
+        "motor",
+        "apple",
+        "built-in"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "windows-live-captions",
+      "name": "Windows Live Captions",
+      "access": "free",
+      "signup": "Built into Windows 11; no account or card. Some languages need a download.",
+      "free": "A free built-in Windows 11 feature that automatically captions audio playing on the PC, with broader language support on newer systems.",
+      "limits": "Requires a compatible Windows version, may need language downloads, and does not caption every sound or app. Accuracy varies with audio quality and language.",
+      "best_for": "Adding on-screen captions to meetings, videos, or audio on Windows without extra software.",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/use-live-captions-to-better-understand-audio",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "windows"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "apple-live-captions",
+      "name": "Apple Live Captions",
+      "access": "free",
+      "signup": "Built into supported Apple devices; no account or card. Beta or region limits may apply.",
+      "free": "A free built-in iPhone, iPad, and Mac feature that generates captions for audio from apps, calls, and conversations on supported devices.",
+      "limits": "Available on supported devices and languages; some features require newer hardware or are still labeled beta. Captions can lag or mishear, especially with names and jargon.",
+      "best_for": "On-device captions during calls, videos, and face-to-face conversations on Apple devices.",
+      "url": "https://support.apple.com/guide/iphone/get-live-captions-of-spoken-audio-iphe0990f7bb/ios",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "apple"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    },
+    {
+      "id": "chrome-live-caption",
+      "name": "Chrome Live Caption",
+      "access": "free",
+      "signup": "Built into Chrome; no account or card. Some languages and devices are unsupported.",
+      "free": "A free, on-device Chrome feature that automatically captions audio and video played in the browser, with optional translation in some versions.",
+      "limits": "Language support and availability depend on Chrome version and device. Some content, DRM-protected media, or system audio may not be captioned accurately.",
+      "best_for": "Adding captions to web videos and browser audio without another tool.",
+      "url": "https://support.google.com/chrome/answer/10538231",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "chrome"
+      ],
+      "last_verified": "2026-10-22",
+      "category": "accessibility"
+    }
+  ]
+}

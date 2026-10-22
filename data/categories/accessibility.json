@@ -1,0 +1,218 @@
+{
+  "id": "accessibility",
+  "name": "Accessibility",
+  "short": "See, hear, speak, and understand more easily",
+  "description": "Free and freemium tools that use AI or on-device recognition to support low vision, blindness, deafness, hard of hearing, speech differences, and everyday access. These tools can be genuinely useful, but none is perfect or a replacement for professional accessibility services.",
+  "tip": "Try accessibility tools before you need them, in the light and noise conditions where you actually use them. Keep a backup method for critical tasks such as medication labels, emergency alerts, or workplace communication. Do not let a free app become the only path to essential information.",
+  "start_here": [
+    "seeing-ai",
+    "be-my-eyes",
+    "live-transcribe"
+  ],
+  "tools": [
+    {
+      "id": "seeing-ai",
+      "name": "Seeing AI",
+      "access": "free",
+      "signup": "Free App Store download; no account or card. Requires a supported iPhone or iPad.",
+      "free": "A free Microsoft app for iOS that narrates short text, documents, people, scenes, products, and currency to support everyday tasks.",
+      "limits": "Features and language support vary by device and region. Recognition can fail in poor light or complex scenes, and it should not be trusted alone for medication, navigation, or safety decisions.",
+      "best_for": "Reading mail, labels, and packaging or getting a quick description of a scene.",
+      "url": "https://www.microsoft.com/en-us/ai/seeing-ai",
+      "tags": [
+        "blind",
+        "low-vision",
+        "scene-description",
+        "ios"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "be-my-eyes",
+      "name": "Be My Eyes",
+      "access": "free",
+      "signup": "Free account and app; no card. AI description fair-use limits apply.",
+      "free": "A free app connecting blind and low-vision users with sighted volunteers and AI descriptions of photos or live scenes.",
+      "limits": "AI descriptions have fair-use limits and can be wrong; volunteer availability varies. Humans may see what you share, so avoid exposing sensitive documents or banking details.",
+      "best_for": "Getting quick human or AI help reading a label, matching clothing, or checking a setting.",
+      "url": "https://www.bemyeyes.com",
+      "tags": [
+        "blind",
+        "low-vision",
+        "volunteers",
+        "ai-description"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "google-lookout",
+      "name": "Google Lookout",
+      "access": "free",
+      "signup": "Free Play Store download; no card. Supported Android devices and regions only.",
+      "free": "A free Android app that uses the camera and AI to identify currency, read text, explore scenes, and find objects in supported regions.",
+      "limits": "Supported modes, devices, and languages vary. Recognition is not perfect and should not be used as the only method for navigation or safety-critical decisions.",
+      "best_for": "Everyday Android assistance with reading, products, and scene descriptions.",
+      "url": "https://www.google.com/accessibility/products-features/",
+      "tags": [
+        "blind",
+        "low-vision",
+        "android",
+        "scene-description"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "live-transcribe",
+      "name": "Live Transcribe & Sound Notifications",
+      "access": "free",
+      "signup": "Free Play Store download or built-in Android tool; no account or card.",
+      "free": "A free Android app and built-in accessibility tool for real-time speech captions and sound alerts such as doorbells, alarms, or a name being called.",
+      "limits": "Accuracy depends on language, microphone, noise, and dialect. Some features need downloads or connectivity. Do not rely on it alone for emergencies or critical instructions.",
+      "best_for": "Following in-person conversations and being alerted to important sounds.",
+      "url": "https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "android"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "envision",
+      "name": "Envision AI",
+      "access": "free-tier",
+      "signup": "Free app and free account; no card. Premium features require a subscription.",
+      "free": "A free app for scanning documents, reading text, recognizing scenes, and getting AI descriptions, with a usable free allowance.",
+      "limits": "Free usage and advanced AI features are limited; higher volume and premium features require a subscription. Accuracy varies with image quality and content.",
+      "best_for": "Reading documents and exploring everyday images with a mix of on-device and AI tools.",
+      "url": "https://www.letsenvision.com",
+      "tags": [
+        "low-vision",
+        "document-reading",
+        "ocr",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "supersense",
+      "name": "SuperSense",
+      "access": "free-tier",
+      "signup": "Free app with an optional account; no card for the free tier. Paid plans add features.",
+      "free": "A free AI app for blind users with modes for reading, finding objects, recognizing currency, and exploring scenes.",
+      "limits": "Free features and usage are limited; some capabilities require a paid plan. Recognition can miss obstacles or make unsafe guesses. Use a mobility aid and training.",
+      "best_for": "Quick object and text recognition on an iPhone or Android device.",
+      "url": "https://supersense.app",
+      "tags": [
+        "blind",
+        "object-recognition",
+        "reading",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "microsoft-translator",
+      "name": "Microsoft Translator",
+      "access": "free",
+      "signup": "Free app or web use; no card for personal use. A Microsoft account may be optional for some features.",
+      "free": "Free text, camera, speech, and conversation translation across many languages, including a conversation mode for two speakers.",
+      "limits": "Personal free usage is subject to fair-use limits; some features, offline language packs, or larger business use may require adjustments. Translation can miss nuance and context.",
+      "best_for": "Cross-language conversations, travel, and understanding short written or photographed text.",
+      "url": "https://translator.microsoft.com",
+      "tags": [
+        "translation",
+        "speech",
+        "camera",
+        "conversation"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "google-voice-access",
+      "name": "Voice Access",
+      "access": "free",
+      "signup": "Free Play Store download; no account or card. Android only.",
+      "free": "A free Android accessibility service that lets you control your phone by speaking commands, with numbered labels for on-screen controls.",
+      "limits": "Language and Android support vary, and setup takes practice. Background noise can cause errors, and some commands or apps may not work as expected.",
+      "best_for": "Hands-free Android phone control when touch is difficult or uncomfortable.",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess",
+      "tags": [
+        "voice-control",
+        "motor",
+        "android",
+        "hands-free"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "apple-voice-control",
+      "name": "Apple Voice Control",
+      "access": "free",
+      "signup": "Built into supported Apple devices; no account or card.",
+      "free": "A free built-in accessibility feature for supported Apple devices that lets you navigate and type using spoken commands.",
+      "limits": "Requires a supported device and setup; command availability varies by OS and app. Speech recognition can struggle with noise, accents, or unusual words.",
+      "best_for": "Hands-free control of an iPhone, iPad, or Mac without buying extra software.",
+      "url": "https://www.apple.com/accessibility/features/",
+      "tags": [
+        "voice-control",
+        "motor",
+        "apple",
+        "built-in"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "windows-live-captions",
+      "name": "Windows Live Captions",
+      "access": "free",
+      "signup": "Built into Windows 11; no account or card. Some languages need a download.",
+      "free": "A free built-in Windows 11 feature that automatically captions audio playing on the PC, with broader language support on newer systems.",
+      "limits": "Requires a compatible Windows version, may need language downloads, and does not caption every sound or app. Accuracy varies with audio quality and language.",
+      "best_for": "Adding on-screen captions to meetings, videos, or audio on Windows without extra software.",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/use-live-captions-to-better-understand-audio",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "windows"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "apple-live-captions",
+      "name": "Apple Live Captions",
+      "access": "free",
+      "signup": "Built into supported Apple devices; no account or card. Beta or region limits may apply.",
+      "free": "A free built-in iPhone, iPad, and Mac feature that generates captions for audio from apps, calls, and conversations on supported devices.",
+      "limits": "Available on supported devices and languages; some features require newer hardware or are still labeled beta. Captions can lag or mishear, especially with names and jargon.",
+      "best_for": "On-device captions during calls, videos, and face-to-face conversations on Apple devices.",
+      "url": "https://support.apple.com/guide/iphone/get-live-captions-of-spoken-audio-iphe0990f7bb/ios",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "apple"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "chrome-live-caption",
+      "name": "Chrome Live Caption",
+      "access": "free",
+      "signup": "Built into Chrome; no account or card. Some languages and devices are unsupported.",
+      "free": "A free, on-device Chrome feature that automatically captions audio and video played in the browser, with optional translation in some versions.",
+      "limits": "Language support and availability depend on Chrome version and device. Some content, DRM-protected media, or system audio may not be captioned accurately.",
+      "best_for": "Adding captions to web videos and browser audio without another tool.",
+      "url": "https://support.google.com/chrome/answer/10538231",
+      "tags": [
+        "deaf",
+        "hard-of-hearing",
+        "captions",
+        "chrome"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

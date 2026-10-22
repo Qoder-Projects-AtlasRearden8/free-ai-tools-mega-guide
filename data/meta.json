@@ -1,0 +1,30 @@
+{
+  "title": "Free AI Tools Mega Guide",
+  "subtitle": "A plain-English directory of 150+ AI tools you can try without paying",
+  "edition": "First edition",
+  "last_verified": "2026-10-22",
+  "author": "ASDALE DYNAMICS, LLC",
+  "hub_url": "https://dylanasdale.github.io",
+  "description": "A plain-English directory of genuinely free and free-tier AI tools for learning, making, writing, building, and getting things done.",
+  "category_order": [
+    "chat",
+    "writing",
+    "images",
+    "video",
+    "audio",
+    "coding",
+    "research",
+    "productivity",
+    "education",
+    "accessibility"
+  ],
+  "disclaimer": "Free tiers change. Every allowance, quota, model name, and feature in this guide is a snapshot from the last verified date. Providers can change or remove free plans without notice. Confirm the current terms on the official site before you rely on a tool, upload anything private, or build a business process around it.",
+  "verification_note": "Each entry records the date our editor last reviewed the public offer and official link. Verification is a point-in-time check, not a warranty or an endorsement. Limits use plain-language summaries; a provider's current pricing page and terms always win.",
+  "privacy_note": "No account is worth your patient data, client records, unpublished manuscripts, passwords, financial details, or identity documents. Review each provider's privacy policy and your workplace rules before uploading anything sensitive.",
+  "access_legend": {
+    "free-tier": "A no-cost plan with caps, feature gates, queues, or usage credits. No card should be required for the free tier unless noted.",
+    "free": "Free to use at the core, though optional paid upgrades or platform purchases may exist.",
+    "open-source": "Source code is available and you can run it yourself. Free software is not the same as free hardware, electricity, storage, or model downloads.",
+    "self-hosted": "The software can be run on your own machine or server at no license cost, with source available under provider terms. You supply the hardware, maintenance, and model access."
+  }
+}

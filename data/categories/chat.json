@@ -1,0 +1,388 @@
+{
+  "id": "chat",
+  "name": "Chat & general assistants",
+  "short": "Everyday thinking, explaining, and drafting partners",
+  "description": "General-purpose assistants for thinking out loud, explaining a subject, searching the web, and drafting a first pass. This group also includes local and open-source options for people who want more control over where their conversations live.",
+  "tip": "Start with one assistant instead of installing ten. Give it a specific job, check important claims against a primary source, and never paste passwords, patient details, unpublished manuscripts, or other confidential material into a free account.",
+  "start_here": [
+    "chatgpt",
+    "google-gemini",
+    "claude"
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "access": "free-tier",
+      "signup": "Email, Google, Apple, or Microsoft sign-in. No card is expected for the free web plan; phone verification may appear.",
+      "free": "Web, desktop, iOS, and Android chat on the free plan, including file and photo analysis, voice conversation, web search, and limited image creation.",
+      "limits": "Message and tool-use caps vary by model and demand. Newest reasoning or agentic features, higher usage, and some tools are paid. Model access can change.",
+      "best_for": "A first all-rounder for explaining a topic, brainstorming, drafting, and learning by conversation.",
+      "url": "https://chatgpt.com",
+      "tags": [
+        "general",
+        "voice",
+        "files",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "access": "free-tier",
+      "signup": "Free Microsoft account. No card for the basic web app; some Microsoft 365 integrations need a paid plan.",
+      "free": "Free conversational AI with web grounding, image understanding, voice chat, and image generation through a Microsoft account.",
+      "limits": "Image creation relies on a limited boost allowance; premium reasoning, some Office integrations, and larger usage quotas require paid plans.",
+      "best_for": "Everyday research and drafting, especially if you already use Windows, Edge, or Microsoft 365.",
+      "url": "https://copilot.microsoft.com",
+      "tags": [
+        "general",
+        "web-search",
+        "images",
+        "microsoft"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "access": "free-tier",
+      "signup": "Free Google account. No card for the web app; age, region, and feature-availability rules apply.",
+      "free": "Free access to Gemini models, chat, web grounding, photo and file uploads, voice, and some image and research features with a Google account.",
+      "limits": "Daily and per-feature caps apply. Deep Research, video/image generation, the most capable models, and very large uploads have stricter limits or paid access.",
+      "best_for": "A mainstream assistant with strong Google-ecosystem integration and multimodal questions.",
+      "url": "https://gemini.google.com",
+      "tags": [
+        "general",
+        "research",
+        "files",
+        "google"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "access": "free-tier",
+      "signup": "Email or Google sign-in. No card for the free plan; phone verification may be requested.",
+      "free": "Web, desktop, and mobile chat with file uploads, long-document reading, writing help, and limited AI-powered artifacts/tools.",
+      "limits": "A daily usage allowance resets periodically. Hit the cap and you must wait or upgrade. Some advanced models, longer usage, and higher file/tool limits are paid.",
+      "best_for": "Careful writing, document questions, editing, and thoughtful explanations in a calm interface.",
+      "url": "https://claude.ai",
+      "tags": [
+        "writing",
+        "documents",
+        "analysis",
+        "general"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "access": "free-tier",
+      "signup": "Email, Google, or Apple sign-in. No card expected for the Free plan; advanced-search limits apply.",
+      "free": "AI answers with cited web sources, follow-up questions, file analysis, and a limited number of advanced research searches.",
+      "limits": "Advanced model/search allowances are capped and reset over time. File uploads, deeper research, image creation, and higher usage are limited or paid.",
+      "best_for": "Quick source-backed questions when you want clickable citations rather than a plain chat answer.",
+      "url": "https://www.perplexity.ai",
+      "tags": [
+        "research",
+        "web-search",
+        "citations",
+        "general"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "mistral-le-chat",
+      "name": "Mistral Le Chat",
+      "access": "free-tier",
+      "signup": "Email or Google sign-in. No card expected for the Free plan; availability varies by country.",
+      "free": "Free chat with Mistral models, web search, document analysis, image understanding, and some image generation in supported regions.",
+      "limits": "Daily usage caps and slower responses at busy times. Some reasoning, agent, image, and enterprise features are paid or region-dependent.",
+      "best_for": "A clean, fast assistant from a European AI provider, with optional paid upgrades.",
+      "url": "https://chat.mistral.ai",
+      "tags": [
+        "general",
+        "european",
+        "web-search",
+        "files"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "access": "free-tier",
+      "signup": "Email or phone sign-up. No card expected for web chat; verify regional availability and the privacy terms.",
+      "free": "Free web and mobile chat access to DeepSeek reasoning and general models, including file reading and web search in supported versions.",
+      "limits": "Usage is capacity-limited and can slow or pause during peak demand. File sizes and advanced tools are capped. Review the privacy policy before entering sensitive text.",
+      "best_for": "Free access to a capable reasoning-style assistant for math, logic, and coding conversations.",
+      "url": "https://chat.deepseek.com",
+      "tags": [
+        "reasoning",
+        "coding",
+        "general",
+        "files"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "qwen-chat",
+      "name": "Qwen Chat",
+      "access": "free-tier",
+      "signup": "Qwen/Alibaba account sign-in. No card expected for free chat; regional availability varies.",
+      "free": "Free web chat with Alibaba's Qwen models, file and image inputs, search, and some generation tools.",
+      "limits": "Free quotas, model availability, and tool access vary by region and demand. High-volume or premium capabilities can be restricted.",
+      "best_for": "Testing capable open-model style assistance, especially for multilingual and document tasks.",
+      "url": "https://qwen.ai",
+      "tags": [
+        "general",
+        "multilingual",
+        "files",
+        "open-models"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "access": "free-tier",
+      "signup": "Email or phone sign-up. No card expected for free chat; verify regional availability.",
+      "free": "Free assistant from Moonshot AI with long-document reading, web search, file analysis, and everyday writing help.",
+      "limits": "Daily usage and file limits apply, and some tools, models, or regions may differ. Paid plans add capacity; check data-handling terms before uploading private files.",
+      "best_for": "Reading long reports or books and asking questions across a large amount of text.",
+      "url": "https://www.kimi.com",
+      "tags": [
+        "long-context",
+        "documents",
+        "general",
+        "research"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "access": "free-tier",
+      "signup": "Meta account or sign-in through Facebook, Instagram, or WhatsApp. No card for basic chat; country rules apply.",
+      "free": "Free chat through the web and Meta apps, with web answers, image generation, and image-editing features in supported countries.",
+      "limits": "Availability varies by country and account. Image generations and some tools have usage caps; advanced features are tied to Meta accounts.",
+      "best_for": "Fast, casual questions and image ideas if you already use Facebook, Instagram, or WhatsApp.",
+      "url": "https://www.meta.ai",
+      "tags": [
+        "general",
+        "images",
+        "social",
+        "mobile"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "access": "free-tier",
+      "signup": "X account or a supported sign-in. No card expected for limited free chat; quotas and regions vary.",
+      "free": "Limited free use of Grok through its web and apps, including real-time web answers and image generation.",
+      "limits": "Free query and generation quotas are low and can change. Heavy use, advanced models, and some image/video features need a paid plan.",
+      "best_for": "Checking current events and trying a more informal assistant with real-time web access.",
+      "url": "https://grok.com",
+      "tags": [
+        "real-time",
+        "web-search",
+        "images",
+        "general"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "access": "free-tier",
+      "signup": "Email, Google, or Apple sign-in. No card for the Free plan; premium bots consume points quickly.",
+      "free": "One account for many chat models and community-built bots, with a daily allocation of compute points.",
+      "limits": "Most models consume points per message; premium bots cost more. The free allowance is small, and higher limits or newer models require a subscription.",
+      "best_for": "Comparing several assistants side by side before choosing one to use regularly.",
+      "url": "https://poe.com",
+      "tags": [
+        "model-comparison",
+        "chatbots",
+        "general",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "duckduckgo-ai-chat",
+      "name": "DuckDuckGo AI Chat",
+      "access": "free-tier",
+      "signup": "No account required for basic access. No card; daily limits apply and AI chat is not available everywhere.",
+      "free": "Anonymous-style AI chat inside DuckDuckGo, with a small menu of well-known models and no need to build a chatbot profile.",
+      "limits": "Daily usage limits apply, model choices are limited, and chats are not a full document workspace. AI features may be unavailable in some regions.",
+      "best_for": "A lower-friction way to ask general questions without creating another AI account.",
+      "url": "https://duck.ai",
+      "tags": [
+        "privacy",
+        "no-account",
+        "general",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "brave-leo",
+      "name": "Brave Leo",
+      "access": "free-tier",
+      "signup": "Install Brave; no separate AI account or card for the base assistant. Premium models are optional.",
+      "free": "AI assistant built into the Brave desktop and mobile browsers, with page summaries, web answers, and chat.",
+      "limits": "The free tier uses a limited model allowance; advanced models, longer chats, and some features require Brave Leo Premium.",
+      "best_for": "Summarizing or questioning the page you are already viewing without switching apps.",
+      "url": "https://brave.com/leo/",
+      "tags": [
+        "browser",
+        "summaries",
+        "privacy",
+        "research"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "access": "free-tier",
+      "signup": "Email or Google/Apple sign-in. No card for free chat; age rules, queues, and ads apply.",
+      "free": "Free conversations with user-created characters and assistants for role-play, brainstorming, language practice, and entertainment.",
+      "limits": "Free chats can involve queues, ads, message/context limits, and lower priority. Character quality varies widely. Do not share personal or medical details.",
+      "best_for": "Fiction brainstorming, role-play, and playful conversation practice, not factual research.",
+      "url": "https://character.ai",
+      "tags": [
+        "roleplay",
+        "fiction",
+        "fun",
+        "conversation"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "access": "open-source",
+      "signup": "Desktop install with no vendor account or card. You choose and download models separately.",
+      "free": "An open-source desktop chat app that runs local models offline after download, can connect to remote APIs, and keeps a familiar chat interface.",
+      "limits": "Local response quality depends on your computer and model size. You pay for hardware and electricity, not a chat subscription. Setup is more technical than a website.",
+      "best_for": "Private, offline experimentation with local AI on a capable laptop or desktop.",
+      "url": "https://jan.ai",
+      "tags": [
+        "local",
+        "privacy",
+        "desktop",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "access": "free",
+      "signup": "Desktop install; no vendor account or card. Accept the app terms, then download models yourself.",
+      "free": "A free desktop app for downloading and chatting with local language models through a polished graphical interface.",
+      "limits": "No cloud chat allowance; performance and available model sizes depend on RAM, VRAM, and your CPU. Large models may not fit. Review its current license for commercial use.",
+      "best_for": "A gentler entry into local models if you prefer buttons to command-line tools.",
+      "url": "https://lmstudio.ai",
+      "tags": [
+        "local",
+        "desktop",
+        "beginner",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "access": "open-source",
+      "signup": "Install locally with no vendor account or card. Commands and local models require terminal comfort.",
+      "free": "Open-source runtime for downloading and running local language models with one command, plus an API local apps can use.",
+      "limits": "You supply the hardware and disk space. Model quality varies, and command-line comfort helps. Large models can be slow or impossible on modest machines.",
+      "best_for": "Building a private local AI setup you can reuse in other apps and scripts.",
+      "url": "https://ollama.com",
+      "tags": [
+        "local",
+        "developer",
+        "api",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local admin account; no vendor card. You supply the model backend and server.",
+      "free": "An open-source, self-hosted web interface for local or remote model backends, with chat folders, retrieval, and multi-user features.",
+      "limits": "You run and maintain the server, storage, and models. Some features need extra configuration or an external model/API. It is not a hosted assistant by itself.",
+      "best_for": "A family or small team that wants one private chat interface over local models.",
+      "url": "https://openwebui.com",
+      "tags": [
+        "local",
+        "self-hosted",
+        "interface",
+        "teams"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "librechat",
+      "name": "LibreChat",
+      "access": "open-source",
+      "signup": "Self-hosted install with a local account; no vendor card. You supply model access and server maintenance.",
+      "free": "Open-source chat interface you can self-host, with support for multiple providers, conversations, files, and agent-style tools depending on configuration.",
+      "limits": "You bring model access and run the server. Remote models cost API money; local models cost hardware. Setup and updates are your responsibility.",
+      "best_for": "Tinkerers who want one private interface with several model providers and more control than a consumer app.",
+      "url": "https://www.librechat.ai",
+      "tags": [
+        "self-hosted",
+        "providers",
+        "developer",
+        "interface"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "gpt4all",
+      "name": "GPT4All",
+      "access": "open-source",
+      "signup": "Desktop install with no cloud account or card. The app and model downloads are separate steps.",
+      "free": "Free, open-source desktop chat with local models, document chat, and no cloud account required.",
+      "limits": "Runs within your machine's memory, so larger models may be slow. Model selection, hardware support, and feature quality vary. You are responsible for model licenses.",
+      "best_for": "Offline, private desktop chat on Windows, macOS, or Linux without a cloud subscription.",
+      "url": "https://www.nomic.ai/gpt4all",
+      "tags": [
+        "local",
+        "offline",
+        "documents",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "access": "free-tier",
+      "signup": "Free Google account. No card for the browser workbench; API use follows project quotas and billing rules.",
+      "free": "A free browser workbench for prompting Gemini models, comparing settings, saving prompts, and generating starter code for apps.",
+      "limits": "Free API and app usage is rate-limited by model and project. Higher limits require billing. Prompts and files may be handled under Google's terms; do not use it for private patient data.",
+      "best_for": "Learning how model settings work and prototyping an AI feature without installing anything.",
+      "url": "https://aistudio.google.com",
+      "tags": [
+        "prototyping",
+        "api",
+        "google",
+        "learning"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

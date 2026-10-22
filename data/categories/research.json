@@ -1,0 +1,252 @@
+{
+  "id": "research",
+  "name": "Research & knowledge",
+  "short": "Find, read, map, and question sources",
+  "description": "Literature search, citation mapping, document chat, source-grounded notebooks, and answer engines. These tools can shorten the path to a useful source, but they can also summarize confidently and get details wrong. Open the original paper, report, or document before you cite it.",
+  "tip": "Never cite a paper based only on a generated summary. Check the authors, publication venue, date, methods, and whether the quoted passage actually supports your claim. Avoid uploading confidential research data or personal information to free services; use institution-approved tools when a study requires it.",
+  "start_here": [
+    "notebooklm",
+    "elicit",
+    "semantic-scholar"
+  ],
+  "tools": [
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits limit searches and extractions.",
+      "free": "A free monthly credit allowance for AI-assisted literature search, paper screening, and structured extraction from research papers.",
+      "limits": "Credits limit searches, extractions, and larger reviews. Advanced columns, team features, and high volume are paid. Results need verification against the original papers.",
+      "best_for": "Getting from a research question to a shortlist of relevant papers and a structured comparison.",
+      "url": "https://elicit.com",
+      "tags": [
+        "literature-review",
+        "papers",
+        "extraction",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "access": "free-tier",
+      "signup": "Free account or sign-in; no card expected. Free searches and synthesis features are capped.",
+      "free": "Free AI-powered search across scientific papers with claim summaries, citation context, and links to the underlying studies.",
+      "limits": "Free searches and advanced synthesis are capped. The best-use answer is a starting point, not a systematic review. Study quality varies and must be appraised.",
+      "best_for": "Asking what the research literature says about a focused yes/no or comparison question.",
+      "url": "https://consensus.app",
+      "tags": [
+        "evidence",
+        "papers",
+        "summaries",
+        "citations"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "access": "free",
+      "signup": "No account for basic search; an optional free account adds features. No card.",
+      "free": "Free scholarly search with AI-generated paper summaries, citation context, author pages, and links to related work.",
+      "limits": "Search and the website are free; bulk API use is rate-limited. Summaries can omit important limitations, and full-text access depends on publisher permissions.",
+      "best_for": "Broad academic discovery and quick paper triage with fewer distractions than a general search engine.",
+      "url": "https://www.semanticscholar.org",
+      "tags": [
+        "papers",
+        "citations",
+        "summaries",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "connected-papers",
+      "name": "Connected Papers",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly graph allowances apply.",
+      "free": "Free visual citation graphs that show related papers around one seed paper, with a small monthly graph allowance.",
+      "limits": "Free graphs per month are limited, and the tool maps relationships rather than judging quality. Some features and larger use require a subscription.",
+      "best_for": "Getting oriented in an unfamiliar field by seeing which papers cluster around a key work.",
+      "url": "https://www.connectedpapers.com",
+      "tags": [
+        "citations",
+        "visualization",
+        "discovery",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "researchrabbit",
+      "name": "ResearchRabbit",
+      "access": "free",
+      "signup": "Free account, often via Google sign-in; no card. The free discovery tools may change over time.",
+      "free": "Free literature discovery, citation maps, author tracking, and collections designed to grow as your reading list grows.",
+      "limits": "Its recommendations are only as good as the metadata and are not a quality judgment. Features may change, and very large collections or integrations can be constrained.",
+      "best_for": "Mapping a literature neighborhood and keeping track of papers over time without paying.",
+      "url": "https://www.researchrabbit.ai",
+      "tags": [
+        "discovery",
+        "citation-maps",
+        "collections",
+        "free"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "litmaps",
+      "name": "Litmaps",
+      "access": "free-tier",
+      "signup": "Free account; no card. Saved maps and alerts are limited.",
+      "free": "A free plan for citation maps, literature discovery, and limited saved maps and alerts.",
+      "limits": "Free map, search, alert, and export allowances are small. Paid plans support larger libraries and more collaboration. Always check the cited source.",
+      "best_for": "Visual researchers who want to track new papers in a field and see how work connects.",
+      "url": "https://www.litmaps.com",
+      "tags": [
+        "citation-maps",
+        "alerts",
+        "literature",
+        "discovery"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "access": "free-tier",
+      "signup": "Google account; no card. Daily questions, sources, and audio overviews are capped.",
+      "free": "Google's source-grounded notebook for uploading documents, linking sources, asking questions, generating study guides, and making limited audio overviews.",
+      "limits": "Notebooks, sources, daily questions, and audio/video overviews have caps. The model answers from the sources you add, but its interpretation can still be wrong. Avoid private data.",
+      "best_for": "Studying a focused set of PDFs, notes, or articles and asking questions with citations back to the uploads.",
+      "url": "https://notebooklm.google.com",
+      "tags": [
+        "documents",
+        "study",
+        "citations",
+        "audio-overview"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "chatpdf",
+      "name": "ChatPDF",
+      "access": "free-tier",
+      "signup": "Free account for saved PDFs; no card. Page, upload, and question limits apply.",
+      "free": "Chat with uploaded PDFs and get answers with page references on a free daily allowance.",
+      "limits": "Free uploads, page counts, and daily questions are limited. Files go to a third-party service, so do not upload manuscripts, private records, or patient documents without permission.",
+      "best_for": "Asking quick orientation questions about a paper or report before a careful full read.",
+      "url": "https://www.chatpdf.com",
+      "tags": [
+        "pdf",
+        "chat",
+        "documents",
+        "reading"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly AI credits and upload limits apply.",
+      "free": "A free monthly allowance of AI credits for chatting with papers, explaining math and jargon, and discovering related literature.",
+      "limits": "AI credits, uploads, and premium tools are limited or paid. Summaries can miss nuance, and uploaded papers can be handled by third parties. Verify every citation.",
+      "best_for": "Reading outside your field and getting plain-language help with dense methods or equations.",
+      "url": "https://scispace.com",
+      "tags": [
+        "papers",
+        "explanations",
+        "pdf",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "phind",
+      "name": "Phind",
+      "access": "free-tier",
+      "signup": "Basic search may work without an account; no card. Advanced model searches are capped with sign-in.",
+      "free": "AI answers with web citations aimed at technical and developer questions, with a limited free allowance of advanced model searches.",
+      "limits": "Advanced searches and larger models have daily/per-feature caps. Answers can miss current issues or cite weak sources. It is not a substitute for documentation and tests.",
+      "best_for": "Debugging questions and technical research where you want links to current docs and discussions.",
+      "url": "https://www.phind.com",
+      "tags": [
+        "technical",
+        "coding",
+        "web-search",
+        "citations"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "storm",
+      "name": "STORM",
+      "access": "free",
+      "signup": "No account required for the public prototype; no card. Runs and availability are limited.",
+      "free": "A free Stanford research prototype that interviews you, gathers web sources, and drafts a Wikipedia-style report with citations.",
+      "limits": "Research runs are limited and the tool is experimental. Citations can be incomplete or misapplied, and the report still needs editing. Do not treat it as peer-reviewed work.",
+      "best_for": "Rapidly assembling a broad reading outline on a new topic before deeper research.",
+      "url": "https://storm.genie.stanford.edu",
+      "tags": [
+        "report-generation",
+        "web-research",
+        "citations",
+        "experimental"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "explainpaper",
+      "name": "Explainpaper",
+      "access": "free-tier",
+      "signup": "Free account; no card. Free document and question limits apply.",
+      "free": "Upload a research paper, highlight difficult text, and get an AI explanation of that passage in simpler language.",
+      "limits": "Free document and question allowances are limited; advanced features and higher usage are paid. Explanations can be wrong, especially for statistics and domain-specific methods.",
+      "best_for": "Getting unstuck on a dense paragraph without leaving the paper.",
+      "url": "https://www.explainpaper.com",
+      "tags": [
+        "papers",
+        "explanations",
+        "students",
+        "reading"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "inciteful",
+      "name": "Inciteful",
+      "access": "free",
+      "signup": "No account required for basic use; no card. Rate limits and prototype availability apply.",
+      "free": "Free citation-graph and literature-discovery tools that help you find influential papers connected to a seed paper or topic.",
+      "limits": "The service is donation/education-oriented, with possible rate limits and incomplete metadata. It surfaces candidates, not proof that a source is high quality.",
+      "best_for": "Exploring citation trails and finding older or adjacent papers that keyword search misses.",
+      "url": "https://inciteful.xyz",
+      "tags": [
+        "citations",
+        "discovery",
+        "no-account",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ai2-paper-finder",
+      "name": "Ai2 Paper Finder",
+      "access": "free",
+      "signup": "Public research prototype; no account or card expected. Availability can vary.",
+      "free": "A free AI-assisted literature-search prototype from the Allen Institute for AI that iteratively searches for niche or hard-to-find papers.",
+      "limits": "It is a research prototype, so availability, speed, and result quality can vary. It finds candidates; it does not read, appraise, or cite them for you.",
+      "best_for": "Finding hard-to-describe papers when ordinary keyword search keeps missing the mark.",
+      "url": "https://paperfinder.allen.ai",
+      "tags": [
+        "literature-search",
+        "ai2",
+        "free",
+        "academic"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

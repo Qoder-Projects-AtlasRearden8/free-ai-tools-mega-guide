@@ -1,0 +1,303 @@
+{
+  "id": "audio",
+  "name": "Audio, music & voice",
+  "short": "Transcribe, speak, sing, separate, and clean audio",
+  "description": "Speech-to-text, text-to-speech, music generation, podcast cleanup, and audio repair tools. Free options cover a surprising range, but time limits, licensing, and whether you may use a voice or song commercially vary enormously.",
+  "tip": "Only clone or imitate a voice with clear permission. Record everyone's consent before transcribing a meeting. Free music plans often prohibit commercial use, and open-source music models may carry non-commercial weights. Keep the original recording, and treat automated transcripts as drafts.",
+  "start_here": [
+    "whisper",
+    "otter-ai",
+    "elevenlabs"
+  ],
+  "tools": [
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "access": "free-tier",
+      "signup": "Free account; no card. A monthly character allowance and attribution or commercial rules apply.",
+      "free": "A free monthly character allowance for realistic text-to-speech, plus access to some voice library voices and audio tools.",
+      "limits": "The free character cap is small, roughly a short audio piece. Voice cloning, commercial terms, higher-quality audio, and more languages/voices require paid plans. Attribution or commercial restrictions can apply.",
+      "best_for": "Narration samples and accessible voiceovers where you want natural-sounding speech.",
+      "url": "https://elevenlabs.io",
+      "tags": [
+        "text-to-speech",
+        "voiceover",
+        "narration",
+        "accessibility"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "murf",
+      "name": "Murf AI",
+      "access": "free-tier",
+      "signup": "Free account; no card. Limited monthly generation time and restricted voices apply.",
+      "free": "A modest free allowance of AI voice generation and access to a selection of voices and editing tools.",
+      "limits": "Free monthly generation time is limited, some voices and export options are restricted, and commercial use depends on the plan. Higher volume and voice cloning are paid.",
+      "best_for": "Corporate-style narration, e-learning samples, and voiceover drafts.",
+      "url": "https://murf.ai",
+      "tags": [
+        "text-to-speech",
+        "voiceover",
+        "elearning",
+        "business"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "speechify",
+      "name": "Speechify",
+      "access": "free-tier",
+      "signup": "Free account; no card. Standard voices and limited listening features apply.",
+      "free": "Free text-to-speech listening in the browser and apps using standard voices, with adjustable speed and basic reading features.",
+      "limits": "Premium voices, offline listening, advanced AI tools, and higher usage are paid. Free features and voice availability change by platform.",
+      "best_for": "Listening to articles or documents at higher speed when you prefer audio to reading.",
+      "url": "https://speechify.com",
+      "tags": [
+        "text-to-speech",
+        "accessibility",
+        "reading",
+        "productivity"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "naturalreader",
+      "name": "NaturalReader",
+      "access": "free-tier",
+      "signup": "Free web or app access; no card. Some uses may require an account; premium voices cost money.",
+      "free": "Free browser and app text-to-speech with standard voices, document upload, and adjustable reading speed.",
+      "limits": "Premium voices, offline use, more file formats, and commercial usage require paid plans. Daily or feature limits apply to free accounts.",
+      "best_for": "Proofreading by ear and accessible reading of PDFs and web pages.",
+      "url": "https://www.naturalreaders.com",
+      "tags": [
+        "text-to-speech",
+        "pdf",
+        "accessibility",
+        "proofreading"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and local compute.",
+      "free": "OpenAI's open-source speech-recognition model that can transcribe and translate audio locally with no per-minute service fee.",
+      "limits": "You need Python, technical setup, and enough compute. Accuracy drops with noise, accents, overlap, and specialist vocabulary. Local use does not automatically make sensitive recordings safe under workplace rules.",
+      "best_for": "Private transcription, subtitles, and repeatable speech-to-text on your own machine.",
+      "url": "https://github.com/openai/whisper",
+      "tags": [
+        "transcription",
+        "local",
+        "privacy",
+        "speech-to-text"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "macwhisper",
+      "name": "MacWhisper",
+      "access": "free-tier",
+      "signup": "Download the free Mac app; no account or card. The free tier excludes advanced features.",
+      "free": "Free local transcription on macOS with downloaded Whisper-style models, drag-and-drop files, and basic exports.",
+      "limits": "The free version covers basic local transcription; batch processing, speaker recognition, advanced export, and cloud AI features are paid. Larger models need more memory.",
+      "best_for": "Mac users who want simple local transcription without a subscription or an upload.",
+      "url": "https://www.macwhisper.com",
+      "tags": [
+        "transcription",
+        "local",
+        "mac",
+        "privacy"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "access": "free-tier",
+      "signup": "Free Otter account; no card. Monthly minutes and per-meeting limits apply.",
+      "free": "Free meeting transcription with a monthly minute allowance, automated summaries, and searchable notes in the web and mobile apps.",
+      "limits": "Monthly minutes, per-meeting length, advanced search, and team features are capped. Recordings may be processed in the cloud. Get consent before recording other people.",
+      "best_for": "Meeting notes, interviews, and lectures where a cloud transcript is acceptable.",
+      "url": "https://otter.ai",
+      "tags": [
+        "transcription",
+        "meetings",
+        "summaries",
+        "notes"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast Enhance",
+      "access": "free-tier",
+      "signup": "Free Adobe account; no card. Upload and processing limits apply.",
+      "free": "Free web-based AI speech enhancement that can reduce room noise and make voice recordings sound clearer.",
+      "limits": "Requires an Adobe account and is subject to processing time, file, and usage limits. It works best on clean speech; music and badly clipped audio can sound artificial.",
+      "best_for": "Rescuing voice memos or podcast recordings made in an imperfect room.",
+      "url": "https://podcast.adobe.com",
+      "tags": [
+        "audio-cleanup",
+        "podcast",
+        "speech",
+        "editing"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits, queue restrictions, and non-commercial terms apply.",
+      "free": "A daily allowance of credits to generate full songs with vocals or instrumentals from a prompt or lyric idea.",
+      "limits": "Free credits are limited, outputs may carry restrictions, and free-plan songs generally cannot be used commercially. Higher quality, more generations, and ownership/use rights require paid plans.",
+      "best_for": "Song sketches, creative gifts, and experimenting with lyrics and styles, not commercial releases.",
+      "url": "https://suno.com",
+      "tags": [
+        "music",
+        "songs",
+        "creative",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits and download or commercial restrictions apply.",
+      "free": "Free monthly generation credits for AI music with vocals, style controls, extensions, and song sections.",
+      "limits": "Free credits are limited, downloads and commercial rights are restricted, and content availability or model policies can change. Paid plans add generations and broader use rights.",
+      "best_for": "Exploring AI music production and building a rough demo with a specific genre or mood.",
+      "url": "https://www.udio.com",
+      "tags": [
+        "music",
+        "vocals",
+        "creative",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "stable-audio",
+      "name": "Stable Audio",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly credits are commonly limited to non-commercial use.",
+      "free": "Free monthly credits for generating music and sound effects through Stability AI's web tools.",
+      "limits": "Free generations are capped and typically limited to non-commercial use. Higher volume, commercially usable output, and longer audio require a paid plan or license.",
+      "best_for": "Short background beds, sound effects, and trying text-to-audio ideas.",
+      "url": "https://stableaudio.com",
+      "tags": [
+        "music",
+        "sound-effects",
+        "generation",
+        "noncommercial"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "audiocraft",
+      "name": "AudioCraft",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and capable hardware.",
+      "free": "Meta's open-source audio-generation codebase, including MusicGen and AudioGen, for running music and sound models locally.",
+      "limits": "Requires Python, model downloads, and capable hardware. Model weights and licenses may restrict commercial use. Output quality and control are not the same as polished hosted services.",
+      "best_for": "Technical experiments with local music and sound-effect generation.",
+      "url": "https://github.com/facebookresearch/audiocraft",
+      "tags": [
+        "local",
+        "music",
+        "sound-effects",
+        "models"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "kokoro-tts",
+      "name": "Kokoro TTS",
+      "access": "open-source",
+      "signup": "Install from the official project; no account or card. You manage packages, models, and hardware.",
+      "free": "An open-source, compact text-to-speech model and tooling that can run locally with fast, natural-sounding voices.",
+      "limits": "Requires setup and some technical comfort. Voice options, language support, and hardware performance depend on the package you choose. Check the model and code licenses before commercial use.",
+      "best_for": "Local narration, accessibility projects, and experimenting with lightweight TTS.",
+      "url": "https://github.com/hexgrad/kokoro",
+      "tags": [
+        "text-to-speech",
+        "local",
+        "open-models",
+        "narration"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ttsmaker",
+      "name": "TTSMaker",
+      "access": "free-tier",
+      "signup": "Basic web use needs no account; no card. Per-file and daily character caps apply.",
+      "free": "Free browser text-to-speech with many voices and languages, no account needed for basic use, and downloadable audio.",
+      "limits": "There are per-file and daily character caps, some voices are restricted, and features/ads may change. Check the current license for each voice and intended commercial use.",
+      "best_for": "Quick voiceovers, reading practice clips, and narration samples without software installation.",
+      "url": "https://ttsmaker.com",
+      "tags": [
+        "text-to-speech",
+        "no-account",
+        "multilingual",
+        "voiceover"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "moises",
+      "name": "Moises",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly song and separation limits apply.",
+      "free": "Free stem separation, practice tools, pitch/tempo changes, and AI audio analysis with a limited monthly allowance.",
+      "limits": "Song uploads, separation minutes, downloads, and advanced features are capped. Commercial use and higher-quality stems need a paid plan; use only audio you have rights to process.",
+      "best_for": "Making practice tracks, isolating vocals, and studying a song's parts.",
+      "url": "https://moises.ai",
+      "tags": [
+        "stems",
+        "music",
+        "practice",
+        "separation"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ultimate-vocal-remover",
+      "name": "Ultimate Vocal Remover",
+      "access": "open-source",
+      "signup": "Download the official release; no account or card. Requires local install and ideally a GPU.",
+      "free": "Open-source desktop app for local vocal/instrumental separation, noise reduction, and multi-stem workflows.",
+      "limits": "Requires installation, preferably a capable GPU, and model downloads. Results vary with source quality, and you must respect the rights of any recording you process.",
+      "best_for": "Private, repeatable stem separation without per-minute fees.",
+      "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+      "tags": [
+        "stems",
+        "local",
+        "privacy",
+        "music"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "access": "free-tier",
+      "signup": "Free account; no card. A daily noise-cancellation minute allowance applies.",
+      "free": "Free AI noise cancellation for calls and recordings with a daily usage allowance on the free plan.",
+      "limits": "Daily minutes are limited, and advanced meeting notes, transcription, and team features require paid plans. Audio still passes through Krisp's processing pipeline; check policy before sensitive calls.",
+      "best_for": "Cleaning up fan noise, keyboards, or background chatter during calls and voice recordings.",
+      "url": "https://krisp.ai",
+      "tags": [
+        "noise-cancellation",
+        "meetings",
+        "voice",
+        "audio-cleanup"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

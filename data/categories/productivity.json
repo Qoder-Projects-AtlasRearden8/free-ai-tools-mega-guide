@@ -1,0 +1,286 @@
+{
+  "id": "productivity",
+  "name": "Productivity & automation",
+  "short": "Automate chores, organize notes, and reclaim time",
+  "description": "Low-code automation, meeting notes, capture-and-document tools, and AI helpers for presentations, diagrams, and personal knowledge. Use these to remove repetitive steps, not to spray automation over a process you have not defined yet.",
+  "tip": "Automations can share your data with every app in the chain. Grant the narrowest permissions that work, use test data first, and keep a way to turn a workflow off. Record meetings only with consent, and redact sensitive details before sending transcripts to a free tool.",
+  "start_here": [
+    "zapier",
+    "scribe",
+    "gamma"
+  ],
+  "tools": [
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "access": "free-tier",
+      "signup": "Free account; no card for the free plan. Task and premium-step limits apply.",
+      "free": "A free plan for connecting apps and automating simple workflows, with AI-powered steps and a monthly task allowance.",
+      "limits": "Task volume, automation complexity, update frequency, and premium/AI steps are capped or paid. Free plans are best for learning and tiny workflows, not busy operations.",
+      "best_for": "A first automation, such as saving form responses to a spreadsheet or sending yourself a daily digest.",
+      "url": "https://zapier.com",
+      "tags": [
+        "automation",
+        "integrations",
+        "beginner",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly operations and active-scenario limits apply.",
+      "free": "A free plan with a monthly operations allowance, visual multi-step automations, and access to a large integration library.",
+      "limits": "Operations, active scenarios, scheduling interval, and advanced/AI modules are capped or paid. A multi-step scenario can burn through the allowance quickly during testing.",
+      "best_for": "Visual thinkers who want more branching logic than a simple two-step automation.",
+      "url": "https://www.make.com",
+      "tags": [
+        "automation",
+        "visual-builder",
+        "integrations",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "access": "self-hosted",
+      "signup": "Self-host from the official repository; no vendor account or card. You supply infrastructure, credentials, and maintenance.",
+      "free": "A source-available automation platform you can self-host for complex workflows, AI steps, webhooks, and integrations under its current fair-code terms.",
+      "limits": "Self-hosting means running the server, updates, backups, and credentials. A capable host and model access cost money. The free plan does not include unlimited vendor cloud hosting.",
+      "best_for": "Technical users who want private, flexible AI automation without per-task cloud fees.",
+      "url": "https://n8n.io",
+      "tags": [
+        "automation",
+        "self-hosted",
+        "ai-workflows",
+        "developer"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "access": "open-source",
+      "signup": "Self-host or use the free cloud account; no card for the free path. Hosted limits and AI provider costs may apply.",
+      "free": "Open-source automation software with AI-capable pieces and a visual workflow builder, free to self-host.",
+      "limits": "Self-hosting requires maintenance and infrastructure. The hosted cloud has separate limits. AI model usage, integrations, and some features may need external accounts or API costs.",
+      "best_for": "A self-hosted alternative for small teams that want automation and AI steps under their control.",
+      "url": "https://www.activepieces.com",
+      "tags": [
+        "automation",
+        "open-source",
+        "self-hosted",
+        "teams"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "access": "free-tier",
+      "signup": "Free account and browser extension; no card. Monthly credits are limited.",
+      "free": "A free monthly credit allowance for browser automations, data capture, and AI-assisted workflows that cut repetitive web tasks.",
+      "limits": "Credits and scheduled runs are capped, and advanced AI actions, teams, and higher volume are paid. Browser automation can break when a site changes, so verify results.",
+      "best_for": "Small research or prospecting chores that happen in your browser, such as collecting information from pages.",
+      "url": "https://www.bardeen.ai",
+      "tags": [
+        "browser",
+        "scraping",
+        "automation",
+        "credits"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI credits and member limits apply.",
+      "free": "Free projects, notes, task lists, and collaborative workspaces with a limited allocation of AI actions and agents.",
+      "limits": "AI credits, workspace members, file storage, and advanced views are capped or paid. Test important automations before relying on them for deadlines.",
+      "best_for": "A lightweight project hub for a small team or solo business with occasional AI help.",
+      "url": "https://www.taskade.com",
+      "tags": [
+        "tasks",
+        "notes",
+        "collaboration",
+        "ai-agents"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "access": "free-tier",
+      "signup": "Free account; no card. Storage and AI-note limits apply, and participants must consent.",
+      "free": "Free AI meeting notes with automatic transcription, summaries, and search across a limited storage allowance.",
+      "limits": "Storage, advanced analytics, integrations, and some AI features are limited or paid. The bot joins calls and records audio; inform participants and follow workplace policy.",
+      "best_for": "Occasional meeting notes where the team understands how the recorder works and consents to it.",
+      "url": "https://fireflies.ai",
+      "tags": [
+        "meetings",
+        "transcription",
+        "notes",
+        "consent"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "access": "free-tier",
+      "signup": "Free account; no card. Current free recording, retention, and team limits apply.",
+      "free": "Free meeting recording and AI summaries, with a workflow built around reviewing highlights and action items after a call.",
+      "limits": "Advanced team, search, and integration features are paid. Check current free-plan recording and retention conditions. Obtain consent before recording any participant.",
+      "best_for": "Solo founders and small teams who want summaries and follow-ups without paying per meeting.",
+      "url": "https://fathom.video",
+      "tags": [
+        "meetings",
+        "summaries",
+        "recordings",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "tldv",
+      "name": "tl;dv",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI-note and storage limits apply.",
+      "free": "Free screen and meeting recording with AI notes, timestamps, and highlights on the free plan.",
+      "limits": "Free AI-note counts, retention, integrations, and advanced sharing features are limited. Recording rules and participant consent vary by location and organization.",
+      "best_for": "Recording demos, interviews, or occasional meetings and jumping back to the exact moment discussed.",
+      "url": "https://tldv.io",
+      "tags": [
+        "meetings",
+        "recording",
+        "highlights",
+        "notes"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "access": "free-tier",
+      "signup": "Free account; no card. Meeting history and collaboration limits apply.",
+      "free": "A free AI meeting-notes app that combines your typed notes with audio context, without sending a bot into the meeting.",
+      "limits": "The free plan limits meeting history and some collaboration or sharing features. It records system/mic audio locally or in the cloud depending on platform; confirm your privacy posture.",
+      "best_for": "People who take terse notes during calls and want a readable summary afterward.",
+      "url": "https://www.granola.ai",
+      "tags": [
+        "meetings",
+        "notes",
+        "no-bot",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "access": "free-tier",
+      "signup": "Free account; no card. Video count, length, and AI feature limits apply.",
+      "free": "Free screen and camera recordings with shareable links, basic editing, and limited AI features.",
+      "limits": "The free plan caps video count/length and AI transcript/summary features. Longer recordings, custom branding, and team controls are paid.",
+      "best_for": "Quick walkthroughs and asynchronous updates without scheduling a meeting.",
+      "url": "https://www.loom.com",
+      "tags": [
+        "screen-recording",
+        "async",
+        "walkthroughs",
+        "teams"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "access": "free-tier",
+      "signup": "Free account; no card. Guide and AI-feature limits apply.",
+      "free": "Free automatic how-to guides generated from screen recordings, with annotated screenshots and editable steps.",
+      "limits": "Free guide count, AI features, branding, and sharing options are limited; paid plans add team and knowledge-base tools. Redact anything private before sharing a capture.",
+      "best_for": "Turning a process you just performed into a clear SOP or onboarding document.",
+      "url": "https://scribehow.com",
+      "tags": [
+        "documentation",
+        "screenshots",
+        "sop",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "khoj",
+      "name": "Khoj",
+      "access": "open-source",
+      "signup": "Self-host from the official repository; no vendor account or card. A cloud sign-in is optional and separate.",
+      "free": "An open-source personal AI assistant that can search your notes and documents and answer questions using local or remote models.",
+      "limits": "Self-hosting requires setup and a model source; cloud offerings and limits can change. Retrieval quality depends on your files and indexing, and sensitive notes need protection.",
+      "best_for": "Building a private second brain over your own notes and documents.",
+      "url": "https://khoj.dev",
+      "tags": [
+        "local",
+        "notes",
+        "search",
+        "second-brain"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly AI credits and export or branding limits apply.",
+      "free": "Free AI-assisted presentations, documents, and webpages with a starting allowance of AI credits and editable templates.",
+      "limits": "Free AI credits are limited, some designs and export options are paid, and public projects may include branding. Complex decks still need thoughtful human editing.",
+      "best_for": "Turning an outline into a presentable first draft of slides for a workshop, pitch, or training.",
+      "url": "https://gamma.app",
+      "tags": [
+        "presentations",
+        "slides",
+        "documents",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "napkin",
+      "name": "Napkin",
+      "access": "free-tier",
+      "signup": "Free account; no card. Visual and export limits apply.",
+      "free": "Free AI-assisted conversion of text into simple diagrams, flowcharts, and visual explanations for presentations and learning.",
+      "limits": "Free visual counts, style controls, and high-resolution exports are limited. Generated diagrams may not reflect the logic you intended, so check every relationship and label.",
+      "best_for": "Explaining a process or idea visually when you do not want to draw every box yourself.",
+      "url": "https://www.napkin.ai",
+      "tags": [
+        "diagrams",
+        "visuals",
+        "explaining",
+        "presentations"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "mermaid-chart",
+      "name": "Mermaid Chart",
+      "access": "free-tier",
+      "signup": "Free account; no card. Diagram, AI, and privacy limits apply.",
+      "free": "A free editor for Mermaid text-to-diagram code, with AI assistance for turning descriptions into diagrams and live rendering.",
+      "limits": "Free diagram counts, AI credits, private diagrams, and collaboration features are limited. Complex diagrams may need hand-written Mermaid knowledge and careful checking.",
+      "best_for": "Flowcharts and technical diagrams that you want to version as plain text.",
+      "url": "https://www.mermaidchart.com",
+      "tags": [
+        "diagrams",
+        "text-to-diagram",
+        "flowcharts",
+        "technical"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

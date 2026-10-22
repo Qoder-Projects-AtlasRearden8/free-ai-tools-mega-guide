@@ -1,0 +1,269 @@
+{
+  "id": "writing",
+  "name": "Writing & editing",
+  "short": "Draft, tighten, paraphrase, and proofread",
+  "description": "Helpers for grammar, clarity, rewriting, short-form copy, and long-form draft support. Good writing tools make your voice easier to read; they should not replace your judgment, your citations, or your final read-through.",
+  "tip": "Keep an untouched copy of your draft before a big round of AI edits. Use suggestions as questions, not commands, and check every fact, quote, and citation yourself. Free accounts may process your text on a provider's server, so do not upload unpublished work you cannot afford to expose.",
+  "start_here": [
+    "grammarly",
+    "languagetool",
+    "quillbot"
+  ],
+  "tools": [
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "access": "free-tier",
+      "signup": "Free Grammarly account; no card. Install the extension or app before using in-place suggestions.",
+      "free": "Free grammar, spelling, punctuation, tone, and clarity suggestions in the browser, desktop apps, and keyboard, plus a limited monthly allowance of generative AI prompts.",
+      "limits": "Advanced rewriting, plagiarism checks, citation tools, and full generative features are paid. Free AI prompt counts are capped. Text is processed in the cloud, so avoid confidential material.",
+      "best_for": "Everyday emails, applications, and professional writing where you want fast proofreading in place.",
+      "url": "https://www.grammarly.com",
+      "tags": [
+        "grammar",
+        "tone",
+        "browser",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Word limits apply to each rewrite.",
+      "free": "Paraphrasing with a limited word count per pass, grammar checking, citation helpers, and a free summarizer with caps.",
+      "limits": "Longer text, more rewriting modes, higher word counts, plagiarism checks, and faster processing are paid. Free output is not automatically plagiarism-safe or correct.",
+      "best_for": "Trying alternate sentence structures and checking grammar on short passages.",
+      "url": "https://quillbot.com",
+      "tags": [
+        "paraphrase",
+        "grammar",
+        "summarize",
+        "students"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "languagetool",
+      "name": "LanguageTool",
+      "access": "free-tier",
+      "signup": "Basic browser checks work without an account; sign-up is optional. Premium plans need payment, but the free checker does not.",
+      "free": "Free browser extension and web editor for grammar, spelling, punctuation, and some style issues in many languages.",
+      "limits": "Free checks have text-length and feature caps. Advanced style, paraphrasing, and larger checks need Premium. The open-source LanguageTool core can also be self-hosted with technical work.",
+      "best_for": "Multilingual proofreading and quick grammar checks while writing in a browser.",
+      "url": "https://languagetool.org",
+      "tags": [
+        "grammar",
+        "multilingual",
+        "browser",
+        "open-source-core"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "access": "free-tier",
+      "signup": "No card for the free web access. Sign-in requirements and free limits vary; confirm on the current DeepL screen.",
+      "free": "A free web editor that suggests clearer wording, tone improvements, and alternate phrasing in supported languages.",
+      "limits": "Free access is limited compared with paid DeepL plans, and some features or higher usage are restricted. DeepL's data policies and language coverage matter before uploading sensitive text.",
+      "best_for": "Polishing English or translated text when you want fewer awkward phrases and a more natural tone.",
+      "url": "https://www.deepl.com/write",
+      "tags": [
+        "clarity",
+        "editing",
+        "translation",
+        "non-native"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "sapling",
+      "name": "Sapling",
+      "access": "free-tier",
+      "signup": "Free account or extension install; no card expected. Confirm which integrations are included on the free tier.",
+      "free": "Free grammar, spelling, and completion assistance for individuals, including an editing web app and integrations.",
+      "limits": "Team features, advanced AI generation, analytics, and higher usage are paid. The free allowance and supported integrations can change.",
+      "best_for": "Quick, low-friction grammar and completion help in everyday work apps.",
+      "url": "https://www.sapling.ai",
+      "tags": [
+        "grammar",
+        "autocomplete",
+        "integrations",
+        "work"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "wordtune",
+      "name": "Wordtune",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily rewrite allowances apply.",
+      "free": "Daily free rewrite suggestions, short-form AI writing help, and a browser extension for improving sentences.",
+      "limits": "Free daily rewrites and document actions are capped; advanced tone, longer text, and unlimited use are paid. Review its cloud data terms.",
+      "best_for": "Finding a different way to phrase a sentence that is close but not quite right.",
+      "url": "https://www.wordtune.com",
+      "tags": [
+        "rewrite",
+        "tone",
+        "browser",
+        "editing"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "rytr",
+      "name": "Rytr",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Monthly character limits apply.",
+      "free": "A free monthly character allowance for short AI writing jobs, with a menu of templates and tone options.",
+      "limits": "Monthly characters are limited, and some use cases, tones, languages, and higher-quality modes are paid. Output needs factual and brand review.",
+      "best_for": "First-draft product blurbs, social captions, and other short copy on a tight budget.",
+      "url": "https://rytr.me",
+      "tags": [
+        "copywriting",
+        "short-form",
+        "templates",
+        "marketing"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "simplified",
+      "name": "Simplified",
+      "access": "free-tier",
+      "signup": "Free account; no card. AI credits, exports, and projects are metered.",
+      "free": "Free access to an all-in-one writing, design, and short-video workspace with a limited allowance of AI credits and projects.",
+      "limits": "AI generations, exports, premium templates, brands, and collaborators are capped or paid. Check which assets and outputs you can use commercially.",
+      "best_for": "A small business that wants one dashboard for social captions, graphics, and short videos without paying up front.",
+      "url": "https://simplified.com",
+      "tags": [
+        "marketing",
+        "social-media",
+        "all-in-one",
+        "small-business"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "tinywow",
+      "name": "TinyWow",
+      "access": "free-tier",
+      "signup": "No account required for many tools; no card. Ads, queues, and daily limits apply.",
+      "free": "Free browser tools for AI writing, summarizing, PDF conversion, image cleanup, and other small jobs without installing software.",
+      "limits": "Usage is metered by daily limits and fair-use rules; ads and queues are part of the deal. Uploaded files may be processed or retained under its policy, so avoid sensitive documents.",
+      "best_for": "One-off conversions and short writing chores when installing another app is not worth it.",
+      "url": "https://tinywow.com",
+      "tags": [
+        "utilities",
+        "no-install",
+        "pdf",
+        "quick-tasks"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "hyperwrite",
+      "name": "HyperWrite",
+      "access": "free-tier",
+      "signup": "Free account; no card. Monthly generation credits are limited.",
+      "free": "Free AI writing assistance with a monthly allowance of generations, rewriting, and suggestions in the web app and browser extension.",
+      "limits": "The free credit allowance is modest, and advanced models, research, agents, and higher volume are paid. Generated claims require independent checking.",
+      "best_for": "Small writing and rewriting jobs where you want a browser-based assistant with optional tools.",
+      "url": "https://www.hyperwriteai.com",
+      "tags": [
+        "drafting",
+        "rewrite",
+        "browser",
+        "credits"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "paragraphai",
+      "name": "ParagraphAI",
+      "access": "free-tier",
+      "signup": "Free account and free-forever plan; no card. Daily limits and a keyboard or app install apply.",
+      "free": "A free-forever personal plan with limited daily AI writing, reply, and rewriting help across the web and keyboard integrations.",
+      "limits": "Free daily generations are capped; unlimited writing and advanced features need Pro. Availability and feature sets vary by platform.",
+      "best_for": "Drafting short replies and emails when you need a straightforward writing helper rather than a full suite.",
+      "url": "https://paragraphai.com",
+      "tags": [
+        "email",
+        "replies",
+        "rewrite",
+        "daily-limit"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "wordvice-ai",
+      "name": "Wordvice AI",
+      "access": "free-tier",
+      "signup": "Free account or web access; no card expected. Upload and usage limits apply to free checks.",
+      "free": "Free grammar and spelling checks plus limited AI rewriting, summarizing, and translation tools for shorter passages.",
+      "limits": "Larger documents, advanced editing, plagiarism checks, and higher usage are paid. Academic rules still apply: use editing help without misrepresenting authorship.",
+      "best_for": "Proofreading academic and professional English with a writing-services background.",
+      "url": "https://wordvice.ai",
+      "tags": [
+        "academic",
+        "grammar",
+        "translation",
+        "editing"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "koboldcpp",
+      "name": "KoboldCpp",
+      "access": "open-source",
+      "signup": "Download the official release; no account or card. You supply the local model files.",
+      "free": "A free, open-source local text-generation app for creative writing, role-play, and experimentation with downloaded models.",
+      "limits": "You need a capable computer, patience with model downloads, and willingness to configure settings. Model quality, licensing, and content policies vary by model.",
+      "best_for": "Fiction, brainstorming, and private local experimentation on hardware you control.",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "tags": [
+        "local",
+        "fiction",
+        "privacy",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "text-generation-webui",
+      "name": "Text Generation WebUI",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. The setup is technical.",
+      "free": "Open-source, local notebook-style interface for running many language models with adjustable prompting and writing tools.",
+      "limits": "Installing models and dependencies is technical. GPU memory determines usable model size. No hosted service is included, and outputs still need human editing.",
+      "best_for": "Writers and tinkerers who want direct control over local models and prompting.",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "tags": [
+        "local",
+        "advanced",
+        "fiction",
+        "models"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "microsoft-editor",
+      "name": "Microsoft Editor",
+      "access": "free-tier",
+      "signup": "Microsoft account for full free features; no card. Basic browser checking may be available in Edge without a paid plan.",
+      "free": "Free basic spelling, grammar, and style suggestions in Edge and Microsoft's web writing surfaces with a Microsoft account.",
+      "limits": "Advanced rewriting, full-document analysis, and some AI features are tied to Microsoft 365. Free suggestions are limited and not a substitute for a final edit.",
+      "best_for": "A no-cost proofreading layer if Microsoft Edge or Word on the web is already part of your day.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-editor",
+      "tags": [
+        "grammar",
+        "microsoft",
+        "browser",
+        "proofreading"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}

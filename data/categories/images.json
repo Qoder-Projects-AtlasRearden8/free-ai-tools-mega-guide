@@ -1,0 +1,354 @@
+{
+  "id": "images",
+  "name": "Images & design",
+  "short": "Generate, edit, clean up, and upscale visuals",
+  "description": "Image generators and practical editors for social posts, book covers, diagrams, thumbnails, photos, and design experiments. Free art tools are strongest at drafts and iteration; always check whether the plan you used permits the kind of use you have in mind.",
+  "tip": "A free image is not automatically free to sell. Commercial rights, model licenses, watermark rules, and public-gallery defaults differ by tool and by plan. For client or book work, read the license before you rely on the output, and keep a record of what you generated.",
+  "start_here": [
+    "canva",
+    "microsoft-designer",
+    "upscayl"
+  ],
+  "tools": [
+    {
+      "id": "canva",
+      "name": "Canva",
+      "access": "free-tier",
+      "signup": "Free Canva account with email or Google sign-in; no card. AI actions use a limited monthly allowance.",
+      "free": "Free design editor with templates, stock elements, and a limited allowance of Magic AI features such as text generation, image generation, and background tools.",
+      "limits": "AI uses are metered. Premium templates, brand kits, many background removals, higher-resolution exports, and advanced Magic tools are paid. Check content licenses for each asset.",
+      "best_for": "Beginner-friendly social graphics, slides, book promotion images, and quick visual projects.",
+      "url": "https://www.canva.com",
+      "tags": [
+        "design",
+        "templates",
+        "social-media",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "microsoft-designer",
+      "name": "Microsoft Designer",
+      "access": "free-tier",
+      "signup": "Free Microsoft account; no card. Image boosts are capped.",
+      "free": "Free AI image generation, editable designs, stickers, and templates through a Microsoft account, including everyday social and promotional layouts.",
+      "limits": "Image generation uses a capped boost system, after which generations are slower or restricted. Premium templates and some AI editing features need a paid plan.",
+      "best_for": "Fast, free promotional images and simple designs without a steep learning curve.",
+      "url": "https://designer.microsoft.com",
+      "tags": [
+        "design",
+        "images",
+        "templates",
+        "microsoft"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "access": "free-tier",
+      "signup": "Free Adobe account; no card for the starter credit allowance. Paid plans add credits and features.",
+      "free": "A monthly allowance of generative credits for text-to-image, generative fill, and selected editing features in Adobe's web tools.",
+      "limits": "Free credits are small and reset on a schedule. More credits, advanced models, video, and high-volume work are paid. Commercial use is governed by Adobe's terms and the model used.",
+      "best_for": "Light commercial design work where you value Adobe's content-credential approach and editing ecosystem.",
+      "url": "https://firefly.adobe.com",
+      "tags": [
+        "images",
+        "editing",
+        "commercial",
+        "adobe"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "google-imagefx",
+      "name": "Google ImageFX",
+      "access": "free-tier",
+      "signup": "Free Google account with age and region eligibility; no card. Prompt counts are limited.",
+      "free": "A free Google Labs image generator with prompt suggestions and multiple style variations, available in supported countries.",
+      "limits": "Prompt counts and access can vary by region and account. Outputs carry provenance signals, and safety filters restrict some requests. Free use is not a commercial license.",
+      "best_for": "Exploring visual ideas and making quick concept images with a Google account.",
+      "url": "https://labs.google/fx/tools/image-fx",
+      "tags": [
+        "images",
+        "experimental",
+        "google",
+        "concepts"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily credits are limited and free images may be public.",
+      "free": "Free daily image generations with strong text rendering, style options, and a community gallery.",
+      "limits": "Free credits are limited, generations are slower, and some controls or private generation are paid. Free images may be public, and commercial rights depend on the current plan terms.",
+      "best_for": "Posters, thumbnails, book-promo graphics, and images that need readable lettering.",
+      "url": "https://ideogram.ai",
+      "tags": [
+        "images",
+        "text-in-image",
+        "posters",
+        "community"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo AI",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily tokens and public-generation rules apply.",
+      "free": "A daily refresh of free tokens for image generation, with models, styles, upscaling, and an editing canvas.",
+      "limits": "Free tokens are limited and generations may be slower or public. Extra credits, higher resolution, private generations, and commercial rights can require a paid plan.",
+      "best_for": "Game-style character art, concept images, and iterating on a visual direction.",
+      "url": "https://leonardo.ai",
+      "tags": [
+        "images",
+        "game-art",
+        "styles",
+        "concepts"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "access": "free-tier",
+      "signup": "Free account with email or Google sign-in; no card. Daily credits and export limits apply.",
+      "free": "Free daily credits for AI image generation with an emphasis on vector art, icons, brand-style images, and editable layouts.",
+      "limits": "Daily credits and export options are limited. Higher volume, private work, team features, and some commercial use cases may require a paid plan.",
+      "best_for": "Icons, simple illustrations, and vector-friendly visuals for a small brand or book project.",
+      "url": "https://www.recraft.ai",
+      "tags": [
+        "vector",
+        "icons",
+        "branding",
+        "design"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits and queue limits apply.",
+      "free": "Free daily credits for image generation, real-time creative tools, enhancement, and upscaling.",
+      "limits": "Free credits are limited, some workflows are slower, and advanced models, private outputs, and higher volume are paid. Check plan-specific rights.",
+      "best_for": "Interactive visual exploration and enhancing rough images in a playful interface.",
+      "url": "https://www.krea.ai",
+      "tags": [
+        "images",
+        "realtime",
+        "upscale",
+        "creative"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "nightcafe",
+      "name": "NightCafe",
+      "access": "free-tier",
+      "signup": "Free account; no card. Daily credits are limited and some creations are public.",
+      "free": "Free daily credits for several image models, community challenges, and creative variations.",
+      "limits": "Free generations are limited and often slower. High-resolution downloads, extra credits, and some feature access are paid. Check whether free creations are public or usable commercially.",
+      "best_for": "A friendly community setting for experimenting with image styles without a subscription.",
+      "url": "https://creator.nightcafe.studio",
+      "tags": [
+        "images",
+        "community",
+        "styles",
+        "experiments"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "craiyon",
+      "name": "Craiyon",
+      "access": "free-tier",
+      "signup": "No account required for basic generation; no card. Ads and queues apply.",
+      "free": "Ad-supported, low-friction AI image generation with no paid requirement for basic use.",
+      "limits": "Images are lower quality, queues and ads slow the experience, and fine control is limited. Do not rely on it for commercial-quality or private artwork.",
+      "best_for": "Fast, casual image doodles and testing silly ideas with almost no setup.",
+      "url": "https://www.craiyon.com",
+      "tags": [
+        "images",
+        "no-account",
+        "casual",
+        "free"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "remove-bg",
+      "name": "remove.bg",
+      "access": "free-tier",
+      "signup": "No account needed to try; a free account adds credits. No card expected for the free allowance.",
+      "free": "Free automatic background removal with low-resolution previews and a limited allowance of higher-quality downloads.",
+      "limits": "HD output, larger volumes, and some editing tools require credits or a subscription. Free images are not ideal for print production.",
+      "best_for": "Pulling a quick transparent cutout from a product or portrait photo.",
+      "url": "https://www.remove.bg",
+      "tags": [
+        "background-removal",
+        "photos",
+        "quick-tasks",
+        "ecommerce"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "access": "free-tier",
+      "signup": "No account required for limited free resolution; no card. Sign in for higher limits where offered.",
+      "free": "Free browser-based object removal and photo cleanup at a limited resolution, with no install needed.",
+      "limits": "Free output is lower resolution; full-resolution results and some features are paid. Uploading personal photos means giving the service access to those files.",
+      "best_for": "Removing a stray object, logo, or distraction from a simple photo.",
+      "url": "https://cleanup.pictures",
+      "tags": [
+        "photo-editing",
+        "object-removal",
+        "browser",
+        "quick-tasks"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "access": "open-source",
+      "signup": "Download from the official site; no account or card. It runs locally on your hardware.",
+      "free": "Free, open-source desktop app that upscales images locally with no account, uploaded files, or image count limits.",
+      "limits": "Requires a reasonably capable computer and enough time for larger images. Results vary by source quality, and you must manage model licenses for commercial work.",
+      "best_for": "Enlarging old photos or low-resolution graphics privately on your own computer.",
+      "url": "https://upscayl.org",
+      "tags": [
+        "upscale",
+        "local",
+        "privacy",
+        "desktop"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "rembg",
+      "name": "Rembg",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Requires Python and command-line setup.",
+      "free": "Open-source background-removal library and command-line tool that runs locally with no per-image fee.",
+      "limits": "Expect Python installation and command-line use. Quality depends on the input and selected model. If you use it commercially, review the license of the specific model weights you download.",
+      "best_for": "Batch background removal and repeatable automation on your own machine.",
+      "url": "https://github.com/danielgatis/rembg",
+      "tags": [
+        "background-removal",
+        "local",
+        "batch",
+        "developer"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "iopaint",
+      "name": "IOPaint",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. You download the model weights separately.",
+      "free": "Open-source local image inpainting and object-removal tool with a browser interface and support for several models.",
+      "limits": "Installation and model downloads take time. A GPU helps. Model licenses, output quality, and supported features vary.",
+      "best_for": "Removing objects or repairing images privately without sending photos to a cloud service.",
+      "url": "https://github.com/Sanster/IOPaint",
+      "tags": [
+        "inpainting",
+        "local",
+        "privacy",
+        "photo-editing"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "stable-diffusion-webui",
+      "name": "Stable Diffusion WebUI",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. You supply the hardware and model downloads.",
+      "free": "Free, open-source browser interface for running Stable Diffusion image models locally with broad control over prompts, models, and extensions.",
+      "limits": "Requires a capable GPU or patient CPU use, lots of disk space, and technical setup. Model licenses differ, and extensions can introduce security or quality risks. Nothing is hosted for you.",
+      "best_for": "Users who want deep control and no per-image service fees once local models are installed.",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "tags": [
+        "local",
+        "stable-diffusion",
+        "advanced",
+        "extensions"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "access": "open-source",
+      "signup": "Download the official desktop or repository build; no vendor account or card. You supply models and hardware.",
+      "free": "Open-source node-based interface for building local image and video generation workflows, with fine-grained control and a large extension ecosystem.",
+      "limits": "Node graphs have a steeper learning curve. You supply the hardware and models, and extensions can be unstable. Model licenses and content policies still apply.",
+      "best_for": "Visual tinkerers who want repeatable, customizable generation pipelines.",
+      "url": "https://www.comfy.org",
+      "tags": [
+        "local",
+        "workflows",
+        "advanced",
+        "generation"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "fooocus",
+      "name": "Fooocus",
+      "access": "open-source",
+      "signup": "Install from the official repository; no account or card. Models download locally.",
+      "free": "An open-source, simplified offline image generator focused on a low-friction prompt-and-go experience with Stable Diffusion models.",
+      "limits": "Requires a local installation, model downloads, and adequate hardware. Advanced control is limited compared with node-based tools. Model licenses vary.",
+      "best_for": "A simpler route into local image generation than tuning a full Stable Diffusion interface.",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "tags": [
+        "local",
+        "stable-diffusion",
+        "beginner",
+        "offline"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "access": "open-source",
+      "signup": "Install from the official site or repository; no account or card. You supply hardware and models.",
+      "free": "An open-source local creative studio for image generation, inpainting, layering, and repeatable workflows.",
+      "limits": "Local installation and a capable GPU are recommended. Some commercial or team features may have separate terms. Model downloads and licenses are your responsibility.",
+      "best_for": "A more organized local workspace for editing and generating images repeatedly.",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "tags": [
+        "local",
+        "studio",
+        "inpainting",
+        "workflows"
+      ],
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "draw-things",
+      "name": "Draw Things",
+      "access": "free",
+      "signup": "Install from the Apple App Store; no account or card. Model downloads and device storage are yours.",
+      "free": "A free local image-generation app for Mac, iPad, and iPhone with a visual interface and downloadable models.",
+      "limits": "Model downloads are large, device memory limits model size, and some advanced features may require a newer Apple device. Review each model's license before commercial use.",
+      "best_for": "Private local image making on Apple devices without a cloud subscription.",
+      "url": "https://drawthings.ai",
+      "tags": [
+        "local",
+        "apple",
+        "privacy",
+        "beginner"
+      ],
+      "last_verified": "2026-10-22"
+    }
+  ]
+}
